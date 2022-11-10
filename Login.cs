@@ -25,7 +25,11 @@ namespace BookChill
 
             else
             {
-                MessageBox.Show("The username or password you entered incorrect, please try again!");
+                MessageBox.Show("The Username or Password is Incorrect, please try again!",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+
                 txtUser.Clear();
                 txtPass.Clear();
                 txtUser.Focus();
