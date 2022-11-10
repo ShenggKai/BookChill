@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtName = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pUser = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.pPass = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.btLogin = new System.Windows.Forms.Button();
             this.txtClear = new System.Windows.Forms.Label();
             this.txtExit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pUser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPass)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -66,15 +66,15 @@
             this.txtName.TabIndex = 1;
             this.txtName.Text = "BookChill";
             // 
-            // pictureBox2
+            // pUser
             // 
-            this.pictureBox2.Image = global::BookChill.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(496, 201);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.pUser.Image = global::BookChill.Properties.Resources.user;
+            this.pUser.Location = new System.Drawing.Point(496, 201);
+            this.pUser.Name = "pUser";
+            this.pUser.Size = new System.Drawing.Size(40, 40);
+            this.pUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pUser.TabIndex = 2;
+            this.pUser.TabStop = false;
             // 
             // panel1
             // 
@@ -84,26 +84,26 @@
             this.panel1.Size = new System.Drawing.Size(355, 2);
             this.panel1.TabIndex = 3;
             // 
-            // textBox1
+            // txtUser
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(563, 195);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(355, 36);
-            this.textBox1.TabIndex = 2;
+            this.txtUser.BackColor = System.Drawing.SystemColors.Control;
+            this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUser.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtUser.ForeColor = System.Drawing.Color.DimGray;
+            this.txtUser.Location = new System.Drawing.Point(563, 195);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(355, 36);
+            this.txtUser.TabIndex = 2;
             // 
-            // pictureBox3
+            // pPass
             // 
-            this.pictureBox3.Image = global::BookChill.Properties.Resources._lock;
-            this.pictureBox3.Location = new System.Drawing.Point(496, 309);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pPass.Image = global::BookChill.Properties.Resources._lock;
+            this.pPass.Location = new System.Drawing.Point(496, 309);
+            this.pPass.Name = "pPass";
+            this.pPass.Size = new System.Drawing.Size(40, 40);
+            this.pPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pPass.TabIndex = 2;
+            this.pPass.TabStop = false;
             // 
             // panel2
             // 
@@ -113,17 +113,17 @@
             this.panel2.Size = new System.Drawing.Size(355, 2);
             this.panel2.TabIndex = 3;
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(563, 303);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(355, 36);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.UseSystemPasswordChar = true;
+            this.txtPass.BackColor = System.Drawing.SystemColors.Control;
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPass.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPass.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPass.Location = new System.Drawing.Point(563, 303);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(355, 36);
+            this.txtPass.TabIndex = 3;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // btLogin
             // 
@@ -137,10 +137,12 @@
             this.btLogin.TabIndex = 4;
             this.btLogin.Text = "Login";
             this.btLogin.UseVisualStyleBackColor = false;
+            this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
             // txtClear
             // 
             this.txtClear.AutoSize = true;
+            this.txtClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtClear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
             this.txtClear.Location = new System.Drawing.Point(674, 481);
@@ -148,6 +150,7 @@
             this.txtClear.Size = new System.Drawing.Size(71, 35);
             this.txtClear.TabIndex = 5;
             this.txtClear.Text = "Clear";
+            this.txtClear.Click += new System.EventHandler(this.txtClear_Click);
             // 
             // txtExit
             // 
@@ -170,12 +173,12 @@
             this.Controls.Add(this.txtExit);
             this.Controls.Add(this.txtClear);
             this.Controls.Add(this.btLogin);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.pPass);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pUser);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -185,8 +188,8 @@
             this.Text = "Login";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pUser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPass)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,12 +199,12 @@
 
         private PictureBox pictureBox1;
         private Label txtName;
-        private PictureBox pictureBox2;
+        private PictureBox pUser;
         private Panel panel1;
-        private TextBox textBox1;
-        private PictureBox pictureBox3;
+        private TextBox txtUser;
+        private PictureBox pPass;
         private Panel panel2;
-        private TextBox textBox2;
+        private TextBox txtPass;
         private Button btLogin;
         private Label txtClear;
         private Label txtExit;
