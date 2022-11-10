@@ -129,6 +129,7 @@
             // 
             this.btLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
             this.btLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btLogin.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btLogin.ForeColor = System.Drawing.Color.White;
             this.btLogin.Location = new System.Drawing.Point(649, 405);
