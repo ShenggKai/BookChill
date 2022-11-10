@@ -37,6 +37,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btLogin = new System.Windows.Forms.Button();
+            this.txtClear = new System.Windows.Forms.Label();
+            this.txtExit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,7 +68,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::BookChill.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(496, 205);
+            this.pictureBox2.Location = new System.Drawing.Point(496, 201);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(40, 40);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -76,7 +78,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.panel1.Location = new System.Drawing.Point(563, 243);
+            this.panel1.Location = new System.Drawing.Point(563, 239);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(355, 2);
             this.panel1.TabIndex = 3;
@@ -87,7 +89,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(563, 199);
+            this.textBox1.Location = new System.Drawing.Point(563, 195);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(355, 36);
             this.textBox1.TabIndex = 2;
@@ -95,7 +97,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::BookChill.Properties.Resources._lock;
-            this.pictureBox3.Location = new System.Drawing.Point(496, 313);
+            this.pictureBox3.Location = new System.Drawing.Point(496, 309);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(40, 40);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -105,7 +107,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.panel2.Location = new System.Drawing.Point(563, 351);
+            this.panel2.Location = new System.Drawing.Point(563, 347);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(355, 2);
             this.panel2.TabIndex = 3;
@@ -116,7 +118,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(563, 307);
+            this.textBox2.Location = new System.Drawing.Point(563, 303);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(355, 36);
             this.textBox2.TabIndex = 3;
@@ -128,18 +130,44 @@
             this.btLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLogin.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btLogin.ForeColor = System.Drawing.Color.White;
-            this.btLogin.Location = new System.Drawing.Point(665, 415);
+            this.btLogin.Location = new System.Drawing.Point(649, 397);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(120, 57);
             this.btLogin.TabIndex = 4;
             this.btLogin.Text = "Login";
             this.btLogin.UseVisualStyleBackColor = false;
             // 
+            // txtClear
+            // 
+            this.txtClear.AutoSize = true;
+            this.txtClear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.txtClear.Location = new System.Drawing.Point(674, 479);
+            this.txtClear.Name = "txtClear";
+            this.txtClear.Size = new System.Drawing.Size(71, 35);
+            this.txtClear.TabIndex = 5;
+            this.txtClear.Text = "Clear";
+            // 
+            // txtExit
+            // 
+            this.txtExit.AutoSize = true;
+            this.txtExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.txtExit.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.txtExit.Location = new System.Drawing.Point(954, 9);
+            this.txtExit.Name = "txtExit";
+            this.txtExit.Size = new System.Drawing.Size(32, 38);
+            this.txtExit.TabIndex = 6;
+            this.txtExit.Text = "x";
+            this.txtExit.Click += new System.EventHandler(this.txtExit_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 569);
+            this.Controls.Add(this.txtExit);
+            this.Controls.Add(this.txtClear);
             this.Controls.Add(this.btLogin);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.panel2);
@@ -173,5 +201,7 @@
         private Panel panel2;
         private TextBox textBox2;
         private Button btLogin;
+        private Label txtClear;
+        private Label txtExit;
     }
 }

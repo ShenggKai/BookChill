@@ -6,5 +6,10 @@ namespace BookChill
         {
             InitializeComponent();
         }
+
+        private void txtExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
