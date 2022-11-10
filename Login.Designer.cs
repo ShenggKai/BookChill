@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtName = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -130,7 +131,7 @@
             this.btLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLogin.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btLogin.ForeColor = System.Drawing.Color.White;
-            this.btLogin.Location = new System.Drawing.Point(649, 397);
+            this.btLogin.Location = new System.Drawing.Point(649, 405);
             this.btLogin.Name = "btLogin";
             this.btLogin.Size = new System.Drawing.Size(120, 57);
             this.btLogin.TabIndex = 4;
@@ -142,7 +143,7 @@
             this.txtClear.AutoSize = true;
             this.txtClear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.txtClear.Location = new System.Drawing.Point(674, 479);
+            this.txtClear.Location = new System.Drawing.Point(674, 481);
             this.txtClear.Name = "txtClear";
             this.txtClear.Size = new System.Drawing.Size(71, 35);
             this.txtClear.TabIndex = 5;
@@ -178,9 +179,10 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Login";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
