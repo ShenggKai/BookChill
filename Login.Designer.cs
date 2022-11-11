@@ -60,7 +60,7 @@
             this.txtName.AutoSize = true;
             this.txtName.Font = new System.Drawing.Font("Cascadia Mono", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.txtName.Location = new System.Drawing.Point(534, 47);
+            this.txtName.Location = new System.Drawing.Point(535, 47);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(349, 79);
             this.txtName.TabIndex = 1;
@@ -132,11 +132,11 @@
             this.btLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btLogin.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btLogin.ForeColor = System.Drawing.Color.White;
-            this.btLogin.Location = new System.Drawing.Point(649, 405);
+            this.btLogin.Location = new System.Drawing.Point(622, 403);
             this.btLogin.Name = "btLogin";
-            this.btLogin.Size = new System.Drawing.Size(120, 57);
+            this.btLogin.Size = new System.Drawing.Size(180, 57);
             this.btLogin.TabIndex = 4;
-            this.btLogin.Text = "Login";
+            this.btLogin.Text = "Đăng nhập";
             this.btLogin.UseVisualStyleBackColor = false;
             this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
@@ -146,11 +146,11 @@
             this.txtClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtClear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.txtClear.Location = new System.Drawing.Point(674, 481);
+            this.txtClear.Location = new System.Drawing.Point(686, 481);
             this.txtClear.Name = "txtClear";
-            this.txtClear.Size = new System.Drawing.Size(71, 35);
+            this.txtClear.Size = new System.Drawing.Size(58, 35);
             this.txtClear.TabIndex = 5;
-            this.txtClear.Text = "Clear";
+            this.txtClear.Text = "Xóa";
             this.txtClear.Click += new System.EventHandler(this.txtClear_Click);
             // 
             // txtExit
@@ -186,7 +186,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Đăng nhập";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pUser)).EndInit();
