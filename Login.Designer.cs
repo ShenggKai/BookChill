@@ -146,7 +146,7 @@
             this.txtClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtClear.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
-            this.txtClear.Location = new System.Drawing.Point(686, 481);
+            this.txtClear.Location = new System.Drawing.Point(683, 480);
             this.txtClear.Name = "txtClear";
             this.txtClear.Size = new System.Drawing.Size(58, 35);
             this.txtClear.TabIndex = 5;

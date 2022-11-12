@@ -33,5 +33,17 @@ namespace BookChill
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Do you want to Logout?", "BookChill",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (result == DialogResult.OK)
+            {
+                new Login().Show();
+                this.Hide();
+            }
+        }
     }
 }
