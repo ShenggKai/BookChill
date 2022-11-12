@@ -20,7 +20,7 @@ namespace BookChill
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Do you want to Exit?", "BookChill",
-                MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
             if (result == DialogResult.OK)
             {
