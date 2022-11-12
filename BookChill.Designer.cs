@@ -60,9 +60,9 @@
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::BookChill.Properties.Resources.qr_code;
+            this.button2.Image = global::BookChill.Properties.Resources.qrcode;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 228);
             this.button2.Name = "button2";
@@ -78,9 +78,9 @@
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::BookChill.Properties.Resources.archive;
+            this.button1.Image = global::BookChill.Properties.Resources.books_b;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 157);
             this.button1.Name = "button1";
@@ -96,9 +96,9 @@
             // 
             this.btHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btHome.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btHome.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btHome.ForeColor = System.Drawing.Color.White;
-            this.btHome.Image = global::BookChill.Properties.Resources.Home2;
+            this.btHome.Image = global::BookChill.Properties.Resources.house;
             this.btHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btHome.Location = new System.Drawing.Point(0, 86);
             this.btHome.Name = "btHome";
