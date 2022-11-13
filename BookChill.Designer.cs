@@ -46,14 +46,16 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.Label();
             this.panelHeading = new System.Windows.Forms.Panel();
-            this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
+            this.pMinimize = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -311,7 +313,10 @@
             // 
             // panelHeading
             // 
-            this.panelHeading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.panelHeading.BackColor = System.Drawing.Color.Transparent;
+            this.panelHeading.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHeading.BackgroundImage")));
+            this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panelHeading.Controls.Add(this.pictureBox1);
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
             this.panelHeading.Location = new System.Drawing.Point(282, 0);
@@ -319,18 +324,15 @@
             this.panelHeading.Size = new System.Drawing.Size(1638, 515);
             this.panelHeading.TabIndex = 3;
             // 
-            // pMinimize
+            // pictureBox1
             // 
-            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize_sign;
-            this.pMinimize.Location = new System.Drawing.Point(1530, 20);
-            this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(20, 20);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pMinimize.TabIndex = 4;
-            this.pMinimize.TabStop = false;
-            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(193, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(400, 400);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // pCLose
             // 
@@ -345,10 +347,24 @@
             this.pCLose.TabStop = false;
             this.pCLose.Click += new System.EventHandler(this.pClose_Click);
             // 
+            // pMinimize
+            // 
+            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize_sign;
+            this.pMinimize.Location = new System.Drawing.Point(1530, 20);
+            this.pMinimize.Name = "pMinimize";
+            this.pMinimize.Size = new System.Drawing.Size(20, 20);
+            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pMinimize.TabIndex = 4;
+            this.pMinimize.TabStop = false;
+            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
+            // 
             // BookChill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.panelHeading);
             this.Controls.Add(this.panelMenu);
@@ -363,8 +379,9 @@
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -390,5 +407,6 @@
         private Panel panelHeading;
         private PictureBox pMinimize;
         private PictureBox pCLose;
+        private PictureBox pictureBox1;
     }
 }
