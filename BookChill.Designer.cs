@@ -357,7 +357,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BookChill.Properties.Resources.nhagiakim;
-            this.pictureBox1.Location = new System.Drawing.Point(193, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(83, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(400, 400);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
