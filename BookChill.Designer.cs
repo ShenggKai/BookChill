@@ -320,7 +320,7 @@
             this.panelHeading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.BookChill;
+            this.panelHeading.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHeading.BackgroundImage")));
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelHeading.Controls.Add(this.pictureBox3);
             this.panelHeading.Controls.Add(this.pictureBox2);
@@ -336,7 +336,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::BookChill.Properties.Resources.angle_right;
-            this.pictureBox3.Location = new System.Drawing.Point(1570, 243);
+            this.pictureBox3.Location = new System.Drawing.Point(1600, 243);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -347,7 +347,7 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::BookChill.Properties.Resources.angle_left;
-            this.pictureBox2.Location = new System.Drawing.Point(30, 243);
+            this.pictureBox2.Location = new System.Drawing.Point(10, 243);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -356,8 +356,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::BookChill.Properties.Resources.nhagiakim;
-            this.pictureBox1.Location = new System.Drawing.Point(83, 70);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(75, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(400, 400);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
