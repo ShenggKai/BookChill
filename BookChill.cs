@@ -17,7 +17,7 @@ namespace BookChill
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pClose_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Do you want to Exit?", "BookChill",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
@@ -29,7 +29,7 @@ namespace BookChill
             
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
