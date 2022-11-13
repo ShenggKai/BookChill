@@ -46,8 +46,8 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.Label();
             this.panelHeading = new System.Windows.Forms.Panel();
-            this.pNarrowright = new System.Windows.Forms.PictureBox();
-            this.pNarrowleft = new System.Windows.Forms.PictureBox();
+            this.pArrowright = new System.Windows.Forms.PictureBox();
+            this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
@@ -55,8 +55,8 @@
             this.panel1.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pNarrowright)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pNarrowleft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
@@ -323,8 +323,8 @@
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
             this.panelHeading.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHeading.BackgroundImage")));
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelHeading.Controls.Add(this.pNarrowright);
-            this.panelHeading.Controls.Add(this.pNarrowleft);
+            this.panelHeading.Controls.Add(this.pArrowright);
+            this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
@@ -333,27 +333,27 @@
             this.panelHeading.Size = new System.Drawing.Size(1638, 515);
             this.panelHeading.TabIndex = 3;
             // 
-            // pNarrowright
+            // pArrowright
             // 
-            this.pNarrowright.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pNarrowright.Image = global::BookChill.Properties.Resources.angle_right;
-            this.pNarrowright.Location = new System.Drawing.Point(1600, 243);
-            this.pNarrowright.Name = "pNarrowright";
-            this.pNarrowright.Size = new System.Drawing.Size(30, 30);
-            this.pNarrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pNarrowright.TabIndex = 7;
-            this.pNarrowright.TabStop = false;
+            this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
+            this.pArrowright.Location = new System.Drawing.Point(1600, 243);
+            this.pArrowright.Name = "pArrowright";
+            this.pArrowright.Size = new System.Drawing.Size(30, 30);
+            this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pArrowright.TabIndex = 7;
+            this.pArrowright.TabStop = false;
             // 
-            // pNarrowleft
+            // pArrowleft
             // 
-            this.pNarrowleft.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pNarrowleft.Image = global::BookChill.Properties.Resources.angle_left;
-            this.pNarrowleft.Location = new System.Drawing.Point(10, 243);
-            this.pNarrowleft.Name = "pNarrowleft";
-            this.pNarrowleft.Size = new System.Drawing.Size(30, 30);
-            this.pNarrowleft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pNarrowleft.TabIndex = 6;
-            this.pNarrowleft.TabStop = false;
+            this.pArrowleft.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pArrowleft.Image = global::BookChill.Properties.Resources.angle_left;
+            this.pArrowleft.Location = new System.Drawing.Point(10, 243);
+            this.pArrowleft.Name = "pArrowleft";
+            this.pArrowleft.Size = new System.Drawing.Size(30, 30);
+            this.pArrowleft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pArrowleft.TabIndex = 6;
+            this.pArrowleft.TabStop = false;
             // 
             // pBook
             // 
@@ -410,8 +410,8 @@
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pNarrowright)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pNarrowleft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
@@ -441,7 +441,7 @@
         private PictureBox pMinimize;
         private PictureBox pCLose;
         private PictureBox pBook;
-        private PictureBox pNarrowleft;
-        private PictureBox pNarrowright;
+        private PictureBox pArrowleft;
+        private PictureBox pArrowright;
     }
 }
