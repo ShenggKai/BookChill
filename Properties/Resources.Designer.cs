@@ -63,26 +63,6 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1_lpZJZkrub_ZRmDSsaBo_EA {
-            get {
-                object obj = ResourceManager.GetObject("1_lpZJZkrub_ZRmDSsaBo-EA", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _202004012a {
-            get {
-                object obj = ResourceManager.GetObject("202004012a", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap _lock {
             get {
                 object obj = ResourceManager.GetObject("lock", resourceCulture);
@@ -116,6 +96,16 @@ namespace BookChill.Properties {
         internal static System.Drawing.Bitmap astronaut {
             get {
                 object obj = ResourceManager.GetObject("astronaut", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BookChill {
+            get {
+                object obj = ResourceManager.GetObject("BookChill", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +176,16 @@ namespace BookChill.Properties {
         internal static System.Drawing.Bitmap minimize_sign {
             get {
                 object obj = ResourceManager.GetObject("minimize-sign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nhagiakim {
+            get {
+                object obj = ResourceManager.GetObject("nhagiakim", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
