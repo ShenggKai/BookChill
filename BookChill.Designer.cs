@@ -51,6 +51,9 @@
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.panelSubMenuSca = new System.Windows.Forms.Panel();
+            this.btnQrCode = new System.Windows.Forms.Button();
+            this.btnBarCode = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -60,12 +63,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            this.panelSubMenuSca.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.panelMenu.Controls.Add(this.panelSubMenuSca);
             this.panelMenu.Controls.Add(this.btnScan);
             this.panelMenu.Controls.Add(this.panelSubMenuColec);
             this.panelMenu.Controls.Add(this.btnLogout);
@@ -82,16 +87,15 @@
             // 
             this.btnScan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnScan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnScan.FlatAppearance.BorderSize = 0;
             this.btnScan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScan.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnScan.ForeColor = System.Drawing.Color.White;
             this.btnScan.Image = global::BookChill.Properties.Resources.qrcode;
             this.btnScan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnScan.Location = new System.Drawing.Point(0, 1148);
+            this.btnScan.Location = new System.Drawing.Point(0, 748);
             this.btnScan.Name = "btnScan";
             this.btnScan.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnScan.Size = new System.Drawing.Size(251, 71);
+            this.btnScan.Size = new System.Drawing.Size(272, 71);
             this.btnScan.TabIndex = 7;
             this.btnScan.Text = "  Quét mã";
             this.btnScan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -112,7 +116,7 @@
             this.panelSubMenuColec.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubMenuColec.Location = new System.Drawing.Point(0, 228);
             this.panelSubMenuColec.Name = "panelSubMenuColec";
-            this.panelSubMenuColec.Size = new System.Drawing.Size(251, 520);
+            this.panelSubMenuColec.Size = new System.Drawing.Size(272, 520);
             this.panelSubMenuColec.TabIndex = 6;
             // 
             // btnTudien
@@ -125,7 +129,7 @@
             this.btnTudien.ForeColor = System.Drawing.Color.White;
             this.btnTudien.Location = new System.Drawing.Point(0, 455);
             this.btnTudien.Name = "btnTudien";
-            this.btnTudien.Size = new System.Drawing.Size(251, 65);
+            this.btnTudien.Size = new System.Drawing.Size(272, 65);
             this.btnTudien.TabIndex = 7;
             this.btnTudien.Text = "Từ điển";
             this.btnTudien.UseVisualStyleBackColor = true;
@@ -141,7 +145,7 @@
             this.btnDienanh.ForeColor = System.Drawing.Color.White;
             this.btnDienanh.Location = new System.Drawing.Point(0, 390);
             this.btnDienanh.Name = "btnDienanh";
-            this.btnDienanh.Size = new System.Drawing.Size(251, 65);
+            this.btnDienanh.Size = new System.Drawing.Size(272, 65);
             this.btnDienanh.TabIndex = 6;
             this.btnDienanh.Text = "Điện ảnh - Nhạc - Họa";
             this.btnDienanh.UseVisualStyleBackColor = true;
@@ -157,7 +161,7 @@
             this.btnKhoahoc.ForeColor = System.Drawing.Color.White;
             this.btnKhoahoc.Location = new System.Drawing.Point(0, 325);
             this.btnKhoahoc.Name = "btnKhoahoc";
-            this.btnKhoahoc.Size = new System.Drawing.Size(251, 65);
+            this.btnKhoahoc.Size = new System.Drawing.Size(272, 65);
             this.btnKhoahoc.TabIndex = 5;
             this.btnKhoahoc.Text = "Khoa học - Kỹ thuật";
             this.btnKhoahoc.UseVisualStyleBackColor = true;
@@ -173,7 +177,7 @@
             this.btnTruyentranh.ForeColor = System.Drawing.Color.White;
             this.btnTruyentranh.Location = new System.Drawing.Point(0, 260);
             this.btnTruyentranh.Name = "btnTruyentranh";
-            this.btnTruyentranh.Size = new System.Drawing.Size(251, 65);
+            this.btnTruyentranh.Size = new System.Drawing.Size(272, 65);
             this.btnTruyentranh.TabIndex = 4;
             this.btnTruyentranh.Text = "Truyện tranh";
             this.btnTruyentranh.UseVisualStyleBackColor = true;
@@ -189,7 +193,7 @@
             this.btnThieunhi.ForeColor = System.Drawing.Color.White;
             this.btnThieunhi.Location = new System.Drawing.Point(0, 195);
             this.btnThieunhi.Name = "btnThieunhi";
-            this.btnThieunhi.Size = new System.Drawing.Size(251, 65);
+            this.btnThieunhi.Size = new System.Drawing.Size(272, 65);
             this.btnThieunhi.TabIndex = 3;
             this.btnThieunhi.Text = "Sách thiếu nhi";
             this.btnThieunhi.UseVisualStyleBackColor = true;
@@ -205,7 +209,7 @@
             this.btnNgoaingu.ForeColor = System.Drawing.Color.White;
             this.btnNgoaingu.Location = new System.Drawing.Point(0, 130);
             this.btnNgoaingu.Name = "btnNgoaingu";
-            this.btnNgoaingu.Size = new System.Drawing.Size(251, 65);
+            this.btnNgoaingu.Size = new System.Drawing.Size(272, 65);
             this.btnNgoaingu.TabIndex = 2;
             this.btnNgoaingu.Text = "Học ngoại ngữ";
             this.btnNgoaingu.UseVisualStyleBackColor = true;
@@ -221,7 +225,7 @@
             this.btnTuduy.ForeColor = System.Drawing.Color.White;
             this.btnTuduy.Location = new System.Drawing.Point(0, 65);
             this.btnTuduy.Name = "btnTuduy";
-            this.btnTuduy.Size = new System.Drawing.Size(251, 65);
+            this.btnTuduy.Size = new System.Drawing.Size(272, 65);
             this.btnTuduy.TabIndex = 1;
             this.btnTuduy.Text = "Tư duy - Kĩ năng sống";
             this.btnTuduy.UseVisualStyleBackColor = true;
@@ -237,7 +241,7 @@
             this.btnVanhoc.ForeColor = System.Drawing.Color.White;
             this.btnVanhoc.Location = new System.Drawing.Point(0, 0);
             this.btnVanhoc.Name = "btnVanhoc";
-            this.btnVanhoc.Size = new System.Drawing.Size(251, 65);
+            this.btnVanhoc.Size = new System.Drawing.Size(272, 65);
             this.btnVanhoc.TabIndex = 0;
             this.btnVanhoc.Text = "Văn học";
             this.btnVanhoc.UseVisualStyleBackColor = true;
@@ -274,7 +278,7 @@
             this.btnCollection.Location = new System.Drawing.Point(0, 157);
             this.btnCollection.Name = "btnCollection";
             this.btnCollection.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnCollection.Size = new System.Drawing.Size(251, 71);
+            this.btnCollection.Size = new System.Drawing.Size(272, 71);
             this.btnCollection.TabIndex = 3;
             this.btnCollection.Text = " Danh mục sách";
             this.btnCollection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -295,7 +299,7 @@
             this.btnHome.Location = new System.Drawing.Point(0, 86);
             this.btnHome.Name = "btnHome";
             this.btnHome.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnHome.Size = new System.Drawing.Size(251, 71);
+            this.btnHome.Size = new System.Drawing.Size(272, 71);
             this.btnHome.TabIndex = 2;
             this.btnHome.Text = "  Trang Chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -309,7 +313,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(251, 86);
+            this.panelLogo.Size = new System.Drawing.Size(272, 86);
             this.panelLogo.TabIndex = 1;
             // 
             // Logo
@@ -400,6 +404,47 @@
             this.pMinimize.TabStop = false;
             this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
             // 
+            // panelSubMenuSca
+            // 
+            this.panelSubMenuSca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.panelSubMenuSca.Controls.Add(this.btnBarCode);
+            this.panelSubMenuSca.Controls.Add(this.btnQrCode);
+            this.panelSubMenuSca.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuSca.Location = new System.Drawing.Point(0, 819);
+            this.panelSubMenuSca.Name = "panelSubMenuSca";
+            this.panelSubMenuSca.Size = new System.Drawing.Size(272, 130);
+            this.panelSubMenuSca.TabIndex = 8;
+            // 
+            // btnQrCode
+            // 
+            this.btnQrCode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQrCode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQrCode.FlatAppearance.BorderSize = 0;
+            this.btnQrCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQrCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnQrCode.ForeColor = System.Drawing.Color.White;
+            this.btnQrCode.Location = new System.Drawing.Point(0, 0);
+            this.btnQrCode.Name = "btnQrCode";
+            this.btnQrCode.Size = new System.Drawing.Size(272, 65);
+            this.btnQrCode.TabIndex = 8;
+            this.btnQrCode.Text = "QR code";
+            this.btnQrCode.UseVisualStyleBackColor = true;
+            // 
+            // btnBarCode
+            // 
+            this.btnBarCode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBarCode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBarCode.FlatAppearance.BorderSize = 0;
+            this.btnBarCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBarCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBarCode.ForeColor = System.Drawing.Color.White;
+            this.btnBarCode.Location = new System.Drawing.Point(0, 65);
+            this.btnBarCode.Name = "btnBarCode";
+            this.btnBarCode.Size = new System.Drawing.Size(272, 65);
+            this.btnBarCode.TabIndex = 9;
+            this.btnBarCode.Text = "Barcode";
+            this.btnBarCode.UseVisualStyleBackColor = true;
+            // 
             // BookChill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -424,6 +469,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            this.panelSubMenuSca.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -452,5 +498,8 @@
         private PictureBox pBook;
         private PictureBox pArrowleft;
         private PictureBox pArrowright;
+        private Panel panelSubMenuSca;
+        private Button btnBarCode;
+        private Button btnQrCode;
     }
 }
