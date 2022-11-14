@@ -17,7 +17,7 @@ namespace BookChill
         public BookChill()
         {
             InitializeComponent();
-            panelSubMenu.Visible = false;
+            panelSubMenuColec.Visible = false;
         }
 
 
@@ -54,13 +54,13 @@ namespace BookChill
             }
         }
 
-        
+
         // hide submenu
         private void hideSubMenu()
         {
-            if (panelSubMenu.Visible == true)
+            if (panelSubMenuColec.Visible == true)
             {
-                panelSubMenu.Visible = false;
+                panelSubMenuColec.Visible = false;
             }
         }
 
@@ -79,7 +79,7 @@ namespace BookChill
 
         private void btnCollection_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubMenu);
+            showSubMenu(panelSubMenuColec);
         }
 
         private void btnVanhoc_Click(object sender, EventArgs e)
