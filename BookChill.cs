@@ -18,28 +18,27 @@ namespace BookChill
         {
             InitializeComponent();
             panelSubMenuColec.Visible = false;
+            panelSubMenuSca.Visible = false;
         }
-
 
         // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Do you want to Exit?", "BookChill",
-                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            //var result = MessageBox.Show("Do you want to Exit?", "BookChill",
+            //    MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
-            if (result == DialogResult.OK)
-            {
-                Application.Exit();
-            }
+            //if (result == DialogResult.OK)
+            //{
+            //    Application.Exit();
+            //}
+            Application.Exit();
         }
-
 
         // Minimize button
         private void pMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
 
         // Logout button
         private void btnLogout_Click(object sender, EventArgs e)
@@ -55,12 +54,16 @@ namespace BookChill
         }
 
 
-        // hide submenu
         private void hideSubMenu()
         {
             if (panelSubMenuColec.Visible == true)
             {
                 panelSubMenuColec.Visible = false;
+            }
+
+            if (panelSubMenuSca.Visible == true)
+            {
+                panelSubMenuSca.Visible = false;
             }
         }
 
@@ -77,6 +80,7 @@ namespace BookChill
             }
         }
 
+        // hide sub menu collection
         private void btnCollection_Click(object sender, EventArgs e)
         {
             showSubMenu(panelSubMenuColec);
@@ -118,6 +122,22 @@ namespace BookChill
         }
 
         private void btnTudien_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        // hide sub menu scan
+        private void btnScan_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelSubMenuSca);
+        }
+
+        private void btnQrCode_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnBarCode_Click(object sender, EventArgs e)
         {
             hideSubMenu();
         }

@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookChill));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.panelSubMenuSca = new System.Windows.Forms.Panel();
+            this.btnBarCode = new System.Windows.Forms.Button();
+            this.btnQrCode = new System.Windows.Forms.Button();
             this.btnScan = new System.Windows.Forms.Button();
             this.panelSubMenuColec = new System.Windows.Forms.Panel();
             this.btnTudien = new System.Windows.Forms.Button();
@@ -51,10 +54,8 @@
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
-            this.panelSubMenuSca = new System.Windows.Forms.Panel();
-            this.btnQrCode = new System.Windows.Forms.Button();
-            this.btnBarCode = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
+            this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
@@ -63,7 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
-            this.panelSubMenuSca.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -83,10 +83,54 @@
             this.panelMenu.Size = new System.Drawing.Size(272, 1080);
             this.panelMenu.TabIndex = 0;
             // 
+            // panelSubMenuSca
+            // 
+            this.panelSubMenuSca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.panelSubMenuSca.Controls.Add(this.btnBarCode);
+            this.panelSubMenuSca.Controls.Add(this.btnQrCode);
+            this.panelSubMenuSca.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenuSca.Location = new System.Drawing.Point(0, 819);
+            this.panelSubMenuSca.Name = "panelSubMenuSca";
+            this.panelSubMenuSca.Size = new System.Drawing.Size(272, 130);
+            this.panelSubMenuSca.TabIndex = 8;
+            // 
+            // btnBarCode
+            // 
+            this.btnBarCode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBarCode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBarCode.FlatAppearance.BorderSize = 0;
+            this.btnBarCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBarCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBarCode.ForeColor = System.Drawing.Color.White;
+            this.btnBarCode.Location = new System.Drawing.Point(0, 65);
+            this.btnBarCode.Name = "btnBarCode";
+            this.btnBarCode.Size = new System.Drawing.Size(272, 65);
+            this.btnBarCode.TabIndex = 9;
+            this.btnBarCode.Text = "Barcode";
+            this.btnBarCode.UseVisualStyleBackColor = true;
+            this.btnBarCode.Click += new System.EventHandler(this.btnBarCode_Click);
+            // 
+            // btnQrCode
+            // 
+            this.btnQrCode.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQrCode.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQrCode.FlatAppearance.BorderSize = 0;
+            this.btnQrCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQrCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnQrCode.ForeColor = System.Drawing.Color.White;
+            this.btnQrCode.Location = new System.Drawing.Point(0, 0);
+            this.btnQrCode.Name = "btnQrCode";
+            this.btnQrCode.Size = new System.Drawing.Size(272, 65);
+            this.btnQrCode.TabIndex = 8;
+            this.btnQrCode.Text = "QR code";
+            this.btnQrCode.UseVisualStyleBackColor = true;
+            this.btnQrCode.Click += new System.EventHandler(this.btnQrCode_Click);
+            // 
             // btnScan
             // 
             this.btnScan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnScan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnScan.FlatAppearance.BorderSize = 0;
             this.btnScan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScan.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnScan.ForeColor = System.Drawing.Color.White;
@@ -101,6 +145,7 @@
             this.btnScan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnScan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnScan.UseVisualStyleBackColor = true;
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
             // 
             // panelSubMenuColec
             // 
@@ -404,47 +449,6 @@
             this.pMinimize.TabStop = false;
             this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
             // 
-            // panelSubMenuSca
-            // 
-            this.panelSubMenuSca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.panelSubMenuSca.Controls.Add(this.btnBarCode);
-            this.panelSubMenuSca.Controls.Add(this.btnQrCode);
-            this.panelSubMenuSca.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubMenuSca.Location = new System.Drawing.Point(0, 819);
-            this.panelSubMenuSca.Name = "panelSubMenuSca";
-            this.panelSubMenuSca.Size = new System.Drawing.Size(272, 130);
-            this.panelSubMenuSca.TabIndex = 8;
-            // 
-            // btnQrCode
-            // 
-            this.btnQrCode.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnQrCode.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnQrCode.FlatAppearance.BorderSize = 0;
-            this.btnQrCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQrCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnQrCode.ForeColor = System.Drawing.Color.White;
-            this.btnQrCode.Location = new System.Drawing.Point(0, 0);
-            this.btnQrCode.Name = "btnQrCode";
-            this.btnQrCode.Size = new System.Drawing.Size(272, 65);
-            this.btnQrCode.TabIndex = 8;
-            this.btnQrCode.Text = "QR code";
-            this.btnQrCode.UseVisualStyleBackColor = true;
-            // 
-            // btnBarCode
-            // 
-            this.btnBarCode.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBarCode.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBarCode.FlatAppearance.BorderSize = 0;
-            this.btnBarCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBarCode.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnBarCode.ForeColor = System.Drawing.Color.White;
-            this.btnBarCode.Location = new System.Drawing.Point(0, 65);
-            this.btnBarCode.Name = "btnBarCode";
-            this.btnBarCode.Size = new System.Drawing.Size(272, 65);
-            this.btnBarCode.TabIndex = 9;
-            this.btnBarCode.Text = "Barcode";
-            this.btnBarCode.UseVisualStyleBackColor = true;
-            // 
             // BookChill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -460,6 +464,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMenu.ResumeLayout(false);
+            this.panelSubMenuSca.ResumeLayout(false);
             this.panelSubMenuColec.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
@@ -469,7 +474,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
-            this.panelSubMenuSca.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
