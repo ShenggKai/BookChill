@@ -318,7 +318,7 @@
             this.btnCollection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCollection.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCollection.ForeColor = System.Drawing.Color.White;
-            this.btnCollection.Image = global::BookChill.Properties.Resources.books_b;
+            this.btnCollection.Image = global::BookChill.Properties.Resources.books1;
             this.btnCollection.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCollection.Location = new System.Drawing.Point(0, 157);
             this.btnCollection.Name = "btnCollection";
@@ -379,7 +379,7 @@
             this.panelHeading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeading.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelHeading.BackgroundImage")));
+            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
@@ -415,7 +415,7 @@
             // 
             // pBook
             // 
-            this.pBook.Image = ((System.Drawing.Image)(resources.GetObject("pBook.Image")));
+            this.pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
             this.pBook.Location = new System.Drawing.Point(75, 70);
             this.pBook.Name = "pBook";
             this.pBook.Size = new System.Drawing.Size(400, 400);
@@ -426,28 +426,34 @@
             // pCLose
             // 
             this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pCLose.BackColor = System.Drawing.Color.Transparent;
             this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pCLose.Image = global::BookChill.Properties.Resources.close1;
-            this.pCLose.Location = new System.Drawing.Point(1600, 20);
+            this.pCLose.Image = global::BookChill.Properties.Resources.close;
+            this.pCLose.Location = new System.Drawing.Point(1600, 10);
             this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(20, 20);
-            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pCLose.Size = new System.Drawing.Size(30, 30);
+            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pCLose.TabIndex = 3;
             this.pCLose.TabStop = false;
             this.pCLose.Click += new System.EventHandler(this.pClose_Click);
+            this.pCLose.MouseLeave += new System.EventHandler(this.pCLose_MouseLeave);
+            this.pCLose.MouseHover += new System.EventHandler(this.pCLose_MouseHover);
             // 
             // pMinimize
             // 
             this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
             this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize_sign;
-            this.pMinimize.Location = new System.Drawing.Point(1530, 20);
+            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+            this.pMinimize.Location = new System.Drawing.Point(1540, 10);
             this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(20, 20);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pMinimize.Size = new System.Drawing.Size(30, 30);
+            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pMinimize.TabIndex = 4;
             this.pMinimize.TabStop = false;
             this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
+            this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
+            this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
             // BookChill
             // 

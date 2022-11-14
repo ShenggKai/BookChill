@@ -141,5 +141,25 @@ namespace BookChill
         {
             hideSubMenu();
         }
+
+        private void pCLose_MouseHover(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.LightGray;
+        }
+
+        private void pCLose_MouseLeave(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.Transparent;
+        }
+
+        private void pMinimize_MouseHover(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.LightGray;
+        }
+
+        private void pMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.Transparent;
+        }
     }
 }
