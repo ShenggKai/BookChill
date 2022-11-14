@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.AccessControl;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,8 +17,11 @@ namespace BookChill
         public BookChill()
         {
             InitializeComponent();
+            panelSubMenu.Visible = false;
         }
 
+
+        // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Do you want to Exit?", "BookChill",
@@ -26,14 +31,17 @@ namespace BookChill
             {
                 Application.Exit();
             }
-            
         }
 
+
+        // Minimize button
         private void pMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
+
+        // Logout button
         private void btnLogout_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show("Do you want to Logout?", "BookChill",
@@ -44,6 +52,74 @@ namespace BookChill
                 new Login().Show();
                 this.Hide();
             }
+        }
+
+        
+        // hide submenu
+        private void hideSubMenu()
+        {
+            if (panelSubMenu.Visible == true)
+            {
+                panelSubMenu.Visible = false;
+            }
+        }
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+        }
+
+        private void btnCollection_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelSubMenu);
+        }
+
+        private void btnVanhoc_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnTuduy_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnNgoaingu_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnThieunhi_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnTruyentranh_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnKhoahoc_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnDienanh_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnTudien_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
         }
     }
 }

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookChill));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btnScan = new System.Windows.Forms.Button();
-            this.panelSubmenu = new System.Windows.Forms.Panel();
+            this.panelSubMenu = new System.Windows.Forms.Panel();
             this.btnTudien = new System.Windows.Forms.Button();
             this.btnDienanh = new System.Windows.Forms.Button();
             this.btnKhoahoc = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
-            this.panelSubmenu.SuspendLayout();
+            this.panelSubMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
@@ -67,7 +67,7 @@
             this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
             this.panelMenu.Controls.Add(this.btnScan);
-            this.panelMenu.Controls.Add(this.panelSubmenu);
+            this.panelMenu.Controls.Add(this.panelSubMenu);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Controls.Add(this.btnCollection);
             this.panelMenu.Controls.Add(this.btnHome);
@@ -88,32 +88,32 @@
             this.btnScan.ForeColor = System.Drawing.Color.White;
             this.btnScan.Image = global::BookChill.Properties.Resources.qrcode;
             this.btnScan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnScan.Location = new System.Drawing.Point(0, 1148);
+            this.btnScan.Location = new System.Drawing.Point(0, 748);
             this.btnScan.Name = "btnScan";
             this.btnScan.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnScan.Size = new System.Drawing.Size(251, 71);
+            this.btnScan.Size = new System.Drawing.Size(272, 71);
             this.btnScan.TabIndex = 7;
             this.btnScan.Text = "  Quét mã";
             this.btnScan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnScan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnScan.UseVisualStyleBackColor = true;
             // 
-            // panelSubmenu
+            // panelSubMenu
             // 
-            this.panelSubmenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.panelSubmenu.Controls.Add(this.btnTudien);
-            this.panelSubmenu.Controls.Add(this.btnDienanh);
-            this.panelSubmenu.Controls.Add(this.btnKhoahoc);
-            this.panelSubmenu.Controls.Add(this.btnTruyentranh);
-            this.panelSubmenu.Controls.Add(this.btnThieunhi);
-            this.panelSubmenu.Controls.Add(this.btnNgoaingu);
-            this.panelSubmenu.Controls.Add(this.btnTuduy);
-            this.panelSubmenu.Controls.Add(this.btnVanhoc);
-            this.panelSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenu.Location = new System.Drawing.Point(0, 228);
-            this.panelSubmenu.Name = "panelSubmenu";
-            this.panelSubmenu.Size = new System.Drawing.Size(251, 520);
-            this.panelSubmenu.TabIndex = 6;
+            this.panelSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.panelSubMenu.Controls.Add(this.btnTudien);
+            this.panelSubMenu.Controls.Add(this.btnDienanh);
+            this.panelSubMenu.Controls.Add(this.btnKhoahoc);
+            this.panelSubMenu.Controls.Add(this.btnTruyentranh);
+            this.panelSubMenu.Controls.Add(this.btnThieunhi);
+            this.panelSubMenu.Controls.Add(this.btnNgoaingu);
+            this.panelSubMenu.Controls.Add(this.btnTuduy);
+            this.panelSubMenu.Controls.Add(this.btnVanhoc);
+            this.panelSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubMenu.Location = new System.Drawing.Point(0, 228);
+            this.panelSubMenu.Name = "panelSubMenu";
+            this.panelSubMenu.Size = new System.Drawing.Size(272, 520);
+            this.panelSubMenu.TabIndex = 6;
             // 
             // btnTudien
             // 
@@ -125,10 +125,11 @@
             this.btnTudien.ForeColor = System.Drawing.Color.White;
             this.btnTudien.Location = new System.Drawing.Point(0, 455);
             this.btnTudien.Name = "btnTudien";
-            this.btnTudien.Size = new System.Drawing.Size(251, 65);
+            this.btnTudien.Size = new System.Drawing.Size(272, 65);
             this.btnTudien.TabIndex = 7;
             this.btnTudien.Text = "Từ điển";
             this.btnTudien.UseVisualStyleBackColor = true;
+            this.btnTudien.Click += new System.EventHandler(this.btnTudien_Click);
             // 
             // btnDienanh
             // 
@@ -140,10 +141,11 @@
             this.btnDienanh.ForeColor = System.Drawing.Color.White;
             this.btnDienanh.Location = new System.Drawing.Point(0, 390);
             this.btnDienanh.Name = "btnDienanh";
-            this.btnDienanh.Size = new System.Drawing.Size(251, 65);
+            this.btnDienanh.Size = new System.Drawing.Size(272, 65);
             this.btnDienanh.TabIndex = 6;
             this.btnDienanh.Text = "Điện ảnh - Nhạc - Họa";
             this.btnDienanh.UseVisualStyleBackColor = true;
+            this.btnDienanh.Click += new System.EventHandler(this.btnDienanh_Click);
             // 
             // btnKhoahoc
             // 
@@ -155,10 +157,11 @@
             this.btnKhoahoc.ForeColor = System.Drawing.Color.White;
             this.btnKhoahoc.Location = new System.Drawing.Point(0, 325);
             this.btnKhoahoc.Name = "btnKhoahoc";
-            this.btnKhoahoc.Size = new System.Drawing.Size(251, 65);
+            this.btnKhoahoc.Size = new System.Drawing.Size(272, 65);
             this.btnKhoahoc.TabIndex = 5;
             this.btnKhoahoc.Text = "Khoa học - Kỹ thuật";
             this.btnKhoahoc.UseVisualStyleBackColor = true;
+            this.btnKhoahoc.Click += new System.EventHandler(this.btnKhoahoc_Click);
             // 
             // btnTruyentranh
             // 
@@ -170,10 +173,11 @@
             this.btnTruyentranh.ForeColor = System.Drawing.Color.White;
             this.btnTruyentranh.Location = new System.Drawing.Point(0, 260);
             this.btnTruyentranh.Name = "btnTruyentranh";
-            this.btnTruyentranh.Size = new System.Drawing.Size(251, 65);
+            this.btnTruyentranh.Size = new System.Drawing.Size(272, 65);
             this.btnTruyentranh.TabIndex = 4;
             this.btnTruyentranh.Text = "Truyện tranh";
             this.btnTruyentranh.UseVisualStyleBackColor = true;
+            this.btnTruyentranh.Click += new System.EventHandler(this.btnTruyentranh_Click);
             // 
             // btnThieunhi
             // 
@@ -185,10 +189,11 @@
             this.btnThieunhi.ForeColor = System.Drawing.Color.White;
             this.btnThieunhi.Location = new System.Drawing.Point(0, 195);
             this.btnThieunhi.Name = "btnThieunhi";
-            this.btnThieunhi.Size = new System.Drawing.Size(251, 65);
+            this.btnThieunhi.Size = new System.Drawing.Size(272, 65);
             this.btnThieunhi.TabIndex = 3;
             this.btnThieunhi.Text = "Sách thiếu nhi";
             this.btnThieunhi.UseVisualStyleBackColor = true;
+            this.btnThieunhi.Click += new System.EventHandler(this.btnThieunhi_Click);
             // 
             // btnNgoaingu
             // 
@@ -200,10 +205,11 @@
             this.btnNgoaingu.ForeColor = System.Drawing.Color.White;
             this.btnNgoaingu.Location = new System.Drawing.Point(0, 130);
             this.btnNgoaingu.Name = "btnNgoaingu";
-            this.btnNgoaingu.Size = new System.Drawing.Size(251, 65);
+            this.btnNgoaingu.Size = new System.Drawing.Size(272, 65);
             this.btnNgoaingu.TabIndex = 2;
             this.btnNgoaingu.Text = "Học ngoại ngữ";
             this.btnNgoaingu.UseVisualStyleBackColor = true;
+            this.btnNgoaingu.Click += new System.EventHandler(this.btnNgoaingu_Click);
             // 
             // btnTuduy
             // 
@@ -215,10 +221,11 @@
             this.btnTuduy.ForeColor = System.Drawing.Color.White;
             this.btnTuduy.Location = new System.Drawing.Point(0, 65);
             this.btnTuduy.Name = "btnTuduy";
-            this.btnTuduy.Size = new System.Drawing.Size(251, 65);
+            this.btnTuduy.Size = new System.Drawing.Size(272, 65);
             this.btnTuduy.TabIndex = 1;
             this.btnTuduy.Text = "Tư duy - Kĩ năng sống";
             this.btnTuduy.UseVisualStyleBackColor = true;
+            this.btnTuduy.Click += new System.EventHandler(this.btnTuduy_Click);
             // 
             // btnVanhoc
             // 
@@ -230,10 +237,11 @@
             this.btnVanhoc.ForeColor = System.Drawing.Color.White;
             this.btnVanhoc.Location = new System.Drawing.Point(0, 0);
             this.btnVanhoc.Name = "btnVanhoc";
-            this.btnVanhoc.Size = new System.Drawing.Size(251, 65);
+            this.btnVanhoc.Size = new System.Drawing.Size(272, 65);
             this.btnVanhoc.TabIndex = 0;
             this.btnVanhoc.Text = "Văn học";
             this.btnVanhoc.UseVisualStyleBackColor = true;
+            this.btnVanhoc.Click += new System.EventHandler(this.btnVanhoc_Click);
             // 
             // btnLogout
             // 
@@ -266,12 +274,13 @@
             this.btnCollection.Location = new System.Drawing.Point(0, 157);
             this.btnCollection.Name = "btnCollection";
             this.btnCollection.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnCollection.Size = new System.Drawing.Size(251, 71);
+            this.btnCollection.Size = new System.Drawing.Size(272, 71);
             this.btnCollection.TabIndex = 3;
             this.btnCollection.Text = " Danh mục sách";
             this.btnCollection.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCollection.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCollection.UseVisualStyleBackColor = true;
+            this.btnCollection.Click += new System.EventHandler(this.btnCollection_Click);
             // 
             // btnHome
             // 
@@ -286,7 +295,7 @@
             this.btnHome.Location = new System.Drawing.Point(0, 86);
             this.btnHome.Name = "btnHome";
             this.btnHome.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.btnHome.Size = new System.Drawing.Size(251, 71);
+            this.btnHome.Size = new System.Drawing.Size(272, 71);
             this.btnHome.TabIndex = 2;
             this.btnHome.Text = "  Trang Chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -300,7 +309,7 @@
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(251, 86);
+            this.panelLogo.Size = new System.Drawing.Size(272, 86);
             this.panelLogo.TabIndex = 1;
             // 
             // Logo
@@ -406,7 +415,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMenu.ResumeLayout(false);
-            this.panelSubmenu.ResumeLayout(false);
+            this.panelSubMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeading.ResumeLayout(false);
@@ -427,7 +436,7 @@
         private Button btnHome;
         private Button btnCollection;
         private Button btnLogout;
-        private Panel panelSubmenu;
+        private Panel panelSubMenu;
         private Button btnVanhoc;
         private Button btnTudien;
         private Button btnDienanh;
