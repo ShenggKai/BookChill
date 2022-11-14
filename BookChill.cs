@@ -21,6 +21,7 @@ namespace BookChill
             panelSubMenuSca.Visible = false;
         }
 
+        #region function buttion
         // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
@@ -52,8 +53,9 @@ namespace BookChill
                 this.Hide();
             }
         }
+        #endregion
 
-
+        #region Submenu code
         private void hideSubMenu()
         {
             if (panelSubMenuColec.Visible == true)
@@ -80,6 +82,7 @@ namespace BookChill
             }
         }
 
+        #region Submenu for Collection
         // hide sub menu collection
         private void btnCollection_Click(object sender, EventArgs e)
         {
@@ -125,7 +128,9 @@ namespace BookChill
         {
             hideSubMenu();
         }
+        #endregion
 
+        #region Submenu for Scan
         // hide sub menu scan
         private void btnScan_Click(object sender, EventArgs e)
         {
@@ -161,5 +166,8 @@ namespace BookChill
         {
             pMinimize.BackColor = Color.Transparent;
         }
+        #endregion
+
+        #endregion
     }
 }
