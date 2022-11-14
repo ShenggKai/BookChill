@@ -124,6 +124,9 @@
   <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\Icon\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chotoixinmotvedituoitho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\chotoixinmotvedituoitho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="astronaut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\astronaut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +154,11 @@
   <data name="nhagiakim" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\nhagiakim.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chotoixinmotvedituoitho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\chotoixinmotvedituoitho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="books1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\Icon\books.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\banner_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\Icon\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +172,10 @@
   <data name="qrcode" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\Icon\qrcode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="books1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\image\Icon\books.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hanhtinhcuamotkenghinhieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\hanhtinhcuamotkenghinhieu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\image\banner_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

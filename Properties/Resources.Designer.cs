@@ -103,6 +103,26 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banner_1 {
+            get {
+                object obj = ResourceManager.GetObject("banner_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap banner_2 {
+            get {
+                object obj = ResourceManager.GetObject("banner_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap banner_3 {
             get {
                 object obj = ResourceManager.GetObject("banner_3", resourceCulture);
@@ -156,6 +176,16 @@ namespace BookChill.Properties {
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hanhtinhcuamotkenghinhieu {
+            get {
+                object obj = ResourceManager.GetObject("hanhtinhcuamotkenghinhieu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

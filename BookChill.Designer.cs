@@ -379,7 +379,7 @@
             this.panelHeading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
@@ -415,7 +415,7 @@
             // 
             // pBook
             // 
-            this.pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
+            this.pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
             this.pBook.Location = new System.Drawing.Point(75, 70);
             this.pBook.Name = "pBook";
             this.pBook.Size = new System.Drawing.Size(400, 400);
