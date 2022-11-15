@@ -21,7 +21,7 @@ namespace BookChill
             panelSubMenuSca.Visible = false;
         }
 
-        #region function buttion
+        #region function button
         // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
@@ -171,6 +171,36 @@ namespace BookChill
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
         #endregion
+
+        #endregion
+
+        #region function for Arrow button
+
+        int count = 0;
+        string pathToImage1 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_1.png");
+        string pathToImage2 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_2.png");
+        string pathToImage3 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_3.png");
+        string pathToImage4 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_4.png");
+
+        string[] lstString = { pathToImage1, pathToImage2 };
+
+        private void pArrowleft_Click(object sender, EventArgs e)
+        {
+            if (count > 0)
+            {
+                count--;
+            }
+            panelHeading.BackgroundImage = Image.FromFile(lstString[count]);
+        }
+
+        private void pArrowright_Click(object sender, EventArgs e)
+        {
+            if (count < 4)
+            {
+                count++;
+            }
+            panelHeading.BackgroundImage= Image.FromFile(lstString[count]);
+        }
 
         #endregion
     }

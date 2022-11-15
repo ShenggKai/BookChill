@@ -55,7 +55,7 @@
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.imageListPanel = new System.Windows.Forms.ImageList(this.components);
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -395,6 +395,11 @@
             // 
             // pArrowright
             // 
+            this.pArrowright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pArrowright.BackColor = System.Drawing.Color.Transparent;
+            this.pArrowright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pArrowright.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
             this.pArrowright.Location = new System.Drawing.Point(1600, 243);
@@ -403,9 +408,15 @@
             this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pArrowright.TabIndex = 7;
             this.pArrowright.TabStop = false;
+            this.pArrowright.Click += new System.EventHandler(this.pArrowright_Click);
             // 
             // pArrowleft
             // 
+            this.pArrowleft.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pArrowleft.BackColor = System.Drawing.Color.Transparent;
+            this.pArrowleft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pArrowleft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pArrowleft.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pArrowleft.Image = global::BookChill.Properties.Resources.angle_left;
             this.pArrowleft.Location = new System.Drawing.Point(10, 243);
@@ -414,6 +425,7 @@
             this.pArrowleft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pArrowleft.TabIndex = 6;
             this.pArrowleft.TabStop = false;
+            this.pArrowleft.Click += new System.EventHandler(this.pArrowleft_Click);
             // 
             // pBook
             // 
@@ -457,15 +469,15 @@
             this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
             this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
-            // imageList
+            // imageListPanel
             // 
-            this.imageList.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "banner_1.png");
-            this.imageList.Images.SetKeyName(1, "banner_2.png");
-            this.imageList.Images.SetKeyName(2, "banner_3.png");
-            this.imageList.Images.SetKeyName(3, "banner_4.png");
+            this.imageListPanel.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.imageListPanel.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListPanel.ImageStream")));
+            this.imageListPanel.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListPanel.Images.SetKeyName(0, "banner_1.png");
+            this.imageListPanel.Images.SetKeyName(1, "banner_2.png");
+            this.imageListPanel.Images.SetKeyName(2, "banner_3.png");
+            this.imageListPanel.Images.SetKeyName(3, "banner_4.png");
             // 
             // BookChill
             // 
@@ -523,6 +535,6 @@
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
-        private ImageList imageList;
+        private ImageList imageListPanel;
     }
 }
