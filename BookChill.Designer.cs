@@ -378,8 +378,6 @@
             // 
             // panelHeading
             // 
-            this.panelHeading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
             this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -388,9 +386,11 @@
             this.panelHeading.Controls.Add(this.pBook);
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
-            this.panelHeading.Location = new System.Drawing.Point(282, 0);
+            this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeading.Location = new System.Drawing.Point(272, 0);
+            this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
             this.panelHeading.Name = "panelHeading";
-            this.panelHeading.Size = new System.Drawing.Size(1638, 515);
+            this.panelHeading.Size = new System.Drawing.Size(1648, 515);
             this.panelHeading.TabIndex = 3;
             // 
             // pArrowright
@@ -431,9 +431,9 @@
             this.pCLose.BackColor = System.Drawing.Color.Transparent;
             this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(1600, 10);
+            this.pCLose.Location = new System.Drawing.Point(1601, 0);
             this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(30, 30);
+            this.pCLose.Size = new System.Drawing.Size(40, 40);
             this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pCLose.TabIndex = 3;
             this.pCLose.TabStop = false;
@@ -447,9 +447,9 @@
             this.pMinimize.BackColor = System.Drawing.Color.Transparent;
             this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(1540, 10);
+            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
             this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(30, 30);
+            this.pMinimize.Size = new System.Drawing.Size(40, 40);
             this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pMinimize.TabIndex = 4;
             this.pMinimize.TabStop = false;
