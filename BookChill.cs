@@ -177,12 +177,6 @@ namespace BookChill
         #region function for Arrow button
 
         int count = 0;
-        string pathToImage1 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_1.png");
-        string pathToImage2 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_2.png");
-        string pathToImage3 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_3.png");
-        string pathToImage4 = Path.Combine(Directory.GetCurrentDirectory(), "image", "banner_4.png");
-
-        string[] lstString = { pathToImage1, pathToImage2 };
 
         private void pArrowleft_Click(object sender, EventArgs e)
         {
@@ -190,16 +184,50 @@ namespace BookChill
             {
                 count--;
             }
-            panelHeading.BackgroundImage = Image.FromFile(lstString[count]);
+
+            switch (count)
+            {
+                case 0:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+                    break;
+                case 1:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
+                    break;
+                case 2:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void pArrowright_Click(object sender, EventArgs e)
         {
-            if (count < 4)
+            if (count < 3)
             {
                 count++;
             }
-            panelHeading.BackgroundImage= Image.FromFile(lstString[count]);
+
+            switch (count)
+            {
+                case 0:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+                    break;
+                case 1:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
+                    break;
+                case 2:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+                    break;
+                default:
+                    break;
+            }
         }
 
         #endregion
