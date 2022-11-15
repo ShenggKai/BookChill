@@ -189,12 +189,12 @@ namespace BookChill
                     pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
                     break;
                 case 2:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
-                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
-                    break;
-                case 3:
                     panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
                     pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
                     break;
                 default:
                     break;
