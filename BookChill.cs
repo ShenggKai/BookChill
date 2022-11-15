@@ -238,6 +238,31 @@ namespace BookChill
             }
         }
 
+        int timer_count = 0;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            switch (timer_count)
+            {
+                case 0:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
+                    break;
+                case 1:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
+                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
+                    break;
+                case 2:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
+                    break;
+                default:
+                    break;
+            }
+        }
         #endregion
     }
 }

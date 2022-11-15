@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookChill));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelSubMenuSca = new System.Windows.Forms.Panel();
@@ -54,6 +55,7 @@
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -467,6 +469,11 @@
             this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
             this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // BookChill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -523,5 +530,6 @@
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
+        private System.Windows.Forms.Timer timer1;
     }
 }
