@@ -176,6 +176,31 @@ namespace BookChill
 
         #region function for Arrow button
 
+        private void changeImage(int count)
+        {
+            switch (count)
+            {
+                case 0:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
+                    break;
+                case 1:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
+                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
+                    break;
+                case 2:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
+                    break;
+                default:
+                    break;
+            }
+        }
+
         int count = 0;
 
         private void pArrowleft_Click(object sender, EventArgs e)
@@ -184,28 +209,7 @@ namespace BookChill
             {
                 count--;
             }
-
-            switch (count)
-            {
-                case 0:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
-                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
-                    break;
-                case 1:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
-                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
-                    break;
-                case 2:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
-                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
-                    break;
-                case 3:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
-                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
-                    break;
-                default:
-                    break;
-            }
+            changeImage(count);
         }
 
         private void pArrowright_Click(object sender, EventArgs e)
@@ -214,54 +218,33 @@ namespace BookChill
             {
                 count++;
             }
-
-            switch (count)
-            {
-                case 0:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
-                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
-                    break;
-                case 1:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
-                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
-                    break;
-                case 2:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
-                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
-                    break;
-                case 3:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
-                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
-                    break;
-                default:
-                    break;
-            }
+            changeImage(count);
         }
 
-        int timer_count = 0;
+        int count_right = 3;
+        int count_left = 0;
+        int tempt = 0;
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            switch (timer_count)
+            if (count_right > 0)
             {
-                case 0:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
-                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
-                    break;
-                case 1:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
-                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
-                    break;
-                case 2:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
-                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
-                    break;
-                case 3:
-                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
-                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
-                    break;
-                default:
-                    break;
+                tempt = count_right;
+                count_right--;
             }
+            else if(count_left < 4)
+            {
+                tempt = count_left;
+                count_left++;
+            }
+            else
+            {
+                count_right = 3;
+                count_left = 0;
+                tempt = count_right;
+            }
+
+            changeImage(tempt);
         }
         #endregion
     }

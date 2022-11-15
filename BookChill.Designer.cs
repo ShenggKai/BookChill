@@ -379,7 +379,7 @@
             // panelHeading
             // 
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
@@ -429,7 +429,7 @@
             // 
             // pBook
             // 
-            this.pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
+            this.pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
             this.pBook.Location = new System.Drawing.Point(75, 70);
             this.pBook.Name = "pBook";
             this.pBook.Size = new System.Drawing.Size(400, 400);
@@ -471,7 +471,8 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 5000;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 8000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // BookChill
