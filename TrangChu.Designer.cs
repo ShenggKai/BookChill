@@ -58,7 +58,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.bookItems4 = new BookChill.BookItems();
+            this.bookItems1 = new BookChill.BookItems();
+            this.bookItems2 = new BookChill.BookItems();
+            this.bookItems3 = new BookChill.BookItems();
+            this.bookItems5 = new BookChill.BookItems();
+            this.bookItems6 = new BookChill.BookItems();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -69,6 +74,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -492,11 +498,71 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Controls.Add(this.bookItems4);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems1);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems2);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems3);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems5);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems6);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 586);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 494);
             this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // bookItems4
+            // 
+            this.bookItems4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems4.Location = new System.Drawing.Point(50, 0);
+            this.bookItems4.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems4.Name = "bookItems4";
+            this.bookItems4.Size = new System.Drawing.Size(437, 222);
+            this.bookItems4.TabIndex = 10;
+            // 
+            // bookItems1
+            // 
+            this.bookItems1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems1.Location = new System.Drawing.Point(577, 0);
+            this.bookItems1.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems1.Name = "bookItems1";
+            this.bookItems1.Size = new System.Drawing.Size(437, 222);
+            this.bookItems1.TabIndex = 11;
+            // 
+            // bookItems2
+            // 
+            this.bookItems2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems2.Location = new System.Drawing.Point(1104, 0);
+            this.bookItems2.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems2.Name = "bookItems2";
+            this.bookItems2.Size = new System.Drawing.Size(437, 222);
+            this.bookItems2.TabIndex = 12;
+            // 
+            // bookItems3
+            // 
+            this.bookItems3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems3.Location = new System.Drawing.Point(50, 262);
+            this.bookItems3.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems3.Name = "bookItems3";
+            this.bookItems3.Size = new System.Drawing.Size(437, 222);
+            this.bookItems3.TabIndex = 13;
+            // 
+            // bookItems5
+            // 
+            this.bookItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems5.Location = new System.Drawing.Point(577, 262);
+            this.bookItems5.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems5.Name = "bookItems5";
+            this.bookItems5.Size = new System.Drawing.Size(437, 222);
+            this.bookItems5.TabIndex = 14;
+            // 
+            // bookItems6
+            // 
+            this.bookItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems6.Location = new System.Drawing.Point(1104, 262);
+            this.bookItems6.Margin = new System.Windows.Forms.Padding(50, 0, 40, 40);
+            this.bookItems6.Name = "bookItems6";
+            this.bookItems6.Size = new System.Drawing.Size(437, 222);
+            this.bookItems6.TabIndex = 15;
             // 
             // TrangChu
             // 
@@ -525,6 +591,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -560,6 +627,11 @@
         private System.Windows.Forms.Timer timer1;
         private Label txtNews;
         private FlowLayoutPanel flowLayoutPanel1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private BookItems bookItems4;
+        private BookItems bookItems1;
+        private BookItems bookItems2;
+        private BookItems bookItems3;
+        private BookItems bookItems5;
+        private BookItems bookItems6;
     }
 }
