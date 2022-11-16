@@ -257,9 +257,14 @@ namespace BookChill
         private void btnHome_MouseClick(object sender, MouseEventArgs e)
         {
             btnCollection.BackColor = Color.FromArgb(90, 130, 95);
-            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+            btnCollection.ForeColor = Color.White;
+            btnCollection.Image = global::BookChill.Properties.Resources.books;
 
-            btnHome.BackColor = Color.WhiteSmoke;
+            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+            btnScan.ForeColor = Color.White;
+            btnScan.Image = global::BookChill.Properties.Resources.qrcode;
+
+            btnHome.BackColor = Color.Gainsboro;
             btnHome.ForeColor = Color.FromArgb(90, 130, 95);
             btnHome.Image = global::BookChill.Properties.Resources.house_green;
         }
@@ -267,9 +272,14 @@ namespace BookChill
         private void btnCollection_MouseClick(object sender, MouseEventArgs e)
         {
             btnHome.BackColor = Color.FromArgb(90, 130, 95);
-            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+            btnHome.ForeColor = Color.White;
+            btnHome.Image = global::BookChill.Properties.Resources.house;
 
-            btnCollection.BackColor = Color.WhiteSmoke;
+            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+            btnScan.ForeColor = Color.White;
+            btnScan.Image = global::BookChill.Properties.Resources.qrcode;
+
+            btnCollection.BackColor = Color.Gainsboro;
             btnCollection.ForeColor = Color.FromArgb(90, 130, 95);
             btnCollection.Image = global::BookChill.Properties.Resources.books_green;
         }
@@ -277,9 +287,16 @@ namespace BookChill
         private void btnScan_MouseClick(object sender, MouseEventArgs e)
         {
             btnHome.BackColor = Color.FromArgb(90, 130, 95);
-            btnCollection.BackColor = Color.FromArgb(90, 130, 95);
+            btnHome.ForeColor = Color.White;
+            btnHome.Image = global::BookChill.Properties.Resources.house;
 
-            btnScan.BackColor = Color.FromArgb(108, 156, 114);
+            btnCollection.BackColor = Color.FromArgb(90, 130, 95);
+            btnCollection.ForeColor = Color.White;
+            btnCollection.Image = global::BookChill.Properties.Resources.books;
+
+            btnScan.BackColor = Color.Gainsboro;
+            btnScan.ForeColor = Color.FromArgb(90, 130, 95);
+            btnScan.Image = global::BookChill.Properties.Resources.qrcode_green;
         }
         #endregion
     }
