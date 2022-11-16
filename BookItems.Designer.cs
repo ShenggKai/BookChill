@@ -40,7 +40,7 @@
             this.pBlog.Location = new System.Drawing.Point(0, 0);
             this.pBlog.Name = "pBlog";
             this.pBlog.Size = new System.Drawing.Size(437, 169);
-            this.pBlog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pBlog.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBlog.TabIndex = 0;
             this.pBlog.TabStop = false;
             // 
@@ -66,6 +66,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.pBlog);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.Name = "BookItems";
             this.Size = new System.Drawing.Size(437, 222);
