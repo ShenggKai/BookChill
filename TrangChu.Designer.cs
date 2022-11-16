@@ -513,6 +513,8 @@
             // bookItems1
             // 
             this.bookItems1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems1.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems1.ItemImage")));
+            this.bookItems1.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems1.Location = new System.Drawing.Point(65, 0);
             this.bookItems1.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems1.Name = "bookItems1";
@@ -522,6 +524,8 @@
             // bookItems2
             // 
             this.bookItems2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems2.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems2.ItemImage")));
+            this.bookItems2.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems2.Location = new System.Drawing.Point(607, 0);
             this.bookItems2.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems2.Name = "bookItems2";
@@ -531,6 +535,8 @@
             // bookItems3
             // 
             this.bookItems3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems3.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems3.ItemImage")));
+            this.bookItems3.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems3.Location = new System.Drawing.Point(1149, 0);
             this.bookItems3.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems3.Name = "bookItems3";
@@ -540,6 +546,8 @@
             // bookItems4
             // 
             this.bookItems4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems4.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems4.ItemImage")));
+            this.bookItems4.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems4.Location = new System.Drawing.Point(65, 262);
             this.bookItems4.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems4.Name = "bookItems4";
@@ -549,6 +557,8 @@
             // bookItems5
             // 
             this.bookItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems5.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems5.ItemImage")));
+            this.bookItems5.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems5.Location = new System.Drawing.Point(607, 262);
             this.bookItems5.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems5.Name = "bookItems5";
@@ -558,6 +568,8 @@
             // bookItems6
             // 
             this.bookItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems6.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems6.ItemImage")));
+            this.bookItems6.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.bookItems6.Location = new System.Drawing.Point(1149, 262);
             this.bookItems6.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems6.Name = "bookItems6";

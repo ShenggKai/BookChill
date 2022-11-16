@@ -16,5 +16,31 @@ namespace BookChill
         {
             InitializeComponent();
         }
+
+        public Image ItemImage
+        {
+            get
+            {
+                return pBlog.Image;
+            }
+            
+            set
+            {
+                pBlog.Image = value;
+            }
+        }
+
+        public string ItemLabel
+        {
+            get
+            {
+                return txtTitle.Text;
+            }
+
+            set
+            {
+                txtTitle.Text = value;
+            }
+        }
     }
 }
