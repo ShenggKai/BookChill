@@ -56,7 +56,6 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bookItems1 = new BookChill.BookItems();
             this.bookItems2 = new BookChill.BookItems();
@@ -64,6 +63,15 @@
             this.bookItems4 = new BookChill.BookItems();
             this.bookItems5 = new BookChill.BookItems();
             this.bookItems6 = new BookChill.BookItems();
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.txtNews = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.bookItems7 = new BookChill.BookItems();
+            this.bookItems8 = new BookChill.BookItems();
+            this.bookItems9 = new BookChill.BookItems();
+            this.bookItems10 = new BookChill.BookItems();
+            this.bookItems11 = new BookChill.BookItems();
+            this.bookItems12 = new BookChill.BookItems();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -75,6 +83,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -401,7 +411,7 @@
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
             this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeading.Location = new System.Drawing.Point(272, 0);
+            this.panelHeading.Location = new System.Drawing.Point(0, 0);
             this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
             this.panelHeading.Name = "panelHeading";
             this.panelHeading.Size = new System.Drawing.Size(1648, 515);
@@ -489,18 +499,6 @@
             this.timer1.Interval = 8000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // txtNews
-            // 
-            this.txtNews.AutoSize = true;
-            this.txtNews.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtNews.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNews.Location = new System.Drawing.Point(272, 515);
-            this.txtNews.Name = "txtNews";
-            this.txtNews.Padding = new System.Windows.Forms.Padding(10);
-            this.txtNews.Size = new System.Drawing.Size(151, 66);
-            this.txtNews.TabIndex = 0;
-            this.txtNews.Text = "Tin mới";
-            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.bookItems1);
@@ -509,10 +507,9 @@
             this.flowLayoutPanel1.Controls.Add(this.bookItems4);
             this.flowLayoutPanel1.Controls.Add(this.bookItems5);
             this.flowLayoutPanel1.Controls.Add(this.bookItems6);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 581);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(207, 808);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 499);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(296, 94);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
             // bookItems1
@@ -531,7 +528,7 @@
             this.bookItems2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItems2.ItemImage = global::BookChill.Properties.Resources.blog2;
             this.bookItems2.ItemLabel = "Những cuốn sách dành cho tuổi trẻ lạc lối";
-            this.bookItems2.Location = new System.Drawing.Point(607, 0);
+            this.bookItems2.Location = new System.Drawing.Point(65, 262);
             this.bookItems2.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems2.Name = "bookItems2";
             this.bookItems2.Size = new System.Drawing.Size(437, 222);
@@ -542,7 +539,7 @@
             this.bookItems3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItems3.ItemImage = global::BookChill.Properties.Resources.blog3;
             this.bookItems3.ItemLabel = "Top Sách Best-Seller Tháng 10-2022";
-            this.bookItems3.Location = new System.Drawing.Point(1149, 0);
+            this.bookItems3.Location = new System.Drawing.Point(65, 524);
             this.bookItems3.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems3.Name = "bookItems3";
             this.bookItems3.Size = new System.Drawing.Size(437, 222);
@@ -553,7 +550,7 @@
             this.bookItems4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItems4.ItemImage = global::BookChill.Properties.Resources.blog4;
             this.bookItems4.ItemLabel = "Chọn sách cho con";
-            this.bookItems4.Location = new System.Drawing.Point(65, 262);
+            this.bookItems4.Location = new System.Drawing.Point(65, 786);
             this.bookItems4.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems4.Name = "bookItems4";
             this.bookItems4.Size = new System.Drawing.Size(437, 222);
@@ -564,7 +561,7 @@
             this.bookItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItems5.ItemImage = global::BookChill.Properties.Resources.blog5;
             this.bookItems5.ItemLabel = "Review sách hay: Đắc nhân tâm";
-            this.bookItems5.Location = new System.Drawing.Point(607, 262);
+            this.bookItems5.Location = new System.Drawing.Point(65, 1048);
             this.bookItems5.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems5.Name = "bookItems5";
             this.bookItems5.Size = new System.Drawing.Size(437, 222);
@@ -575,11 +572,115 @@
             this.bookItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItems6.ItemImage = global::BookChill.Properties.Resources.blog6;
             this.bookItems6.ItemLabel = "Sách hay giúp chữa lành nỗi đau tâm hồn";
-            this.bookItems6.Location = new System.Drawing.Point(1149, 262);
+            this.bookItems6.Location = new System.Drawing.Point(65, 1310);
             this.bookItems6.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems6.Name = "bookItems6";
             this.bookItems6.Size = new System.Drawing.Size(437, 222);
             this.bookItems6.TabIndex = 16;
+            // 
+            // panelMain
+            // 
+            this.panelMain.BackColor = System.Drawing.Color.Transparent;
+            this.panelMain.Controls.Add(this.flowLayoutPanel2);
+            this.panelMain.Controls.Add(this.txtNews);
+            this.panelMain.Controls.Add(this.panelHeading);
+            this.panelMain.Controls.Add(this.flowLayoutPanel1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(272, 0);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1648, 1080);
+            this.panelMain.TabIndex = 5;
+            // 
+            // txtNews
+            // 
+            this.txtNews.AutoSize = true;
+            this.txtNews.Dock = System.Windows.Forms.DockStyle.Top;
+            this.txtNews.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNews.Location = new System.Drawing.Point(0, 515);
+            this.txtNews.Name = "txtNews";
+            this.txtNews.Padding = new System.Windows.Forms.Padding(10);
+            this.txtNews.Size = new System.Drawing.Size(151, 66);
+            this.txtNews.TabIndex = 5;
+            this.txtNews.Text = "Tin mới";
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.bookItems7);
+            this.flowLayoutPanel2.Controls.Add(this.bookItems8);
+            this.flowLayoutPanel2.Controls.Add(this.bookItems9);
+            this.flowLayoutPanel2.Controls.Add(this.bookItems10);
+            this.flowLayoutPanel2.Controls.Add(this.bookItems11);
+            this.flowLayoutPanel2.Controls.Add(this.bookItems12);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(423, 618);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(296, 94);
+            this.flowLayoutPanel2.TabIndex = 6;
+            // 
+            // bookItems7
+            // 
+            this.bookItems7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems7.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems7.ItemImage")));
+            this.bookItems7.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.bookItems7.Location = new System.Drawing.Point(65, 0);
+            this.bookItems7.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems7.Name = "bookItems7";
+            this.bookItems7.Size = new System.Drawing.Size(437, 222);
+            this.bookItems7.TabIndex = 11;
+            // 
+            // bookItems8
+            // 
+            this.bookItems8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems8.ItemImage = global::BookChill.Properties.Resources.blog2;
+            this.bookItems8.ItemLabel = "Những cuốn sách dành cho tuổi trẻ lạc lối";
+            this.bookItems8.Location = new System.Drawing.Point(65, 262);
+            this.bookItems8.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems8.Name = "bookItems8";
+            this.bookItems8.Size = new System.Drawing.Size(437, 222);
+            this.bookItems8.TabIndex = 12;
+            // 
+            // bookItems9
+            // 
+            this.bookItems9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems9.ItemImage = global::BookChill.Properties.Resources.blog3;
+            this.bookItems9.ItemLabel = "Top Sách Best-Seller Tháng 10-2022";
+            this.bookItems9.Location = new System.Drawing.Point(65, 524);
+            this.bookItems9.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems9.Name = "bookItems9";
+            this.bookItems9.Size = new System.Drawing.Size(437, 222);
+            this.bookItems9.TabIndex = 13;
+            // 
+            // bookItems10
+            // 
+            this.bookItems10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems10.ItemImage = global::BookChill.Properties.Resources.blog4;
+            this.bookItems10.ItemLabel = "Chọn sách cho con";
+            this.bookItems10.Location = new System.Drawing.Point(65, 786);
+            this.bookItems10.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems10.Name = "bookItems10";
+            this.bookItems10.Size = new System.Drawing.Size(437, 222);
+            this.bookItems10.TabIndex = 14;
+            // 
+            // bookItems11
+            // 
+            this.bookItems11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems11.ItemImage = global::BookChill.Properties.Resources.blog5;
+            this.bookItems11.ItemLabel = "Review sách hay: Đắc nhân tâm";
+            this.bookItems11.Location = new System.Drawing.Point(65, 1048);
+            this.bookItems11.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems11.Name = "bookItems11";
+            this.bookItems11.Size = new System.Drawing.Size(437, 222);
+            this.bookItems11.TabIndex = 15;
+            // 
+            // bookItems12
+            // 
+            this.bookItems12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.bookItems12.ItemImage = global::BookChill.Properties.Resources.blog6;
+            this.bookItems12.ItemLabel = "Sách hay giúp chữa lành nỗi đau tâm hồn";
+            this.bookItems12.Location = new System.Drawing.Point(65, 1310);
+            this.bookItems12.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.bookItems12.Name = "bookItems12";
+            this.bookItems12.Size = new System.Drawing.Size(437, 222);
+            this.bookItems12.TabIndex = 16;
             // 
             // TrangChu
             // 
@@ -587,9 +688,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.txtNews);
-            this.Controls.Add(this.panelHeading);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -610,8 +709,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.panelMain.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -643,7 +744,6 @@
         private Button btnBarCode;
         private Button btnQrCode;
         private System.Windows.Forms.Timer timer1;
-        private Label txtNews;
         private FlowLayoutPanel flowLayoutPanel1;
         private BookItems bookItems1;
         private BookItems bookItems2;
@@ -651,5 +751,14 @@
         private BookItems bookItems4;
         private BookItems bookItems5;
         private BookItems bookItems6;
+        private Panel panelMain;
+        private Label txtNews;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private BookItems bookItems7;
+        private BookItems bookItems8;
+        private BookItems bookItems9;
+        private BookItems bookItems10;
+        private BookItems bookItems11;
+        private BookItems bookItems12;
     }
 }
