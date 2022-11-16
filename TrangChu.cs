@@ -14,6 +14,8 @@ namespace BookChill
 {
     public partial class TrangChu : Form
     {
+        private Form currentChildForm;
+
         public TrangChu()
         {
             InitializeComponent();
@@ -298,6 +300,25 @@ namespace BookChill
             btnScan.ForeColor = Color.FromArgb(90, 130, 95);
             btnScan.Image = global::BookChill.Properties.Resources.qrcode_green;
         }
+        #endregion
+
+        #region function to open child form
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(childForm);
+            panelMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
         #endregion
     }
 }
