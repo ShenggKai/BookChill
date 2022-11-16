@@ -66,7 +66,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.pBlog);
-            this.Margin = new System.Windows.Forms.Padding(20, 0, 90, 10);
+            this.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.Name = "BookItems";
             this.Size = new System.Drawing.Size(437, 222);
             ((System.ComponentModel.ISupportInitialize)(this.pBlog)).EndInit();
