@@ -253,13 +253,15 @@ namespace BookChill
         }
         #endregion
 
-
+        #region function to change button when click
         private void btnHome_MouseClick(object sender, MouseEventArgs e)
         {
             btnCollection.BackColor = Color.FromArgb(90, 130, 95);
             btnScan.BackColor = Color.FromArgb(90, 130, 95);
 
-            btnHome.BackColor = Color.FromArgb(108, 156, 114);
+            btnHome.BackColor = Color.WhiteSmoke;
+            btnHome.ForeColor = Color.FromArgb(90, 130, 95);
+            btnHome.Image = global::BookChill.Properties.Resources.house_green;
         }
 
         private void btnCollection_MouseClick(object sender, MouseEventArgs e)
@@ -267,7 +269,9 @@ namespace BookChill
             btnHome.BackColor = Color.FromArgb(90, 130, 95);
             btnScan.BackColor = Color.FromArgb(90, 130, 95);
 
-            btnCollection.BackColor = Color.FromArgb(108, 156, 114);
+            btnCollection.BackColor = Color.WhiteSmoke;
+            btnCollection.ForeColor = Color.FromArgb(90, 130, 95);
+            btnCollection.Image = global::BookChill.Properties.Resources.books_green;
         }
 
         private void btnScan_MouseClick(object sender, MouseEventArgs e)
@@ -277,5 +281,6 @@ namespace BookChill
 
             btnScan.BackColor = Color.FromArgb(108, 156, 114);
         }
+        #endregion
     }
 }

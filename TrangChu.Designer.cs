@@ -330,7 +330,7 @@
             this.btnCollection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCollection.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCollection.ForeColor = System.Drawing.Color.White;
-            this.btnCollection.Image = global::BookChill.Properties.Resources.books1;
+            this.btnCollection.Image = global::BookChill.Properties.Resources.books;
             this.btnCollection.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCollection.Location = new System.Drawing.Point(0, 157);
             this.btnCollection.Name = "btnCollection";
@@ -346,6 +346,7 @@
             // 
             // btnHome
             // 
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnHome.FlatAppearance.BorderSize = 0;
@@ -362,7 +363,7 @@
             this.btnHome.Text = "  Trang Chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             this.btnHome.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnHome_MouseClick);
             // 

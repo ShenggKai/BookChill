@@ -213,9 +213,9 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap books1 {
+        internal static System.Drawing.Bitmap books_green {
             get {
-                object obj = ResourceManager.GetObject("books1", resourceCulture);
+                object obj = ResourceManager.GetObject("books_green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +273,16 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap house_green {
+            get {
+                object obj = ResourceManager.GetObject("house_green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logout {
             get {
                 object obj = ResourceManager.GetObject("logout", resourceCulture);
@@ -316,6 +326,16 @@ namespace BookChill.Properties {
         internal static System.Drawing.Bitmap qrcode {
             get {
                 object obj = ResourceManager.GetObject("qrcode", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap qrcode_green {
+            get {
+                object obj = ResourceManager.GetObject("qrcode_green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
