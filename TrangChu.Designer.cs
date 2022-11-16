@@ -157,6 +157,7 @@
             this.btnScan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnScan.UseVisualStyleBackColor = true;
             this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
+            this.btnScan.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnScan_MouseClick);
             // 
             // panelSubMenuColec
             // 
@@ -341,6 +342,7 @@
             this.btnCollection.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCollection.UseVisualStyleBackColor = true;
             this.btnCollection.Click += new System.EventHandler(this.btnCollection_Click);
+            this.btnCollection.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnCollection_MouseClick);
             // 
             // btnHome
             // 
@@ -361,6 +363,8 @@
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            this.btnHome.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnHome_MouseClick);
             // 
             // panelLogo
             // 

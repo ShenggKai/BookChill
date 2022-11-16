@@ -83,6 +83,11 @@ namespace BookChill
         }
 
         #region Submenu for Collection
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
         // hide sub menu collection
         private void btnCollection_Click(object sender, EventArgs e)
         {
@@ -247,5 +252,30 @@ namespace BookChill
             changeImage(tempt);
         }
         #endregion
+
+
+        private void btnHome_MouseClick(object sender, MouseEventArgs e)
+        {
+            btnCollection.BackColor = Color.FromArgb(90, 130, 95);
+            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+
+            btnHome.BackColor = Color.FromArgb(108, 156, 114);
+        }
+
+        private void btnCollection_MouseClick(object sender, MouseEventArgs e)
+        {
+            btnHome.BackColor = Color.FromArgb(90, 130, 95);
+            btnScan.BackColor = Color.FromArgb(90, 130, 95);
+
+            btnCollection.BackColor = Color.FromArgb(108, 156, 114);
+        }
+
+        private void btnScan_MouseClick(object sender, MouseEventArgs e)
+        {
+            btnHome.BackColor = Color.FromArgb(90, 130, 95);
+            btnCollection.BackColor = Color.FromArgb(90, 130, 95);
+
+            btnScan.BackColor = Color.FromArgb(108, 156, 114);
+        }
     }
 }
