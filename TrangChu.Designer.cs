@@ -568,8 +568,8 @@
             // bookItems6
             // 
             this.bookItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.bookItems6.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems6.ItemImage")));
-            this.bookItems6.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.bookItems6.ItemImage = global::BookChill.Properties.Resources.blog6;
+            this.bookItems6.ItemLabel = "Sách hay giúp chữa lành nỗi đau tâm hồn";
             this.bookItems6.Location = new System.Drawing.Point(1149, 262);
             this.bookItems6.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
             this.bookItems6.Name = "bookItems6";
