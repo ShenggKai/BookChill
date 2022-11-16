@@ -57,7 +57,7 @@
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bookItems1 = new BookChill.BookItems();
             this.bookItems2 = new BookChill.BookItems();
             this.bookItems3 = new BookChill.BookItems();
@@ -76,7 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.panelMain.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -494,7 +494,7 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.flowLayoutPanel2);
+            this.panelMain.Controls.Add(this.flowLayoutPanel1);
             this.panelMain.Controls.Add(this.txtNews);
             this.panelMain.Controls.Add(this.panelHeading);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -503,19 +503,19 @@
             this.panelMain.Size = new System.Drawing.Size(1648, 1080);
             this.panelMain.TabIndex = 5;
             // 
-            // flowLayoutPanel2
+            // flowLayoutPanel1
             // 
-            this.flowLayoutPanel2.Controls.Add(this.bookItems1);
-            this.flowLayoutPanel2.Controls.Add(this.bookItems2);
-            this.flowLayoutPanel2.Controls.Add(this.bookItems3);
-            this.flowLayoutPanel2.Controls.Add(this.bookItems4);
-            this.flowLayoutPanel2.Controls.Add(this.bookItems5);
-            this.flowLayoutPanel2.Controls.Add(this.bookItems6);
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 581);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1648, 499);
-            this.flowLayoutPanel2.TabIndex = 6;
+            this.flowLayoutPanel1.Controls.Add(this.bookItems1);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems2);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems3);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems4);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems5);
+            this.flowLayoutPanel1.Controls.Add(this.bookItems6);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 581);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 499);
+            this.flowLayoutPanel1.TabIndex = 6;
             // 
             // bookItems1
             // 
@@ -623,7 +623,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -658,7 +658,7 @@
         private System.Windows.Forms.Timer timer1;
         private Panel panelMain;
         private Label txtNews;
-        private FlowLayoutPanel flowLayoutPanel2;
+        private FlowLayoutPanel flowLayoutPanel1;
         private BookItems bookItems1;
         private BookItems bookItems2;
         private BookItems bookItems3;

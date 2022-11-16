@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookChill.Child_Form;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -98,6 +99,7 @@ namespace BookChill
 
         private void btnVanhoc_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new VanHoc());
             hideSubMenu();
         }
 
