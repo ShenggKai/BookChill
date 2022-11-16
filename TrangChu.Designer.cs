@@ -1,6 +1,6 @@
 ﻿namespace BookChill
 {
-    partial class BookChill
+    partial class TrangChu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookChill));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelSubMenuSca = new System.Windows.Forms.Panel();
             this.btnBarCode = new System.Windows.Forms.Button();
@@ -58,6 +58,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.userControl11 = new TrangChu.UserControl1();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -481,8 +483,9 @@
             // txtNews
             // 
             this.txtNews.AutoSize = true;
+            this.txtNews.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtNews.Font = new System.Drawing.Font("Segoe UI", 22.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNews.Location = new System.Drawing.Point(3, 0);
+            this.txtNews.Location = new System.Drawing.Point(272, 515);
             this.txtNews.Name = "txtNews";
             this.txtNews.Padding = new System.Windows.Forms.Padding(10);
             this.txtNews.Size = new System.Drawing.Size(170, 72);
@@ -491,12 +494,20 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.txtNews);
+            this.flowLayoutPanel1.Controls.Add(this.userControl11);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 515);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 587);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 565);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 493);
             this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // userControl11
+            // 
+            this.userControl11.BackColor = System.Drawing.Color.Gray;
+            this.userControl11.Location = new System.Drawing.Point(3, 3);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(285, 162);
+            this.userControl11.TabIndex = 0;
             // 
             // BookChill
             // 
@@ -505,6 +516,7 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.txtNews);
             this.Controls.Add(this.panelHeading);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -525,8 +537,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -560,5 +572,7 @@
         private System.Windows.Forms.Timer timer1;
         private Label txtNews;
         private FlowLayoutPanel flowLayoutPanel1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private TrangChu.UserControl1 userControl11;
     }
 }

@@ -19,7 +19,7 @@ namespace BookChill
         {
             if (txtUser.Text == myUser && txtPass.Text == myPass)
             {
-                new BookChill().Show();
+                new TrangChu().Show();
                 this.Hide();
             }
 

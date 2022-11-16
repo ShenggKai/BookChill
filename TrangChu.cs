@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace BookChill
 {
-    public partial class BookChill : Form
+    public partial class TrangChu : Form
     {
-        public BookChill()
+        public TrangChu()
         {
             InitializeComponent();
             panelSubMenuColec.Visible = false;
