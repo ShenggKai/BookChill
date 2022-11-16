@@ -56,8 +56,8 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panelMain = new System.Windows.Forms.Panel();
             this.txtNews = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -68,7 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
-            this.panelMain.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -478,26 +478,25 @@
             this.timer1.Interval = 8000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // panelMain
-            // 
-            this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.txtNews);
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(272, 515);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1648, 565);
-            this.panelMain.TabIndex = 4;
-            // 
             // txtNews
             // 
             this.txtNews.AutoSize = true;
             this.txtNews.Font = new System.Drawing.Font("Segoe UI", 22.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNews.Location = new System.Drawing.Point(0, 0);
+            this.txtNews.Location = new System.Drawing.Point(3, 0);
             this.txtNews.Name = "txtNews";
             this.txtNews.Padding = new System.Windows.Forms.Padding(10);
             this.txtNews.Size = new System.Drawing.Size(170, 72);
             this.txtNews.TabIndex = 0;
             this.txtNews.Text = "Tin mới";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.txtNews);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 515);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 565);
+            this.flowLayoutPanel1.TabIndex = 4;
             // 
             // BookChill
             // 
@@ -505,7 +504,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
-            this.Controls.Add(this.panelMain);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panelHeading);
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -525,8 +524,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
-            this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -559,7 +558,7 @@
         private Button btnBarCode;
         private Button btnQrCode;
         private System.Windows.Forms.Timer timer1;
-        private Panel panelMain;
         private Label txtNews;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }
