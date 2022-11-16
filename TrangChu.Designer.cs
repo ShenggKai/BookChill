@@ -59,7 +59,6 @@
             this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.userControl11 = new TrangChu.UserControl1();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
@@ -70,7 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -488,28 +486,19 @@
             this.txtNews.Location = new System.Drawing.Point(272, 515);
             this.txtNews.Name = "txtNews";
             this.txtNews.Padding = new System.Windows.Forms.Padding(10);
-            this.txtNews.Size = new System.Drawing.Size(170, 72);
+            this.txtNews.Size = new System.Drawing.Size(168, 71);
             this.txtNews.TabIndex = 0;
             this.txtNews.Text = "Tin mới";
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.userControl11);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 587);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(272, 586);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 493);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 494);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
-            // userControl11
-            // 
-            this.userControl11.BackColor = System.Drawing.Color.Gray;
-            this.userControl11.Location = new System.Drawing.Point(3, 3);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(285, 162);
-            this.userControl11.TabIndex = 0;
-            // 
-            // BookChill
+            // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -522,7 +511,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(818, 497);
-            this.Name = "BookChill";
+            this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMenu.ResumeLayout(false);
@@ -536,7 +525,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -573,6 +561,5 @@
         private Label txtNews;
         private FlowLayoutPanel flowLayoutPanel1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private TrangChu.UserControl1 userControl11;
     }
 }
