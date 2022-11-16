@@ -360,7 +360,7 @@
             this.btnHome.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnHome.Size = new System.Drawing.Size(272, 71);
             this.btnHome.TabIndex = 2;
-            this.btnHome.Text = " BookChill";
+            this.btnHome.Text = " Trang chủ";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = false;

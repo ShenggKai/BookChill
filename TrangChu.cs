@@ -25,7 +25,7 @@ namespace BookChill
         // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
-            //var result = MessageBox.Show("Do you want to Exit?", "BookChill",
+            //var result = MessageBox.Show("Bạn chắc chắn muốn Thoát?", "BookChill",
             //    MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
             //if (result == DialogResult.OK)
@@ -44,7 +44,7 @@ namespace BookChill
         // Logout button
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("Do you want to Logout?", "BookChill",
+            var result = MessageBox.Show("Bạn chắc chắn muốn Đăng xuất?", "BookChill",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
 
             if (result == DialogResult.OK)

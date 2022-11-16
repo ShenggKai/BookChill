@@ -1,4 +1,4 @@
-namespace BookChill
+﻿namespace BookChill
 {
     public partial class Login : Form
     {
@@ -25,7 +25,7 @@ namespace BookChill
 
             else
             {
-                MessageBox.Show("The Username or Password is Incorrect, please try again!",
+                var result = MessageBox.Show("Tài khoản hoặc Mật khẩu không đúng, vui lòng thử lại!",
                     "BookChill",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
