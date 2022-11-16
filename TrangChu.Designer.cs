@@ -360,7 +360,7 @@
             this.btnHome.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
             this.btnHome.Size = new System.Drawing.Size(272, 71);
             this.btnHome.TabIndex = 2;
-            this.btnHome.Text = "  Trang Chủ";
+            this.btnHome.Text = "BookChill";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = false;
@@ -596,6 +596,7 @@
             this.MinimumSize = new System.Drawing.Size(818, 497);
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BookChill";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelMenu.ResumeLayout(false);
             this.panelSubMenuSca.ResumeLayout(false);
