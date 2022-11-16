@@ -557,7 +557,7 @@
             // bookItems5
             // 
             this.bookItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.bookItems5.ItemImage = ((System.Drawing.Image)(resources.GetObject("bookItems5.ItemImage")));
+            this.bookItems5.ItemImage = global::BookChill.Properties.Resources.blog5;
             this.bookItems5.ItemLabel = "Review sách hay: Đắc nhân tâm";
             this.bookItems5.Location = new System.Drawing.Point(607, 262);
             this.bookItems5.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
