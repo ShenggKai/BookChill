@@ -31,13 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.panelHeading = new System.Windows.Forms.Panel();
-            this.pictureClose = new System.Windows.Forms.PictureBox();
-            this.pictureMinimize = new System.Windows.Forms.PictureBox();
+            this.pClose = new System.Windows.Forms.PictureBox();
+            this.pMinimize = new System.Windows.Forms.PictureBox();
             this.pArrowright = new System.Windows.Forms.PictureBox();
             this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
-            this.pCLose = new System.Windows.Forms.PictureBox();
-            this.pMinimize = new System.Windows.Forms.PictureBox();
             this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.blogItems1 = new BookChill.BlogItems();
@@ -48,13 +46,11 @@
             this.blogItems6 = new BookChill.BlogItems();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,13 +59,11 @@
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
             this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelHeading.Controls.Add(this.pictureClose);
-            this.panelHeading.Controls.Add(this.pictureMinimize);
+            this.panelHeading.Controls.Add(this.pClose);
+            this.panelHeading.Controls.Add(this.pMinimize);
             this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
-            this.panelHeading.Controls.Add(this.pCLose);
-            this.panelHeading.Controls.Add(this.pMinimize);
             this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeading.Location = new System.Drawing.Point(0, 0);
             this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
@@ -77,37 +71,37 @@
             this.panelHeading.Size = new System.Drawing.Size(1648, 515);
             this.panelHeading.TabIndex = 4;
             // 
-            // pictureClose
+            // pClose
             // 
-            this.pictureClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureClose.BackColor = System.Drawing.Color.Transparent;
-            this.pictureClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureClose.Image = global::BookChill.Properties.Resources.close;
-            this.pictureClose.Location = new System.Drawing.Point(1601, 0);
-            this.pictureClose.Name = "pictureClose";
-            this.pictureClose.Size = new System.Drawing.Size(40, 40);
-            this.pictureClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureClose.TabIndex = 11;
-            this.pictureClose.TabStop = false;
-            this.pictureClose.Click += new System.EventHandler(this.pictureClose_Click);
-            this.pictureClose.MouseLeave += new System.EventHandler(this.pictureCLose_MouseHover);
-            this.pictureClose.MouseHover += new System.EventHandler(this.pictureCLose_MouseHover);
+            this.pClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pClose.BackColor = System.Drawing.Color.Transparent;
+            this.pClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pClose.Image = global::BookChill.Properties.Resources.close;
+            this.pClose.Location = new System.Drawing.Point(1601, 0);
+            this.pClose.Name = "pClose";
+            this.pClose.Size = new System.Drawing.Size(40, 40);
+            this.pClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pClose.TabIndex = 11;
+            this.pClose.TabStop = false;
+            this.pClose.Click += new System.EventHandler(this.pictureClose_Click);
+            this.pClose.MouseLeave += new System.EventHandler(this.pClose_MouseLeave);
+            this.pClose.MouseHover += new System.EventHandler(this.pClose_MouseHover);
             // 
-            // pictureMinimize
+            // pMinimize
             // 
-            this.pictureMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.pictureMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pictureMinimize.Location = new System.Drawing.Point(1535, 0);
-            this.pictureMinimize.Name = "pictureMinimize";
-            this.pictureMinimize.Size = new System.Drawing.Size(40, 40);
-            this.pictureMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureMinimize.TabIndex = 10;
-            this.pictureMinimize.TabStop = false;
-            this.pictureMinimize.Click += new System.EventHandler(this.pictureMinimize_Click);
-            this.pictureMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
-            this.pictureMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
+            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
+            this.pMinimize.Name = "pMinimize";
+            this.pMinimize.Size = new System.Drawing.Size(40, 40);
+            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pMinimize.TabIndex = 10;
+            this.pMinimize.TabStop = false;
+            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
+            this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
+            this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
             // pArrowright
             // 
@@ -152,32 +146,6 @@
             this.pBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pBook.TabIndex = 5;
             this.pBook.TabStop = false;
-            // 
-            // pCLose
-            // 
-            this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pCLose.BackColor = System.Drawing.Color.Transparent;
-            this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(3049, 0);
-            this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(40, 40);
-            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pCLose.TabIndex = 3;
-            this.pCLose.TabStop = false;
-            // 
-            // pMinimize
-            // 
-            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(2983, 0);
-            this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(40, 40);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pMinimize.TabIndex = 4;
-            this.pMinimize.TabStop = false;
             // 
             // txtNews
             // 
@@ -290,13 +258,11 @@
             this.Text = "HomeForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -307,12 +273,10 @@
 
         private Panel panelHeading;
         private PictureBox pBook;
-        private PictureBox pCLose;
-        private PictureBox pMinimize;
         private PictureBox pArrowleft;
         private PictureBox pArrowright;
-        private PictureBox pictureMinimize;
-        private PictureBox pictureClose;
+        private PictureBox pMinimize;
+        private PictureBox pClose;
         private Label txtNews;
         private FlowLayoutPanel flowLayoutPanel1;
         private BlogItems blogItems1;

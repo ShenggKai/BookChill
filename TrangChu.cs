@@ -59,26 +59,26 @@ namespace BookChill
 
         private void pCLose_MouseHover(object sender, EventArgs e)
         {
-            pCLoseMain.BackColor = Color.FromArgb(232, 17, 35);
-            pCLoseMain.Image = global::BookChill.Properties.Resources.close_white;
+            pCLose.BackColor = Color.FromArgb(232, 17, 35);
+            pCLose.Image = global::BookChill.Properties.Resources.close_white;
         }
 
         private void pCLose_MouseLeave(object sender, EventArgs e)
         {
-            pCLoseMain.BackColor = Color.Transparent;
-            pCLoseMain.Image = global::BookChill.Properties.Resources.close;
+            pCLose.BackColor = Color.Transparent;
+            pCLose.Image = global::BookChill.Properties.Resources.close;
         }
 
         private void pMinimize_MouseHover(object sender, EventArgs e)
         {
-            pMinimizeMain.BackColor = Color.DarkGray;
-            pMinimizeMain.Image = global::BookChill.Properties.Resources.minimize_white;
+            pMinimize.BackColor = Color.DarkGray;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize_white;
         }
 
         private void pMinimize_MouseLeave(object sender, EventArgs e)
         {
-            pMinimizeMain.BackColor = Color.Transparent;
-            pMinimizeMain.Image = global::BookChill.Properties.Resources.minimize;
+            pMinimize.BackColor = Color.Transparent;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
 
         #endregion
