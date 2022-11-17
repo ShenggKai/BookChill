@@ -34,7 +34,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pArrowright = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
@@ -51,7 +50,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
@@ -67,7 +65,6 @@
             this.panelHeading.Controls.Add(this.pictureBox3);
             this.panelHeading.Controls.Add(this.pictureBox2);
             this.panelHeading.Controls.Add(this.pictureBox1);
-            this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pBook);
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
@@ -135,22 +132,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
-            // 
-            // pArrowright
-            // 
-            this.pArrowright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pArrowright.BackColor = System.Drawing.Color.Transparent;
-            this.pArrowright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pArrowright.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
-            this.pArrowright.Location = new System.Drawing.Point(3048, 243);
-            this.pArrowright.Name = "pArrowright";
-            this.pArrowright.Size = new System.Drawing.Size(30, 445);
-            this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pArrowright.TabIndex = 7;
-            this.pArrowright.TabStop = false;
             // 
             // pBook
             // 
@@ -297,7 +278,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
@@ -310,7 +290,6 @@
         #endregion
 
         private Panel panelHeading;
-        private PictureBox pArrowright;
         private PictureBox pBook;
         private PictureBox pCLose;
         private PictureBox pMinimize;
