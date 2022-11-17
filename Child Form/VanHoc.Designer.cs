@@ -33,16 +33,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
-            this.roundButton1 = new BookChill.btnSearch.RoundButton();
+            this.panelHeader = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            this.panelHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(138, 201);
+            this.pictureBox1.Location = new System.Drawing.Point(178, 157);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(194, 240);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -53,7 +54,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 131);
+            this.label1.Location = new System.Drawing.Point(31, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 28);
             this.label1.TabIndex = 1;
@@ -65,7 +66,7 @@
             this.pCLose.BackColor = System.Drawing.Color.Transparent;
             this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(943, 12);
+            this.pCLose.Location = new System.Drawing.Point(1601, 0);
             this.pCLose.Name = "pCLose";
             this.pCLose.Size = new System.Drawing.Size(40, 40);
             this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -79,7 +80,7 @@
             this.pMinimize.BackColor = System.Drawing.Color.Transparent;
             this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(877, 12);
+            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
             this.pMinimize.Name = "pMinimize";
             this.pMinimize.Size = new System.Drawing.Size(40, 40);
             this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -87,30 +88,24 @@
             this.pMinimize.TabStop = false;
             this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click_1);
             // 
-            // roundButton1
+            // panelHeader
             // 
-            this.roundButton1.BorderColor = System.Drawing.Color.Silver;
-            this.roundButton1.ButtonColor = System.Drawing.Color.Red;
-            this.roundButton1.Location = new System.Drawing.Point(455, 343);
-            this.roundButton1.Name = "roundButton1";
-            this.roundButton1.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.roundButton1.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.roundButton1.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.roundButton1.Size = new System.Drawing.Size(335, 54);
-            this.roundButton1.TabIndex = 7;
-            this.roundButton1.Text = "roundButton1";
-            this.roundButton1.TextColor = System.Drawing.Color.White;
-            this.roundButton1.UseVisualStyleBackColor = true;
+            this.panelHeader.BackColor = System.Drawing.Color.Transparent;
+            this.panelHeader.Controls.Add(this.pCLose);
+            this.panelHeader.Controls.Add(this.pMinimize);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(1648, 84);
+            this.panelHeader.TabIndex = 8;
             // 
             // VanHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(995, 509);
-            this.Controls.Add(this.roundButton1);
-            this.Controls.Add(this.pCLose);
-            this.Controls.Add(this.pMinimize);
+            this.ClientSize = new System.Drawing.Size(1648, 509);
+            this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -120,6 +115,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            this.panelHeader.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +127,6 @@
         private Label label1;
         private PictureBox pCLose;
         private PictureBox pMinimize;
-        private btnSearch.RoundButton roundButton1;
+        private Panel panelHeader;
     }
 }
