@@ -1,6 +1,6 @@
 ﻿namespace BookChill
 {
-    partial class TrangChu
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelSubMenuSca = new System.Windows.Forms.Panel();
             this.btnBarCode = new System.Windows.Forms.Button();

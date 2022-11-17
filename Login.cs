@@ -19,7 +19,7 @@
         {
             if (txtUser.Text == myUser && txtPass.Text == myPass)
             {
-                new TrangChu().Show();
+                new MainForm().Show();
                 this.Hide();
             }
 
