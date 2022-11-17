@@ -34,11 +34,13 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundButton1 = new BookChill.User_Control.RoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.panelHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -74,6 +76,8 @@
             this.pCLose.TabIndex = 5;
             this.pCLose.TabStop = false;
             this.pCLose.Click += new System.EventHandler(this.pClose_Click);
+            this.pCLose.MouseLeave += new System.EventHandler(this.pCLose_MouseLeave);
+            this.pCLose.MouseHover += new System.EventHandler(this.pCLose_MouseHover);
             // 
             // pMinimize
             // 
@@ -87,11 +91,14 @@
             this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pMinimize.TabIndex = 6;
             this.pMinimize.TabStop = false;
-            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click_1);
+            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
+            this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
+            this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.Transparent;
+            this.panelHeader.Controls.Add(this.pictureBox2);
             this.panelHeader.Controls.Add(this.roundButton1);
             this.panelHeader.Controls.Add(this.pCLose);
             this.panelHeader.Controls.Add(this.pMinimize);
@@ -100,6 +107,16 @@
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1648, 84);
             this.panelHeader.TabIndex = 8;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1331, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
             // 
             // roundButton1
             // 
@@ -138,6 +155,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.panelHeader.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,5 +169,6 @@
         private PictureBox pMinimize;
         private Panel panelHeader;
         private User_Control.RoundButton roundButton1;
+        private PictureBox pictureBox2;
     }
 }

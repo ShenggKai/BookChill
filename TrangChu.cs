@@ -56,6 +56,31 @@ namespace BookChill
                 this.Hide();
             }
         }
+
+        private void pCLose_MouseHover(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.FromArgb(232, 17, 35);
+            pCLose.Image = global::BookChill.Properties.Resources.close_white;
+        }
+
+        private void pCLose_MouseLeave(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.Transparent;
+            pCLose.Image = global::BookChill.Properties.Resources.close;
+        }
+
+        private void pMinimize_MouseHover(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.DarkGray;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize_white;
+        }
+
+        private void pMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.Transparent;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+        }
+
         #endregion
 
         #region Submenu code
@@ -88,6 +113,7 @@ namespace BookChill
         #region Submenu for Collection
         private void btnHome_Click(object sender, EventArgs e)
         {
+            
             hideSubMenu();
         }
 
@@ -154,30 +180,6 @@ namespace BookChill
         private void btnBarCode_Click(object sender, EventArgs e)
         {
             hideSubMenu();
-        }
-
-        private void pCLose_MouseHover(object sender, EventArgs e)
-        {
-            pCLose.BackColor = Color.FromArgb(232, 17, 35);
-            pCLose.Image = global::BookChill.Properties.Resources.close_white;
-        }
-
-        private void pCLose_MouseLeave(object sender, EventArgs e)
-        {
-            pCLose.BackColor = Color.Transparent;
-            pCLose.Image = global::BookChill.Properties.Resources.close;
-        }
-
-        private void pMinimize_MouseHover(object sender, EventArgs e)
-        {
-            pMinimize.BackColor = Color.DarkGray;
-            pMinimize.Image = global::BookChill.Properties.Resources.minimize_white;
-        }
-
-        private void pMinimize_MouseLeave(object sender, EventArgs e)
-        {
-            pMinimize.BackColor = Color.Transparent;
-            pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
         #endregion
 

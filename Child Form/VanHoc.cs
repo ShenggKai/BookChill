@@ -17,6 +17,7 @@ namespace BookChill.Child_Form
             InitializeComponent();
         }
 
+        #region Function button
         // Exit button
         private void pClose_Click(object sender, EventArgs e)
         {
@@ -31,9 +32,34 @@ namespace BookChill.Child_Form
         }
 
         // Minimize button
-        private void pMinimize_Click_1(object sender, EventArgs e)
+        private void pMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void pCLose_MouseHover(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.FromArgb(232, 17, 35);
+            pCLose.Image = global::BookChill.Properties.Resources.close_white;
+        }
+
+        private void pCLose_MouseLeave(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.Transparent;
+            pCLose.Image = global::BookChill.Properties.Resources.close;
+        }
+
+        private void pMinimize_MouseHover(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.DarkGray;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize_white;
+        }
+
+        private void pMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.Transparent;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+        }
+        #endregion
     }
 }
