@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.panelHeading = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -45,6 +46,7 @@
             this.blogItems4 = new BookChill.BlogItems();
             this.blogItems5 = new BookChill.BlogItems();
             this.blogItems6 = new BookChill.BlogItems();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelHeading.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -261,6 +263,11 @@
             this.blogItems6.Size = new System.Drawing.Size(437, 222);
             this.blogItems6.TabIndex = 5;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 8000;
+            // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -305,5 +312,6 @@
         private BlogItems blogItems4;
         private BlogItems blogItems5;
         private BlogItems blogItems6;
+        private System.Windows.Forms.Timer timer1;
     }
 }

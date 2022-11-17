@@ -61,7 +61,7 @@
   <data name="blogItems1.ItemImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAwwAAAEsCAIAAADhLqMzAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAA/7JJREFUeF7svQWYHEee5q2ZHTKzZZJkW5JJYJAlMzOImcGyDAM7M7t7e7tHe7t3
+        vAAADrwBlbxySQAA/7JJREFUeF7svQWYHEee5q2ZHTKzZZJkW5JJYJAlMzOImcGyDAM7M7t7e7tHe7t3
         e7ezwx6yZ8y2WM3c1cXMzMzUUMyV3xuV3e12u+2R5+6+52423uevUFRkZFBFRvwyMip7noeKioqKioqK
         iuozopBERUVFRUVFRTWHKCRRUVFRUVFRUc0hCklUVFRUVFRUVHOIQhIVFRUVFRUV1RyikERFRUVFRUVF
         NYcoJFFRUVFRUVFRzSEKSVRUVFRUVFRUc4hCEhUVFRUVFRXVHKKQREVFRUVFRUU1hygkUVFRUVFRUVHN
@@ -5369,4 +5369,7 @@
         QmCC
 </value>
   </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

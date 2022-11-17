@@ -16,5 +16,63 @@ namespace BookChill.Child_Form
         {
             InitializeComponent();
         }
+        #region function button
+        // Exit button
+        private void pClose_Click(object sender, EventArgs e)
+        {
+            //var result = MessageBox.Show("Bạn chắc chắn muốn Thoát?", "BookChill",
+            //    MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            //if (result == DialogResult.OK)
+            //{
+            //    Application.Exit();
+            //}
+            Application.Exit();
+        }
+
+        // Minimize button
+        private void pMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        // Logout button
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Bạn chắc chắn muốn Đăng xuất?", "BookChill",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (result == DialogResult.OK)
+            {
+                new Login().Show();
+                this.Hide();
+            }
+        }
+
+        private void pCLose_MouseHover(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.FromArgb(232, 17, 35);
+            pCLose.Image = global::BookChill.Properties.Resources.close_white;
+        }
+
+        private void pCLose_MouseLeave(object sender, EventArgs e)
+        {
+            pCLose.BackColor = Color.Transparent;
+            pCLose.Image = global::BookChill.Properties.Resources.close;
+        }
+
+        private void pMinimize_MouseHover(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.DarkGray;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize_white;
+        }
+
+        private void pMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            pMinimize.BackColor = Color.Transparent;
+            pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+        }
+
+        #endregion
     }
 }
