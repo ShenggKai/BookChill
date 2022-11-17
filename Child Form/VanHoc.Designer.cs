@@ -33,6 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.roundButton1 = new BookChill.btnSearch.RoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
@@ -52,7 +53,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(74, 105);
+            this.label1.Location = new System.Drawing.Point(12, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 28);
             this.label1.TabIndex = 1;
@@ -86,12 +87,28 @@
             this.pMinimize.TabStop = false;
             this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click_1);
             // 
+            // roundButton1
+            // 
+            this.roundButton1.BorderColor = System.Drawing.Color.Silver;
+            this.roundButton1.ButtonColor = System.Drawing.Color.Red;
+            this.roundButton1.Location = new System.Drawing.Point(455, 343);
+            this.roundButton1.Name = "roundButton1";
+            this.roundButton1.OnHoverBorderColor = System.Drawing.Color.Gray;
+            this.roundButton1.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.roundButton1.OnHoverTextColor = System.Drawing.Color.Gray;
+            this.roundButton1.Size = new System.Drawing.Size(335, 54);
+            this.roundButton1.TabIndex = 7;
+            this.roundButton1.Text = "roundButton1";
+            this.roundButton1.TextColor = System.Drawing.Color.White;
+            this.roundButton1.UseVisualStyleBackColor = true;
+            // 
             // VanHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(995, 509);
+            this.Controls.Add(this.roundButton1);
             this.Controls.Add(this.pCLose);
             this.Controls.Add(this.pMinimize);
             this.Controls.Add(this.label1);
@@ -114,5 +131,6 @@
         private Label label1;
         private PictureBox pCLose;
         private PictureBox pMinimize;
+        private btnSearch.RoundButton roundButton1;
     }
 }
