@@ -50,7 +50,6 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.Label();
             this.panelHeading = new System.Windows.Forms.Panel();
-            this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
@@ -58,7 +57,6 @@
             this.panelSubMenuColec.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
@@ -381,7 +379,6 @@
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
             this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
             this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeading.Location = new System.Drawing.Point(0, 0);
@@ -389,23 +386,6 @@
             this.panelHeading.Name = "panelHeading";
             this.panelHeading.Size = new System.Drawing.Size(1648, 515);
             this.panelHeading.TabIndex = 3;
-            // 
-            // pArrowleft
-            // 
-            this.pArrowleft.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pArrowleft.BackColor = System.Drawing.Color.Transparent;
-            this.pArrowleft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pArrowleft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pArrowleft.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pArrowleft.Image = global::BookChill.Properties.Resources.angle_left;
-            this.pArrowleft.Location = new System.Drawing.Point(10, 243);
-            this.pArrowleft.Name = "pArrowleft";
-            this.pArrowleft.Size = new System.Drawing.Size(30, 30);
-            this.pArrowleft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pArrowleft.TabIndex = 6;
-            this.pArrowleft.TabStop = false;
-            this.pArrowleft.Click += new System.EventHandler(this.pArrowleft_Click);
             // 
             // pBook
             // 
@@ -448,7 +428,6 @@
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -475,7 +454,6 @@
         private Button btnScan;
         private Panel panelHeading;
         private PictureBox pBook;
-        private PictureBox pArrowleft;
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
