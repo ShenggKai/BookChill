@@ -30,15 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeForm));
             this.panelHeading = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pArrowright = new System.Windows.Forms.PictureBox();
-            this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.txtNews = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.blogItems1 = new BookChill.BlogItems();
@@ -48,15 +47,14 @@
             this.blogItems5 = new BookChill.BlogItems();
             this.blogItems6 = new BookChill.BlogItems();
             this.panelHeading.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +68,6 @@
             this.panelHeading.Controls.Add(this.pictureBox2);
             this.panelHeading.Controls.Add(this.pictureBox1);
             this.panelHeading.Controls.Add(this.pArrowright);
-            this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
             this.panelHeading.Controls.Add(this.pCLose);
             this.panelHeading.Controls.Add(this.pMinimize);
@@ -78,92 +75,34 @@
             this.panelHeading.Location = new System.Drawing.Point(0, 0);
             this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
             this.panelHeading.Name = "panelHeading";
-            this.panelHeading.Size = new System.Drawing.Size(1630, 515);
+            this.panelHeading.Size = new System.Drawing.Size(1648, 515);
             this.panelHeading.TabIndex = 4;
             // 
-            // pArrowright
+            // pictureBox4
             // 
-            this.pArrowright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pArrowright.BackColor = System.Drawing.Color.Transparent;
-            this.pArrowright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pArrowright.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
-            this.pArrowright.Location = new System.Drawing.Point(3030, 243);
-            this.pArrowright.Name = "pArrowright";
-            this.pArrowright.Size = new System.Drawing.Size(30, 445);
-            this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pArrowright.TabIndex = 7;
-            this.pArrowright.TabStop = false;
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::BookChill.Properties.Resources.close;
+            this.pictureBox4.Location = new System.Drawing.Point(1601, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
             // 
-            // pArrowleft
+            // pictureBox3
             // 
-            this.pArrowleft.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pArrowleft.BackColor = System.Drawing.Color.Transparent;
-            this.pArrowleft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pArrowleft.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pArrowleft.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pArrowleft.Image = global::BookChill.Properties.Resources.angle_left;
-            this.pArrowleft.Location = new System.Drawing.Point(10, 243);
-            this.pArrowleft.Name = "pArrowleft";
-            this.pArrowleft.Size = new System.Drawing.Size(30, 445);
-            this.pArrowleft.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pArrowleft.TabIndex = 6;
-            this.pArrowleft.TabStop = false;
-            // 
-            // pBook
-            // 
-            this.pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
-            this.pBook.Location = new System.Drawing.Point(75, 70);
-            this.pBook.Name = "pBook";
-            this.pBook.Size = new System.Drawing.Size(400, 400);
-            this.pBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pBook.TabIndex = 5;
-            this.pBook.TabStop = false;
-            // 
-            // pCLose
-            // 
-            this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pCLose.BackColor = System.Drawing.Color.Transparent;
-            this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(3031, 0);
-            this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(40, 40);
-            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pCLose.TabIndex = 3;
-            this.pCLose.TabStop = false;
-            // 
-            // pMinimize
-            // 
-            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(2965, 0);
-            this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(40, 40);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pMinimize.TabIndex = 4;
-            this.pMinimize.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::BookChill.Properties.Resources.angle_left;
-            this.pictureBox1.Location = new System.Drawing.Point(10, 243);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::BookChill.Properties.Resources.minimize;
+            this.pictureBox3.Location = new System.Drawing.Point(1535, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -181,31 +120,73 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::BookChill.Properties.Resources.minimize;
-            this.pictureBox3.Location = new System.Drawing.Point(1495, 25);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::BookChill.Properties.Resources.angle_left;
+            this.pictureBox1.Location = new System.Drawing.Point(10, 243);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
-            // pictureBox4
+            // pArrowright
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = global::BookChill.Properties.Resources.close;
-            this.pictureBox4.Location = new System.Drawing.Point(1567, 25);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
+            this.pArrowright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pArrowright.BackColor = System.Drawing.Color.Transparent;
+            this.pArrowright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pArrowright.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
+            this.pArrowright.Location = new System.Drawing.Point(3048, 243);
+            this.pArrowright.Name = "pArrowright";
+            this.pArrowright.Size = new System.Drawing.Size(30, 445);
+            this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pArrowright.TabIndex = 7;
+            this.pArrowright.TabStop = false;
+            // 
+            // pBook
+            // 
+            this.pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
+            this.pBook.Location = new System.Drawing.Point(75, 70);
+            this.pBook.Name = "pBook";
+            this.pBook.Size = new System.Drawing.Size(400, 400);
+            this.pBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pBook.TabIndex = 5;
+            this.pBook.TabStop = false;
+            // 
+            // pCLose
+            // 
+            this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pCLose.BackColor = System.Drawing.Color.Transparent;
+            this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pCLose.Image = global::BookChill.Properties.Resources.close;
+            this.pCLose.Location = new System.Drawing.Point(3049, 0);
+            this.pCLose.Name = "pCLose";
+            this.pCLose.Size = new System.Drawing.Size(40, 40);
+            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pCLose.TabIndex = 3;
+            this.pCLose.TabStop = false;
+            // 
+            // pMinimize
+            // 
+            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
+            this.pMinimize.Location = new System.Drawing.Point(2983, 0);
+            this.pMinimize.Name = "pMinimize";
+            this.pMinimize.Size = new System.Drawing.Size(40, 40);
+            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pMinimize.TabIndex = 4;
+            this.pMinimize.TabStop = false;
             // 
             // txtNews
             // 
@@ -230,7 +211,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 581);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1630, 452);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 499);
             this.flowLayoutPanel1.TabIndex = 7;
             // 
             // blogItems1
@@ -303,23 +284,23 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1630, 1033);
+            this.ClientSize = new System.Drawing.Size(1648, 1080);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.txtNews);
             this.Controls.Add(this.panelHeading);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HomeForm";
             this.Text = "HomeForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelHeading.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -330,7 +311,6 @@
 
         private Panel panelHeading;
         private PictureBox pArrowright;
-        private PictureBox pArrowleft;
         private PictureBox pBook;
         private PictureBox pCLose;
         private PictureBox pMinimize;

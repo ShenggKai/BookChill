@@ -113,7 +113,7 @@ namespace BookChill
         #region Submenu for Collection
         private void btnHome_Click(object sender, EventArgs e)
         {
-            
+            OpenChildForm(new HomeForm());
             hideSubMenu();
         }
 
