@@ -29,39 +29,31 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VanHoc));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtNameChildForm = new System.Windows.Forms.Label();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.panelHeader = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.roundButton1 = new BookChill.User_Control.RoundButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pCart = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pUser = new System.Windows.Forms.PictureBox();
+            this.btnSearch = new BookChill.User_Control.RoundButton();
+            this.cbSort = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.panelHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pCart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pUser)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // txtNameChildForm
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(178, 157);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 240);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(31, 116);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Văn học";
+            this.txtNameChildForm.AutoSize = true;
+            this.txtNameChildForm.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtNameChildForm.Location = new System.Drawing.Point(65, 10);
+            this.txtNameChildForm.Name = "txtNameChildForm";
+            this.txtNameChildForm.Size = new System.Drawing.Size(167, 54);
+            this.txtNameChildForm.TabIndex = 1;
+            this.txtNameChildForm.Text = "Văn học";
             // 
             // pCLose
             // 
@@ -98,8 +90,11 @@
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeader.Controls.Add(this.pictureBox2);
-            this.panelHeader.Controls.Add(this.roundButton1);
+            this.panelHeader.Controls.Add(this.pCart);
+            this.panelHeader.Controls.Add(this.txtNameChildForm);
+            this.panelHeader.Controls.Add(this.textBox1);
+            this.panelHeader.Controls.Add(this.pUser);
+            this.panelHeader.Controls.Add(this.btnSearch);
             this.panelHeader.Controls.Add(this.pCLose);
             this.panelHeader.Controls.Add(this.pMinimize);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -108,35 +103,80 @@
             this.panelHeader.Size = new System.Drawing.Size(1648, 84);
             this.panelHeader.TabIndex = 8;
             // 
-            // pictureBox2
+            // pCart
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1331, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
+            this.pCart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pCart.Image = ((System.Drawing.Image)(resources.GetObject("pCart.Image")));
+            this.pCart.Location = new System.Drawing.Point(1164, 10);
+            this.pCart.Name = "pCart";
+            this.pCart.Size = new System.Drawing.Size(50, 50);
+            this.pCart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pCart.TabIndex = 10;
+            this.pCart.TabStop = false;
             // 
-            // roundButton1
+            // textBox1
             // 
-            this.roundButton1.BackColor = System.Drawing.Color.LightGray;
-            this.roundButton1.BackgroundColor = System.Drawing.Color.LightGray;
-            this.roundButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.roundButton1.BorderRadius = 25;
-            this.roundButton1.BorderSize = 0;
-            this.roundButton1.FlatAppearance.BorderSize = 0;
-            this.roundButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundButton1.ForeColor = System.Drawing.Color.White;
-            this.roundButton1.Image = ((System.Drawing.Image)(resources.GetObject("roundButton1.Image")));
-            this.roundButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.roundButton1.Location = new System.Drawing.Point(178, 12);
-            this.roundButton1.Name = "roundButton1";
-            this.roundButton1.Padding = new System.Windows.Forms.Padding(10, 10, 15, 10);
-            this.roundButton1.Size = new System.Drawing.Size(709, 54);
-            this.roundButton1.TabIndex = 9;
-            this.roundButton1.TextColor = System.Drawing.Color.White;
-            this.roundButton1.UseVisualStyleBackColor = false;
+            this.textBox1.BackColor = System.Drawing.Color.LightGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
+            this.textBox1.Location = new System.Drawing.Point(378, 18);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(614, 34);
+            this.textBox1.TabIndex = 9;
+            // 
+            // pUser
+            // 
+            this.pUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pUser.Image = ((System.Drawing.Image)(resources.GetObject("pUser.Image")));
+            this.pUser.Location = new System.Drawing.Point(1322, 10);
+            this.pUser.Name = "pUser";
+            this.pUser.Size = new System.Drawing.Size(50, 50);
+            this.pUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pUser.TabIndex = 9;
+            this.pUser.TabStop = false;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.LightGray;
+            this.btnSearch.BackgroundColor = System.Drawing.Color.LightGray;
+            this.btnSearch.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSearch.BorderRadius = 28;
+            this.btnSearch.BorderSize = 0;
+            this.btnSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
+            this.btnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSearch.Location = new System.Drawing.Point(347, 10);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Padding = new System.Windows.Forms.Padding(10, 10, 15, 10);
+            this.btnSearch.Size = new System.Drawing.Size(709, 54);
+            this.btnSearch.TabIndex = 9;
+            this.btnSearch.TextColor = System.Drawing.Color.White;
+            this.btnSearch.UseVisualStyleBackColor = false;
+            // 
+            // cbSort
+            // 
+            this.cbSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.cbSort.DropDownWidth = 3;
+            this.cbSort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbSort.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbSort.ForeColor = System.Drawing.Color.White;
+            this.cbSort.FormattingEnabled = true;
+            this.cbSort.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.cbSort.ItemHeight = 41;
+            this.cbSort.Items.AddRange(new object[] {
+            "Sách mới xuất bản",
+            "Sách được yêu thích",
+            "Sách bán chạy",
+            ""});
+            this.cbSort.Location = new System.Drawing.Point(65, 113);
+            this.cbSort.Name = "cbSort";
+            this.cbSort.Size = new System.Drawing.Size(304, 49);
+            this.cbSort.TabIndex = 9;
+            this.cbSort.Text = "Sắp xếp theo";
             // 
             // VanHoc
             // 
@@ -144,31 +184,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1648, 509);
+            this.Controls.Add(this.cbSort);
             this.Controls.Add(this.panelHeader);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VanHoc";
             this.Text = "Văn học";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.panelHeader.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pCart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pUser)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
-        private Label label1;
+        private Label txtNameChildForm;
         private PictureBox pCLose;
         private PictureBox pMinimize;
         private Panel panelHeader;
-        private User_Control.RoundButton roundButton1;
-        private PictureBox pictureBox2;
+        private User_Control.RoundButton btnSearch;
+        private PictureBox pUser;
+        private TextBox textBox1;
+        private PictureBox pCart;
+        private ComboBox cbSort;
     }
 }
