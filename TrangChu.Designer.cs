@@ -50,33 +50,18 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.Label();
             this.panelHeading = new System.Windows.Forms.Panel();
-            this.pArrowright = new System.Windows.Forms.PictureBox();
             this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
-            this.pCLose = new System.Windows.Forms.PictureBox();
-            this.pMinimize = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.blogItems1 = new BookChill.BlogItems();
-            this.blogItems2 = new BookChill.BlogItems();
-            this.blogItems3 = new BookChill.BlogItems();
-            this.blogItems4 = new BookChill.BlogItems();
-            this.blogItems5 = new BookChill.BlogItems();
-            this.blogItems6 = new BookChill.BlogItems();
-            this.txtNews = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             this.panelMain.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -397,34 +382,14 @@
             this.panelHeading.BackColor = System.Drawing.Color.Transparent;
             this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
             this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
-            this.panelHeading.Controls.Add(this.pCLose);
-            this.panelHeading.Controls.Add(this.pMinimize);
             this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeading.Location = new System.Drawing.Point(0, 0);
             this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
             this.panelHeading.Name = "panelHeading";
             this.panelHeading.Size = new System.Drawing.Size(1648, 515);
             this.panelHeading.TabIndex = 3;
-            // 
-            // pArrowright
-            // 
-            this.pArrowright.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pArrowright.BackColor = System.Drawing.Color.Transparent;
-            this.pArrowright.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pArrowright.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pArrowright.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pArrowright.Image = global::BookChill.Properties.Resources.angle_right;
-            this.pArrowright.Location = new System.Drawing.Point(1600, 243);
-            this.pArrowright.Name = "pArrowright";
-            this.pArrowright.Size = new System.Drawing.Size(30, 30);
-            this.pArrowright.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pArrowright.TabIndex = 7;
-            this.pArrowright.TabStop = false;
-            this.pArrowright.Click += new System.EventHandler(this.pArrowright_Click);
             // 
             // pArrowleft
             // 
@@ -453,38 +418,6 @@
             this.pBook.TabIndex = 5;
             this.pBook.TabStop = false;
             // 
-            // pCLose
-            // 
-            this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pCLose.BackColor = System.Drawing.Color.Transparent;
-            this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(1601, 0);
-            this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(40, 40);
-            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pCLose.TabIndex = 3;
-            this.pCLose.TabStop = false;
-            this.pCLose.Click += new System.EventHandler(this.pClose_Click);
-            this.pCLose.MouseLeave += new System.EventHandler(this.pCLose_MouseLeave);
-            this.pCLose.MouseHover += new System.EventHandler(this.pCLose_MouseHover);
-            // 
-            // pMinimize
-            // 
-            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
-            this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(40, 40);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pMinimize.TabIndex = 4;
-            this.pMinimize.TabStop = false;
-            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
-            this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
-            this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -494,106 +427,12 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.flowLayoutPanel1);
-            this.panelMain.Controls.Add(this.txtNews);
             this.panelMain.Controls.Add(this.panelHeading);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(272, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1648, 1080);
             this.panelMain.TabIndex = 5;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.blogItems1);
-            this.flowLayoutPanel1.Controls.Add(this.blogItems2);
-            this.flowLayoutPanel1.Controls.Add(this.blogItems3);
-            this.flowLayoutPanel1.Controls.Add(this.blogItems4);
-            this.flowLayoutPanel1.Controls.Add(this.blogItems5);
-            this.flowLayoutPanel1.Controls.Add(this.blogItems6);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 581);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1648, 499);
-            this.flowLayoutPanel1.TabIndex = 6;
-            // 
-            // blogItems1
-            // 
-            this.blogItems1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems1.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems1.ItemImage")));
-            this.blogItems1.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
-            this.blogItems1.Location = new System.Drawing.Point(65, 0);
-            this.blogItems1.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems1.Name = "blogItems1";
-            this.blogItems1.Size = new System.Drawing.Size(437, 222);
-            this.blogItems1.TabIndex = 0;
-            // 
-            // blogItems2
-            // 
-            this.blogItems2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems2.ItemImage = global::BookChill.Properties.Resources.blog2;
-            this.blogItems2.ItemLabel = "Những cuốn sách dành cho tuổi trẻ lạc lối";
-            this.blogItems2.Location = new System.Drawing.Point(607, 0);
-            this.blogItems2.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems2.Name = "blogItems2";
-            this.blogItems2.Size = new System.Drawing.Size(437, 222);
-            this.blogItems2.TabIndex = 1;
-            // 
-            // blogItems3
-            // 
-            this.blogItems3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems3.ItemImage = global::BookChill.Properties.Resources.blog3;
-            this.blogItems3.ItemLabel = "Top Sách Best-Seller Tháng 10-2022";
-            this.blogItems3.Location = new System.Drawing.Point(1149, 0);
-            this.blogItems3.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems3.Name = "blogItems3";
-            this.blogItems3.Size = new System.Drawing.Size(437, 222);
-            this.blogItems3.TabIndex = 2;
-            // 
-            // blogItems4
-            // 
-            this.blogItems4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems4.ItemImage = global::BookChill.Properties.Resources.blog4;
-            this.blogItems4.ItemLabel = "Chọn sách cho con";
-            this.blogItems4.Location = new System.Drawing.Point(65, 262);
-            this.blogItems4.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems4.Name = "blogItems4";
-            this.blogItems4.Size = new System.Drawing.Size(437, 222);
-            this.blogItems4.TabIndex = 3;
-            // 
-            // blogItems5
-            // 
-            this.blogItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems5.ItemImage = global::BookChill.Properties.Resources.blog5;
-            this.blogItems5.ItemLabel = "Review sách hay: Đắc nhân tâm";
-            this.blogItems5.Location = new System.Drawing.Point(607, 262);
-            this.blogItems5.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems5.Name = "blogItems5";
-            this.blogItems5.Size = new System.Drawing.Size(437, 222);
-            this.blogItems5.TabIndex = 4;
-            // 
-            // blogItems6
-            // 
-            this.blogItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.blogItems6.ItemImage = global::BookChill.Properties.Resources.blog6;
-            this.blogItems6.ItemLabel = "Sách hay giúp chữa lành nỗi đau tâm hồn";
-            this.blogItems6.Location = new System.Drawing.Point(1149, 262);
-            this.blogItems6.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.blogItems6.Name = "blogItems6";
-            this.blogItems6.Size = new System.Drawing.Size(437, 222);
-            this.blogItems6.TabIndex = 5;
-            // 
-            // txtNews
-            // 
-            this.txtNews.AutoSize = true;
-            this.txtNews.Dock = System.Windows.Forms.DockStyle.Top;
-            this.txtNews.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNews.Location = new System.Drawing.Point(0, 515);
-            this.txtNews.Name = "txtNews";
-            this.txtNews.Padding = new System.Windows.Forms.Padding(10);
-            this.txtNews.Size = new System.Drawing.Size(151, 66);
-            this.txtNews.TabIndex = 5;
-            this.txtNews.Text = "Tin mới";
             // 
             // TrangChu
             // 
@@ -616,14 +455,9 @@
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -647,23 +481,12 @@
         private Button btnTuduy;
         private Button btnScan;
         private Panel panelHeading;
-        private PictureBox pMinimize;
-        private PictureBox pCLose;
         private PictureBox pBook;
         private PictureBox pArrowleft;
-        private PictureBox pArrowright;
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
         private System.Windows.Forms.Timer timer1;
         private Panel panelMain;
-        private Label txtNews;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private BlogItems blogItems1;
-        private BlogItems blogItems2;
-        private BlogItems blogItems3;
-        private BlogItems blogItems4;
-        private BlogItems blogItems5;
-        private BlogItems blogItems6;
     }
 }
