@@ -95,6 +95,7 @@ namespace BookChill
         // hide sub menu collection
         private void btnCollection_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new CollectionForm());
             showSubMenu(panelSubMenuColec);
         }
 
