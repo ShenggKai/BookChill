@@ -52,7 +52,6 @@
             this.panelHeading = new System.Windows.Forms.Panel();
             this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
@@ -418,12 +417,6 @@
             this.pBook.TabIndex = 5;
             this.pBook.TabStop = false;
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 8000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
@@ -486,7 +479,6 @@
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
-        private System.Windows.Forms.Timer timer1;
         private Panel panelMain;
     }
 }
