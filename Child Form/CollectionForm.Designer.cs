@@ -115,9 +115,9 @@
             this.txtNameChildForm.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtNameChildForm.Location = new System.Drawing.Point(65, 10);
             this.txtNameChildForm.Name = "txtNameChildForm";
-            this.txtNameChildForm.Size = new System.Drawing.Size(167, 54);
+            this.txtNameChildForm.Size = new System.Drawing.Size(207, 54);
             this.txtNameChildForm.TabIndex = 1;
-            this.txtNameChildForm.Text = "Văn học";
+            this.txtNameChildForm.Text = "Danh mục";
             // 
             // textBox1
             // 
@@ -192,7 +192,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1648, 521);
+            this.ClientSize = new System.Drawing.Size(1648, 663);
             this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CollectionForm";
