@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BookChill.User_Control
+namespace ePOSOne.btnProduct
 {
-    public partial class RoundButton : UserControl
+    public class Button_WOC : Button
     {
         private Color _borderColor = Color.Silver;
         private Color _onHoverBorderColor = Color.Gray;
@@ -23,9 +17,9 @@ namespace BookChill.User_Control
         private int _borderThickness = 6;
         private int _borderThicknessByTwo = 3;
 
-        public RoundButton()
+
+        public Button_WOC()
         {
-            InitializeComponent();
             DoubleBuffered = true;
             MouseEnter += (sender, e) =>
             {
