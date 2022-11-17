@@ -20,6 +20,13 @@
             base.Dispose(disposing);
         }
 
+        // Auto click button 'Trang Chu' when the form start
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
+            this.btnHome_Click(null, null);
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -28,7 +35,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelSubMenuSca = new System.Windows.Forms.Panel();
@@ -49,16 +55,11 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Logo = new System.Windows.Forms.Label();
-            this.panelHeading = new System.Windows.Forms.Panel();
-            this.pBook = new System.Windows.Forms.PictureBox();
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelSubMenuSca.SuspendLayout();
             this.panelSubMenuColec.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            this.panelHeading.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
-            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -374,33 +375,9 @@
             this.Logo.Text = "BookChill";
             this.Logo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panelHeading
-            // 
-            this.panelHeading.BackColor = System.Drawing.Color.Transparent;
-            this.panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
-            this.panelHeading.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panelHeading.Controls.Add(this.pBook);
-            this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelHeading.Location = new System.Drawing.Point(0, 0);
-            this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
-            this.panelHeading.Name = "panelHeading";
-            this.panelHeading.Size = new System.Drawing.Size(1648, 515);
-            this.panelHeading.TabIndex = 3;
-            // 
-            // pBook
-            // 
-            this.pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
-            this.pBook.Location = new System.Drawing.Point(75, 70);
-            this.pBook.Name = "pBook";
-            this.pBook.Size = new System.Drawing.Size(400, 400);
-            this.pBook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pBook.TabIndex = 5;
-            this.pBook.TabStop = false;
-            // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.panelHeading);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(272, 0);
             this.panelMain.Name = "panelMain";
@@ -427,9 +404,6 @@
             this.panelSubMenuColec.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
-            this.panelHeading.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
-            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -452,8 +426,6 @@
         private Button btnNgoaingu;
         private Button btnTuduy;
         private Button btnScan;
-        private Panel panelHeading;
-        private PictureBox pBook;
         private Panel panelSubMenuSca;
         private Button btnBarCode;
         private Button btnQrCode;
