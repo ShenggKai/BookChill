@@ -23,8 +23,9 @@
         // Auto click button 'Trang Chu' when the form start
         protected override void OnShown(EventArgs e)
         {
-            base.OnShown(e);
-            this.btnHome_Click(null, null);
+            //base.OnShown(e);
+            //this.btnHome_Click(null, null);
+            btnHome.PerformClick();
         }
 
         #region Windows Form Designer generated code
@@ -331,14 +332,14 @@
             // 
             // btnHome
             // 
-            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.btnHome.BackColor = System.Drawing.Color.Gainsboro;
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Image = global::BookChill.Properties.Resources.house;
+            this.btnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(95)))));
+            this.btnHome.Image = global::BookChill.Properties.Resources.house_green;
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(0, 86);
             this.btnHome.Name = "btnHome";
