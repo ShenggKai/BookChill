@@ -18,7 +18,7 @@ namespace BookChill.Child_Form
         }
         #region function button
         // Exit button
-        private void pClose_Click(object sender, EventArgs e)
+        private void pictureClose_Click(object sender, EventArgs e)
         {
             //var result = MessageBox.Show("Bạn chắc chắn muốn Thoát?", "BookChill",
             //    MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
@@ -31,31 +31,18 @@ namespace BookChill.Child_Form
         }
 
         // Minimize button
-        private void pMinimize_Click(object sender, EventArgs e)
+        private void pictureMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        // Logout button
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            var result = MessageBox.Show("Bạn chắc chắn muốn Đăng xuất?", "BookChill",
-                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-
-            if (result == DialogResult.OK)
-            {
-                new Login().Show();
-                this.Hide();
-            }
-        }
-
-        private void pCLose_MouseHover(object sender, EventArgs e)
+        private void pictureCLose_MouseHover(object sender, EventArgs e)
         {
             pCLose.BackColor = Color.FromArgb(232, 17, 35);
             pCLose.Image = global::BookChill.Properties.Resources.close_white;
         }
 
-        private void pCLose_MouseLeave(object sender, EventArgs e)
+        private void pictureCLose_MouseLeave(object sender, EventArgs e)
         {
             pCLose.BackColor = Color.Transparent;
             pCLose.Image = global::BookChill.Properties.Resources.close;
@@ -73,6 +60,79 @@ namespace BookChill.Child_Form
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
 
+        #endregion
+
+        #region function for Arrow button
+        private void changeImage(int count)
+        {
+            switch (count)
+            {
+                case 0:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_1;
+                    pBook.Image = global::BookChill.Properties.Resources.nhagiakim;
+                    break;
+                case 1:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_2;
+                    pBook.Image = global::BookChill.Properties.Resources.hanhtinhcuamotkenghinhieu;
+                    break;
+                case 2:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_4;
+                    pBook.Image = global::BookChill.Properties.Resources.chotoixinmotvedituoitho;
+                    break;
+                case 3:
+                    panelHeading.BackgroundImage = global::BookChill.Properties.Resources.banner_3;
+                    pBook.Image = global::BookChill.Properties.Resources.suimlangcuabaycuu;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        int count = 0;
+
+        private void pArrowleft_Click(object sender, EventArgs e)
+        {
+            if (count > 0)
+            {
+                count--;
+            }
+            changeImage(count);
+        }
+
+        private void pArrowright_Click(object sender, EventArgs e)
+        {
+            if (count < 3)
+            {
+                count++;
+            }
+            changeImage(count);
+        }
+
+        int count_right = 3;
+        int count_left = 0;
+        int tempt = 0;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (count_right > 0)
+            {
+                tempt = count_right;
+                count_right--;
+            }
+            else if (count_left < 4)
+            {
+                tempt = count_left;
+                count_left++;
+            }
+            else
+            {
+                count_right = 3;
+                count_left = 0;
+                tempt = count_right;
+            }
+
+            changeImage(tempt);
+        }
         #endregion
     }
 }

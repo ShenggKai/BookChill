@@ -53,8 +53,8 @@
             this.pArrowright = new System.Windows.Forms.PictureBox();
             this.pArrowleft = new System.Windows.Forms.PictureBox();
             this.pBook = new System.Windows.Forms.PictureBox();
-            this.pCLose = new System.Windows.Forms.PictureBox();
-            this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.pCLoseMain = new System.Windows.Forms.PictureBox();
+            this.pMinimizeMain = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMain = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -73,8 +73,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pCLoseMain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimizeMain)).BeginInit();
             this.panelMain.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -400,8 +400,8 @@
             this.panelHeading.Controls.Add(this.pArrowright);
             this.panelHeading.Controls.Add(this.pArrowleft);
             this.panelHeading.Controls.Add(this.pBook);
-            this.panelHeading.Controls.Add(this.pCLose);
-            this.panelHeading.Controls.Add(this.pMinimize);
+            this.panelHeading.Controls.Add(this.pCLoseMain);
+            this.panelHeading.Controls.Add(this.pMinimizeMain);
             this.panelHeading.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeading.Location = new System.Drawing.Point(0, 0);
             this.panelHeading.Margin = new System.Windows.Forms.Padding(0);
@@ -453,37 +453,37 @@
             this.pBook.TabIndex = 5;
             this.pBook.TabStop = false;
             // 
-            // pCLose
+            // pCLoseMain
             // 
-            this.pCLose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pCLose.BackColor = System.Drawing.Color.Transparent;
-            this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(1601, 0);
-            this.pCLose.Name = "pCLose";
-            this.pCLose.Size = new System.Drawing.Size(40, 40);
-            this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pCLose.TabIndex = 3;
-            this.pCLose.TabStop = false;
-            this.pCLose.Click += new System.EventHandler(this.pClose_Click);
-            this.pCLose.MouseLeave += new System.EventHandler(this.pCLose_MouseLeave);
-            this.pCLose.MouseHover += new System.EventHandler(this.pCLose_MouseHover);
+            this.pCLoseMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pCLoseMain.BackColor = System.Drawing.Color.Transparent;
+            this.pCLoseMain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pCLoseMain.Image = global::BookChill.Properties.Resources.close;
+            this.pCLoseMain.Location = new System.Drawing.Point(1601, 0);
+            this.pCLoseMain.Name = "pCLoseMain";
+            this.pCLoseMain.Size = new System.Drawing.Size(40, 40);
+            this.pCLoseMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pCLoseMain.TabIndex = 3;
+            this.pCLoseMain.TabStop = false;
+            this.pCLoseMain.Click += new System.EventHandler(this.pClose_Click);
+            this.pCLoseMain.MouseLeave += new System.EventHandler(this.pCLose_MouseLeave);
+            this.pCLoseMain.MouseHover += new System.EventHandler(this.pCLose_MouseHover);
             // 
-            // pMinimize
+            // pMinimizeMain
             // 
-            this.pMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pMinimize.BackColor = System.Drawing.Color.Transparent;
-            this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
-            this.pMinimize.Name = "pMinimize";
-            this.pMinimize.Size = new System.Drawing.Size(40, 40);
-            this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pMinimize.TabIndex = 4;
-            this.pMinimize.TabStop = false;
-            this.pMinimize.Click += new System.EventHandler(this.pMinimize_Click);
-            this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
-            this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
+            this.pMinimizeMain.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pMinimizeMain.BackColor = System.Drawing.Color.Transparent;
+            this.pMinimizeMain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pMinimizeMain.Image = global::BookChill.Properties.Resources.minimize;
+            this.pMinimizeMain.Location = new System.Drawing.Point(1535, 0);
+            this.pMinimizeMain.Name = "pMinimizeMain";
+            this.pMinimizeMain.Size = new System.Drawing.Size(40, 40);
+            this.pMinimizeMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pMinimizeMain.TabIndex = 4;
+            this.pMinimizeMain.TabStop = false;
+            this.pMinimizeMain.Click += new System.EventHandler(this.pMinimize_Click);
+            this.pMinimizeMain.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
+            this.pMinimizeMain.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
             // timer1
             // 
@@ -619,8 +619,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pArrowright)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pArrowleft)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pCLoseMain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pMinimizeMain)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
@@ -647,8 +647,8 @@
         private Button btnTuduy;
         private Button btnScan;
         private Panel panelHeading;
-        private PictureBox pMinimize;
-        private PictureBox pCLose;
+        private PictureBox pMinimizeMain;
+        private PictureBox pCLoseMain;
         private PictureBox pBook;
         private PictureBox pArrowleft;
         private PictureBox pArrowright;
