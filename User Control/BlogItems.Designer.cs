@@ -1,6 +1,6 @@
 ﻿namespace BookChill
 {
-    partial class BookItems
+    partial class BlogItems
     {
         /// <summary> 
         /// Required designer variable.

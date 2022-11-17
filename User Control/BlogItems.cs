@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookChill
 {
-    public partial class BookItems : UserControl
+    public partial class BlogItems : UserControl
     {
-        public BookItems()
+        public BlogItems()
         {
             InitializeComponent();
         }
