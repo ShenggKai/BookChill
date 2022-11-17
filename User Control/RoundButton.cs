@@ -17,11 +17,62 @@ namespace BookChill.User_Control
 
     public class RoundButton : Button
     {
+        #region declare
         private int borderSize = 0;
         private int borderRadius = 20;
         private Color borderColor = Color.PaleVioletRed;
+        #endregion
 
-        //Constructor
+        #region Generate Properties
+        //Properties
+        [Category("RJ Code Advance")]
+        public int BorderSize
+        {
+            get { return borderSize; }
+            set
+            {
+                borderSize = value;
+                this.Invalidate();
+            }
+        }
+
+        [Category("RJ Code Advance")]
+        public int BorderRadius
+        {
+            get { return borderRadius; }
+            set
+            {
+                borderRadius = value;
+                this.Invalidate();
+            }
+        }
+
+        [Category("RJ Code Advance")]
+        public Color BorderColor
+        {
+            get { return borderColor; }
+            set
+            {
+                borderColor = value;
+                this.Invalidate();
+            }
+        }
+        [Category("RJ Code Advance")]
+        public Color BackgroundColor
+        {
+            get { return this.BackColor; }
+            set { this.BackColor = value; }
+        }
+
+        [Category("RJ Code Advance")]
+        public Color TextColor
+        {
+            get { return this.ForeColor; }
+            set { this.ForeColor = value; }
+        }
+        #endregion
+
+        #region Constructor
         public RoundButton()
         {
             this.FlatStyle = FlatStyle.Flat;
@@ -37,8 +88,9 @@ namespace BookChill.User_Control
             if (borderRadius > this.Height)
                 borderRadius = this.Height;
         }
+        #endregion
 
-        //Methods
+        #region Methods
         private GraphicsPath GetFigurePath(Rectangle rect, float radius)
         {
             GraphicsPath path = new GraphicsPath();
@@ -52,7 +104,9 @@ namespace BookChill.User_Control
             path.CloseFigure();
             return path;
         }
+        #endregion
 
+        #region Override the OnPaint method
         protected override void OnPaint(PaintEventArgs pevent)
         {
             base.OnPaint(pevent);
@@ -98,7 +152,21 @@ namespace BookChill.User_Control
                 }
             }
         }
+        #endregion
+
+        #region Override the OnHandleCreated method
+        protected override void OnHandleCreated(EventArgs e)
+        {
+            base.OnHandleCreated(e);
+            this.Parent.BackColorChanged += new EventHandler(Container_BackColorChanged);
+        }
+
+        private void Container_BackColorChanged(object sender, EventArgs e)
+        {
+            this.Invalidate();
+        }
+        #endregion
     }
 
-    
+
 }

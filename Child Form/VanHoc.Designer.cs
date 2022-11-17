@@ -34,6 +34,7 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.pMinimize = new System.Windows.Forms.PictureBox();
             this.panelHeader = new System.Windows.Forms.Panel();
+            this.roundButton1 = new BookChill.User_Control.RoundButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
@@ -91,6 +92,7 @@
             // panelHeader
             // 
             this.panelHeader.BackColor = System.Drawing.Color.Transparent;
+            this.panelHeader.Controls.Add(this.roundButton1);
             this.panelHeader.Controls.Add(this.pCLose);
             this.panelHeader.Controls.Add(this.pMinimize);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -98,6 +100,26 @@
             this.panelHeader.Name = "panelHeader";
             this.panelHeader.Size = new System.Drawing.Size(1648, 84);
             this.panelHeader.TabIndex = 8;
+            // 
+            // roundButton1
+            // 
+            this.roundButton1.BackColor = System.Drawing.Color.LightGray;
+            this.roundButton1.BackgroundColor = System.Drawing.Color.LightGray;
+            this.roundButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.roundButton1.BorderRadius = 25;
+            this.roundButton1.BorderSize = 0;
+            this.roundButton1.FlatAppearance.BorderSize = 0;
+            this.roundButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.roundButton1.ForeColor = System.Drawing.Color.White;
+            this.roundButton1.Image = ((System.Drawing.Image)(resources.GetObject("roundButton1.Image")));
+            this.roundButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.roundButton1.Location = new System.Drawing.Point(178, 12);
+            this.roundButton1.Name = "roundButton1";
+            this.roundButton1.Padding = new System.Windows.Forms.Padding(10, 10, 15, 10);
+            this.roundButton1.Size = new System.Drawing.Size(709, 54);
+            this.roundButton1.TabIndex = 9;
+            this.roundButton1.TextColor = System.Drawing.Color.White;
+            this.roundButton1.UseVisualStyleBackColor = false;
             // 
             // VanHoc
             // 
@@ -128,5 +150,6 @@
         private PictureBox pCLose;
         private PictureBox pMinimize;
         private Panel panelHeader;
+        private User_Control.RoundButton roundButton1;
     }
 }
