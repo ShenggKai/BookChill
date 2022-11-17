@@ -161,20 +161,21 @@
             // 
             this.cbSort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.cbSort.DropDownWidth = 3;
-            this.cbSort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbSort.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbSort.ForeColor = System.Drawing.Color.White;
             this.cbSort.FormattingEnabled = true;
             this.cbSort.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.cbSort.ItemHeight = 41;
             this.cbSort.Items.AddRange(new object[] {
-            "Sách mới xuất bản",
-            "Sách được yêu thích",
             "Sách bán chạy",
-            ""});
+            "Sách được yêu thích",
+            "Sách mới xuất bản"});
             this.cbSort.Location = new System.Drawing.Point(65, 113);
+            this.cbSort.MaxDropDownItems = 5;
             this.cbSort.Name = "cbSort";
+            this.cbSort.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cbSort.Size = new System.Drawing.Size(304, 49);
+            this.cbSort.Sorted = true;
             this.cbSort.TabIndex = 9;
             this.cbSort.Text = "Sắp xếp theo";
             // 
@@ -183,7 +184,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1648, 509);
+            this.ClientSize = new System.Drawing.Size(1648, 734);
             this.Controls.Add(this.cbSort);
             this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
