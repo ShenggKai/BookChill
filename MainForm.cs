@@ -101,8 +101,7 @@ namespace BookChill
 
         private void btnVanhoc_Click(object sender, EventArgs e)
         {
-            //OpenChildForm(new VanHoc());
-            OpenChildForm(new CollectionForm());
+            OpenChildForm(new VanHoc());
             hideSubMenu();
         }
 
