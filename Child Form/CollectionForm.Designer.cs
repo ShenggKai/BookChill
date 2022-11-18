@@ -290,7 +290,7 @@
             // collectionItem7
             // 
             this.collectionItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem7.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem7.ItemImage")));
+            this.collectionItem7.ItemImage = global::BookChill.Properties.Resources.dnh;
             this.collectionItem7.ItemLabel = "Điện ảnh - Nhạc - Họa";
             this.collectionItem7.Location = new System.Drawing.Point(850, 440);
             this.collectionItem7.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);

@@ -253,6 +253,16 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dnh {
+            get {
+                object obj = ResourceManager.GetObject("dnh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hanhtinhcuamotkenghinhieu {
             get {
                 object obj = ResourceManager.GetObject("hanhtinhcuamotkenghinhieu", resourceCulture);
