@@ -39,6 +39,7 @@
             this.btnSearch = new BookChill.User_Control.RoundButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.fpanelBooks = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             this.panelHeader.SuspendLayout();
@@ -188,11 +189,21 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
+            // fpanelBooks
+            // 
+            this.fpanelBooks.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.fpanelBooks.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fpanelBooks.Location = new System.Drawing.Point(0, 84);
+            this.fpanelBooks.Name = "fpanelBooks";
+            this.fpanelBooks.Size = new System.Drawing.Size(1648, 996);
+            this.fpanelBooks.TabIndex = 10;
+            // 
             // CollectionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1648, 663);
+            this.ClientSize = new System.Drawing.Size(1648, 1080);
+            this.Controls.Add(this.fpanelBooks);
             this.Controls.Add(this.panelHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CollectionForm";
@@ -222,5 +233,6 @@
         private User_Control.RoundButton btnSearch;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private FlowLayoutPanel fpanelBooks;
     }
 }
