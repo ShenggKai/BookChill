@@ -55,7 +55,7 @@
             this.pMinimize.BackColor = System.Drawing.Color.Transparent;
             this.pMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pMinimize.Image = global::BookChill.Properties.Resources.minimize;
-            this.pMinimize.Location = new System.Drawing.Point(1491, 10);
+            this.pMinimize.Location = new System.Drawing.Point(1535, 0);
             this.pMinimize.Name = "pMinimize";
             this.pMinimize.Size = new System.Drawing.Size(40, 40);
             this.pMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -71,7 +71,7 @@
             this.pCLose.BackColor = System.Drawing.Color.Transparent;
             this.pCLose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pCLose.Image = global::BookChill.Properties.Resources.close;
-            this.pCLose.Location = new System.Drawing.Point(1586, 12);
+            this.pCLose.Location = new System.Drawing.Point(1601, 0);
             this.pCLose.Name = "pCLose";
             this.pCLose.Size = new System.Drawing.Size(40, 40);
             this.pCLose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
