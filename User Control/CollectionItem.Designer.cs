@@ -40,7 +40,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(337, 230);
+            this.pictureBox1.Size = new System.Drawing.Size(330, 230);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -48,7 +48,7 @@
             // txtNameItem
             // 
             this.txtNameItem.AutoSize = true;
-            this.txtNameItem.Location = new System.Drawing.Point(32, 251);
+            this.txtNameItem.Location = new System.Drawing.Point(80, 253);
             this.txtNameItem.Name = "txtNameItem";
             this.txtNameItem.Size = new System.Drawing.Size(158, 20);
             this.txtNameItem.TabIndex = 1;
@@ -61,7 +61,7 @@
             this.Controls.Add(this.txtNameItem);
             this.Controls.Add(this.pictureBox1);
             this.Name = "CollectionItem";
-            this.Size = new System.Drawing.Size(337, 337);
+            this.Size = new System.Drawing.Size(330, 330);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
