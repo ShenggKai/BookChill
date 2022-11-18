@@ -218,8 +218,8 @@
             // collectionItem1
             // 
             this.collectionItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem1.Location = new System.Drawing.Point(29, 50);
-            this.collectionItem1.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem1.Location = new System.Drawing.Point(50, 40);
+            this.collectionItem1.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem1.Name = "collectionItem1";
             this.collectionItem1.Size = new System.Drawing.Size(330, 330);
             this.collectionItem1.TabIndex = 0;
@@ -227,8 +227,8 @@
             // collectionItem2
             // 
             this.collectionItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem2.Location = new System.Drawing.Point(433, 50);
-            this.collectionItem2.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem2.Location = new System.Drawing.Point(450, 40);
+            this.collectionItem2.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem2.Name = "collectionItem2";
             this.collectionItem2.Size = new System.Drawing.Size(330, 330);
             this.collectionItem2.TabIndex = 1;
@@ -236,8 +236,8 @@
             // collectionItem3
             // 
             this.collectionItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem3.Location = new System.Drawing.Point(837, 50);
-            this.collectionItem3.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem3.Location = new System.Drawing.Point(850, 40);
+            this.collectionItem3.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem3.Name = "collectionItem3";
             this.collectionItem3.Size = new System.Drawing.Size(330, 330);
             this.collectionItem3.TabIndex = 2;
@@ -245,8 +245,8 @@
             // collectionItem4
             // 
             this.collectionItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem4.Location = new System.Drawing.Point(1241, 50);
-            this.collectionItem4.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem4.Location = new System.Drawing.Point(1250, 40);
+            this.collectionItem4.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem4.Name = "collectionItem4";
             this.collectionItem4.Size = new System.Drawing.Size(330, 330);
             this.collectionItem4.TabIndex = 3;
@@ -254,8 +254,8 @@
             // collectionItem5
             // 
             this.collectionItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem5.Location = new System.Drawing.Point(29, 430);
-            this.collectionItem5.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem5.Location = new System.Drawing.Point(50, 440);
+            this.collectionItem5.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem5.Name = "collectionItem5";
             this.collectionItem5.Size = new System.Drawing.Size(330, 330);
             this.collectionItem5.TabIndex = 4;
@@ -263,8 +263,8 @@
             // collectionItem6
             // 
             this.collectionItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem6.Location = new System.Drawing.Point(433, 430);
-            this.collectionItem6.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem6.Location = new System.Drawing.Point(450, 440);
+            this.collectionItem6.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem6.Name = "collectionItem6";
             this.collectionItem6.Size = new System.Drawing.Size(330, 330);
             this.collectionItem6.TabIndex = 5;
@@ -272,8 +272,8 @@
             // collectionItem7
             // 
             this.collectionItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem7.Location = new System.Drawing.Point(837, 430);
-            this.collectionItem7.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem7.Location = new System.Drawing.Point(850, 440);
+            this.collectionItem7.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem7.Name = "collectionItem7";
             this.collectionItem7.Size = new System.Drawing.Size(330, 330);
             this.collectionItem7.TabIndex = 6;
@@ -281,8 +281,8 @@
             // collectionItem8
             // 
             this.collectionItem8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem8.Location = new System.Drawing.Point(1241, 430);
-            this.collectionItem8.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem8.Location = new System.Drawing.Point(1250, 440);
+            this.collectionItem8.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem8.Name = "collectionItem8";
             this.collectionItem8.Size = new System.Drawing.Size(330, 330);
             this.collectionItem8.TabIndex = 7;

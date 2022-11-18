@@ -63,7 +63,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtNameItem);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.Name = "CollectionItem";
             this.Size = new System.Drawing.Size(330, 330);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
