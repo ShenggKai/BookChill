@@ -40,6 +40,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.fpanelBooks = new System.Windows.Forms.FlowLayoutPanel();
+            this.collectionItem1 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem2 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem3 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem4 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem5 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem6 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem7 = new BookChill.User_Control.CollectionItem();
+            this.collectionItem8 = new BookChill.User_Control.CollectionItem();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             this.panelHeader.SuspendLayout();
@@ -47,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.fpanelBooks.SuspendLayout();
             this.SuspendLayout();
             // 
             // pMinimize
@@ -192,11 +201,91 @@
             // fpanelBooks
             // 
             this.fpanelBooks.BackColor = System.Drawing.Color.Transparent;
+            this.fpanelBooks.Controls.Add(this.collectionItem1);
+            this.fpanelBooks.Controls.Add(this.collectionItem2);
+            this.fpanelBooks.Controls.Add(this.collectionItem3);
+            this.fpanelBooks.Controls.Add(this.collectionItem4);
+            this.fpanelBooks.Controls.Add(this.collectionItem5);
+            this.fpanelBooks.Controls.Add(this.collectionItem6);
+            this.fpanelBooks.Controls.Add(this.collectionItem7);
+            this.fpanelBooks.Controls.Add(this.collectionItem8);
             this.fpanelBooks.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fpanelBooks.Location = new System.Drawing.Point(0, 84);
             this.fpanelBooks.Name = "fpanelBooks";
             this.fpanelBooks.Size = new System.Drawing.Size(1648, 996);
             this.fpanelBooks.TabIndex = 10;
+            // 
+            // collectionItem1
+            // 
+            this.collectionItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem1.Location = new System.Drawing.Point(29, 50);
+            this.collectionItem1.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem1.Name = "collectionItem1";
+            this.collectionItem1.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem1.TabIndex = 0;
+            // 
+            // collectionItem2
+            // 
+            this.collectionItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem2.Location = new System.Drawing.Point(433, 50);
+            this.collectionItem2.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem2.Name = "collectionItem2";
+            this.collectionItem2.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem2.TabIndex = 1;
+            // 
+            // collectionItem3
+            // 
+            this.collectionItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem3.Location = new System.Drawing.Point(837, 50);
+            this.collectionItem3.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem3.Name = "collectionItem3";
+            this.collectionItem3.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem3.TabIndex = 2;
+            // 
+            // collectionItem4
+            // 
+            this.collectionItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem4.Location = new System.Drawing.Point(1241, 50);
+            this.collectionItem4.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem4.Name = "collectionItem4";
+            this.collectionItem4.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem4.TabIndex = 3;
+            // 
+            // collectionItem5
+            // 
+            this.collectionItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem5.Location = new System.Drawing.Point(29, 430);
+            this.collectionItem5.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem5.Name = "collectionItem5";
+            this.collectionItem5.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem5.TabIndex = 4;
+            // 
+            // collectionItem6
+            // 
+            this.collectionItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem6.Location = new System.Drawing.Point(433, 430);
+            this.collectionItem6.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem6.Name = "collectionItem6";
+            this.collectionItem6.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem6.TabIndex = 5;
+            // 
+            // collectionItem7
+            // 
+            this.collectionItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem7.Location = new System.Drawing.Point(837, 430);
+            this.collectionItem7.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem7.Name = "collectionItem7";
+            this.collectionItem7.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem7.TabIndex = 6;
+            // 
+            // collectionItem8
+            // 
+            this.collectionItem8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem8.Location = new System.Drawing.Point(1241, 430);
+            this.collectionItem8.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
+            this.collectionItem8.Name = "collectionItem8";
+            this.collectionItem8.Size = new System.Drawing.Size(330, 330);
+            this.collectionItem8.TabIndex = 7;
             // 
             // CollectionForm
             // 
@@ -218,6 +307,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.fpanelBooks.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -235,5 +325,13 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private FlowLayoutPanel fpanelBooks;
+        private User_Control.CollectionItem collectionItem1;
+        private User_Control.CollectionItem collectionItem2;
+        private User_Control.CollectionItem collectionItem3;
+        private User_Control.CollectionItem collectionItem4;
+        private User_Control.CollectionItem collectionItem5;
+        private User_Control.CollectionItem collectionItem6;
+        private User_Control.CollectionItem collectionItem7;
+        private User_Control.CollectionItem collectionItem8;
     }
 }

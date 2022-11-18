@@ -40,17 +40,19 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(330, 230);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(330, 290);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // txtNameItem
             // 
             this.txtNameItem.AutoSize = true;
-            this.txtNameItem.Location = new System.Drawing.Point(80, 253);
+            this.txtNameItem.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtNameItem.ForeColor = System.Drawing.Color.White;
+            this.txtNameItem.Location = new System.Drawing.Point(44, 293);
             this.txtNameItem.Name = "txtNameItem";
-            this.txtNameItem.Size = new System.Drawing.Size(158, 20);
+            this.txtNameItem.Size = new System.Drawing.Size(245, 31);
             this.txtNameItem.TabIndex = 1;
             this.txtNameItem.Text = "Điện ảnh - Nhạc - Họa";
             // 
@@ -58,8 +60,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtNameItem);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(29, 50, 45, 0);
             this.Name = "CollectionItem";
             this.Size = new System.Drawing.Size(330, 330);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
