@@ -63,6 +63,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtNameItem);
             this.Controls.Add(this.pCollection);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.Name = "CollectionItem";
             this.Size = new System.Drawing.Size(330, 330);
