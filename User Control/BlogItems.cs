@@ -42,5 +42,13 @@ namespace BookChill
                 txtTitle.Text = value;
             }
         }
+
+        //public string TextAlign
+        //{
+        //    get
+        //    {
+        //        return txtTitle.TextAlign;
+        //    }
+        //}
     }
 }

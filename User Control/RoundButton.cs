@@ -25,7 +25,7 @@ namespace BookChill.User_Control
 
         #region Generate Properties
         //Properties
-        [Category("RJ Code Advance")]
+        [Category("Code Advance")]
         public int BorderSize
         {
             get { return borderSize; }
@@ -36,7 +36,7 @@ namespace BookChill.User_Control
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category("Code Advance")]
         public int BorderRadius
         {
             get { return borderRadius; }
@@ -47,7 +47,7 @@ namespace BookChill.User_Control
             }
         }
 
-        [Category("RJ Code Advance")]
+        [Category("Code Advance")]
         public Color BorderColor
         {
             get { return borderColor; }
@@ -57,14 +57,14 @@ namespace BookChill.User_Control
                 this.Invalidate();
             }
         }
-        [Category("RJ Code Advance")]
+        [Category("Code Advance")]
         public Color BackgroundColor
         {
             get { return this.BackColor; }
             set { this.BackColor = value; }
         }
 
-        [Category("RJ Code Advance")]
+        [Category("Code Advance")]
         public Color TextColor
         {
             get { return this.ForeColor; }

@@ -40,6 +40,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.fpanelBooks = new System.Windows.Forms.FlowLayoutPanel();
+            this.blogItems1 = new BookChill.BlogItems();
+            this.blogItems2 = new BookChill.BlogItems();
+            this.blogItems3 = new BookChill.BlogItems();
+            this.blogItems4 = new BookChill.BlogItems();
+            this.blogItems5 = new BookChill.BlogItems();
+            this.blogItems6 = new BookChill.BlogItems();
+            this.blogItems7 = new BookChill.BlogItems();
+            this.blogItems8 = new BookChill.BlogItems();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             this.panelHeader.SuspendLayout();
@@ -47,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.fpanelBooks.SuspendLayout();
             this.SuspendLayout();
             // 
             // pMinimize
@@ -191,11 +200,108 @@
             // 
             // fpanelBooks
             // 
-            this.fpanelBooks.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.fpanelBooks.BackColor = System.Drawing.Color.Transparent;
+            this.fpanelBooks.Controls.Add(this.blogItems1);
+            this.fpanelBooks.Controls.Add(this.blogItems2);
+            this.fpanelBooks.Controls.Add(this.blogItems3);
+            this.fpanelBooks.Controls.Add(this.blogItems4);
+            this.fpanelBooks.Controls.Add(this.blogItems5);
+            this.fpanelBooks.Controls.Add(this.blogItems6);
+            this.fpanelBooks.Controls.Add(this.blogItems7);
+            this.fpanelBooks.Controls.Add(this.blogItems8);
+            this.fpanelBooks.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fpanelBooks.Location = new System.Drawing.Point(0, 84);
             this.fpanelBooks.Name = "fpanelBooks";
-            this.fpanelBooks.Size = new System.Drawing.Size(1648, 500);
+            this.fpanelBooks.Size = new System.Drawing.Size(1648, 996);
             this.fpanelBooks.TabIndex = 10;
+            // 
+            // blogItems1
+            // 
+            this.blogItems1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems1.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems1.ItemImage")));
+            this.blogItems1.ItemLabel = "Văn học";
+            this.blogItems1.Location = new System.Drawing.Point(65, 0);
+            this.blogItems1.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems1.Name = "blogItems1";
+            this.blogItems1.Size = new System.Drawing.Size(437, 222);
+            this.blogItems1.TabIndex = 0;
+            // 
+            // blogItems2
+            // 
+            this.blogItems2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems2.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems2.ItemImage")));
+            this.blogItems2.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems2.Location = new System.Drawing.Point(607, 0);
+            this.blogItems2.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems2.Name = "blogItems2";
+            this.blogItems2.Size = new System.Drawing.Size(437, 222);
+            this.blogItems2.TabIndex = 1;
+            // 
+            // blogItems3
+            // 
+            this.blogItems3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems3.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems3.ItemImage")));
+            this.blogItems3.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems3.Location = new System.Drawing.Point(1149, 0);
+            this.blogItems3.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems3.Name = "blogItems3";
+            this.blogItems3.Size = new System.Drawing.Size(437, 222);
+            this.blogItems3.TabIndex = 2;
+            // 
+            // blogItems4
+            // 
+            this.blogItems4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems4.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems4.ItemImage")));
+            this.blogItems4.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems4.Location = new System.Drawing.Point(65, 262);
+            this.blogItems4.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems4.Name = "blogItems4";
+            this.blogItems4.Size = new System.Drawing.Size(437, 222);
+            this.blogItems4.TabIndex = 3;
+            // 
+            // blogItems5
+            // 
+            this.blogItems5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems5.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems5.ItemImage")));
+            this.blogItems5.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems5.Location = new System.Drawing.Point(607, 262);
+            this.blogItems5.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems5.Name = "blogItems5";
+            this.blogItems5.Size = new System.Drawing.Size(437, 222);
+            this.blogItems5.TabIndex = 4;
+            // 
+            // blogItems6
+            // 
+            this.blogItems6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems6.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems6.ItemImage")));
+            this.blogItems6.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems6.Location = new System.Drawing.Point(1149, 262);
+            this.blogItems6.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems6.Name = "blogItems6";
+            this.blogItems6.Size = new System.Drawing.Size(437, 222);
+            this.blogItems6.TabIndex = 5;
+            // 
+            // blogItems7
+            // 
+            this.blogItems7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems7.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems7.ItemImage")));
+            this.blogItems7.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems7.Location = new System.Drawing.Point(65, 524);
+            this.blogItems7.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems7.Name = "blogItems7";
+            this.blogItems7.Size = new System.Drawing.Size(437, 222);
+            this.blogItems7.TabIndex = 6;
+            // 
+            // blogItems8
+            // 
+            this.blogItems8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.blogItems8.ItemImage = ((System.Drawing.Image)(resources.GetObject("blogItems8.ItemImage")));
+            this.blogItems8.ItemLabel = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
+            this.blogItems8.Location = new System.Drawing.Point(607, 524);
+            this.blogItems8.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
+            this.blogItems8.Name = "blogItems8";
+            this.blogItems8.Size = new System.Drawing.Size(437, 222);
+            this.blogItems8.TabIndex = 7;
             // 
             // CollectionForm
             // 
@@ -217,6 +323,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.fpanelBooks.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -234,5 +341,13 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private FlowLayoutPanel fpanelBooks;
+        private BlogItems blogItems1;
+        private BlogItems blogItems2;
+        private BlogItems blogItems3;
+        private BlogItems blogItems4;
+        private BlogItems blogItems5;
+        private BlogItems blogItems6;
+        private BlogItems blogItems7;
+        private BlogItems blogItems8;
     }
 }

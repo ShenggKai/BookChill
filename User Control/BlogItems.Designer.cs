@@ -59,7 +59,7 @@
             this.txtTitle.Text = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.txtTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // BookItems
+            // BlogItems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,7 +68,7 @@
             this.Controls.Add(this.pBlog);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(65, 0, 40, 40);
-            this.Name = "BookItems";
+            this.Name = "BlogItems";
             this.Size = new System.Drawing.Size(437, 222);
             ((System.ComponentModel.ISupportInitialize)(this.pBlog)).EndInit();
             this.ResumeLayout(false);
