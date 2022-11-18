@@ -278,7 +278,7 @@
             // collectionItem6
             // 
             this.collectionItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem6.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem6.ItemImage")));
+            this.collectionItem6.ItemImage = global::BookChill.Properties.Resources.kh;
             this.collectionItem6.ItemLabel = "   Khoa học - Kỹ thuật";
             this.collectionItem6.Location = new System.Drawing.Point(450, 440);
             this.collectionItem6.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
