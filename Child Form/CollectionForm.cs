@@ -60,6 +60,18 @@ namespace BookChill.Child_Form
             pMinimize.BackColor = Color.Transparent;
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
+
+        private void CollectionForm_SizeChanged(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                foreach (Form frm in Application.OpenForms)
+                {
+                    frm.WindowState = FormWindowState.Minimized;
+                }
+            }
+        }
         #endregion
+
     }
 }

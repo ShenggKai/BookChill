@@ -192,10 +192,9 @@
             // fpanelBooks
             // 
             this.fpanelBooks.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.fpanelBooks.Dock = System.Windows.Forms.DockStyle.Fill;
             this.fpanelBooks.Location = new System.Drawing.Point(0, 84);
             this.fpanelBooks.Name = "fpanelBooks";
-            this.fpanelBooks.Size = new System.Drawing.Size(1648, 996);
+            this.fpanelBooks.Size = new System.Drawing.Size(1648, 500);
             this.fpanelBooks.TabIndex = 10;
             // 
             // CollectionForm
@@ -209,6 +208,7 @@
             this.Name = "CollectionForm";
             this.Text = "CollectionForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.SizeChanged += new System.EventHandler(this.CollectionForm_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             this.panelHeader.ResumeLayout(false);

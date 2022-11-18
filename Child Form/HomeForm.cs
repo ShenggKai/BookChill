@@ -62,13 +62,13 @@ namespace BookChill.Child_Form
 
         private void HomeForm_SizeChanged(object sender, EventArgs e)
         {
-            List<Form> listForm = new List<Form>();
+            //List<Form> listForm = new List<Form>();
             
             if (this.WindowState == FormWindowState.Minimized)
             {
                 foreach (Form frm in Application.OpenForms)
                 {
-                    listForm.Add(frm);
+                    //listForm.Add(frm);
                     frm.WindowState = FormWindowState.Minimized;
                 }
             }
