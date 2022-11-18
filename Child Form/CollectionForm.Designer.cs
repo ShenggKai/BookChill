@@ -218,74 +218,98 @@
             // collectionItem1
             // 
             this.collectionItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem1.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem1.ItemImage")));
+            this.collectionItem1.ItemLabel = "            Văn học";
             this.collectionItem1.Location = new System.Drawing.Point(50, 40);
             this.collectionItem1.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem1.Name = "collectionItem1";
             this.collectionItem1.Size = new System.Drawing.Size(330, 330);
             this.collectionItem1.TabIndex = 0;
+            this.collectionItem1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // collectionItem2
             // 
             this.collectionItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem2.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem2.ItemImage")));
+            this.collectionItem2.ItemLabel = "Tư duy - Kỹ năng sống";
             this.collectionItem2.Location = new System.Drawing.Point(450, 40);
             this.collectionItem2.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem2.Name = "collectionItem2";
             this.collectionItem2.Size = new System.Drawing.Size(330, 330);
             this.collectionItem2.TabIndex = 1;
+            this.collectionItem2.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem3
             // 
             this.collectionItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem3.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem3.ItemImage")));
+            this.collectionItem3.ItemLabel = "      Học ngoại ngữ";
             this.collectionItem3.Location = new System.Drawing.Point(850, 40);
             this.collectionItem3.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem3.Name = "collectionItem3";
             this.collectionItem3.Size = new System.Drawing.Size(330, 330);
             this.collectionItem3.TabIndex = 2;
+            this.collectionItem3.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem4
             // 
             this.collectionItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem4.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem4.ItemImage")));
+            this.collectionItem4.ItemLabel = "        Sách thiếu nhi";
             this.collectionItem4.Location = new System.Drawing.Point(1250, 40);
             this.collectionItem4.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem4.Name = "collectionItem4";
             this.collectionItem4.Size = new System.Drawing.Size(330, 330);
             this.collectionItem4.TabIndex = 3;
+            this.collectionItem4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem5
             // 
             this.collectionItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem5.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem5.ItemImage")));
+            this.collectionItem5.ItemLabel = "       Truyện tranh";
             this.collectionItem5.Location = new System.Drawing.Point(50, 440);
             this.collectionItem5.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem5.Name = "collectionItem5";
             this.collectionItem5.Size = new System.Drawing.Size(330, 330);
             this.collectionItem5.TabIndex = 4;
+            this.collectionItem5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem6
             // 
             this.collectionItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem6.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem6.ItemImage")));
+            this.collectionItem6.ItemLabel = "   Khoa học - Kỹ thuật";
             this.collectionItem6.Location = new System.Drawing.Point(450, 440);
             this.collectionItem6.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem6.Name = "collectionItem6";
             this.collectionItem6.Size = new System.Drawing.Size(330, 330);
             this.collectionItem6.TabIndex = 5;
+            this.collectionItem6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem7
             // 
             this.collectionItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem7.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem7.ItemImage")));
+            this.collectionItem7.ItemLabel = "Điện ảnh - Nhạc - Họa";
             this.collectionItem7.Location = new System.Drawing.Point(850, 440);
             this.collectionItem7.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem7.Name = "collectionItem7";
             this.collectionItem7.Size = new System.Drawing.Size(330, 330);
             this.collectionItem7.TabIndex = 6;
+            this.collectionItem7.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // collectionItem8
             // 
             this.collectionItem8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
+            this.collectionItem8.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem8.ItemImage")));
+            this.collectionItem8.ItemLabel = "             Từ điển";
             this.collectionItem8.Location = new System.Drawing.Point(1250, 440);
             this.collectionItem8.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.collectionItem8.Name = "collectionItem8";
             this.collectionItem8.Size = new System.Drawing.Size(330, 330);
             this.collectionItem8.TabIndex = 7;
+            this.collectionItem8.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             // 
             // CollectionForm
             // 
