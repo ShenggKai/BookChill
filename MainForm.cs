@@ -107,6 +107,7 @@ namespace BookChill
 
         private void btnTuduy_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new TdKn());
             hideSubMenu();
         }
 
