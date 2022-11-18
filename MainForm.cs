@@ -113,6 +113,7 @@ namespace BookChill
 
         private void btnNgoaingu_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new NgoaiNgu());
             hideSubMenu();
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookChill.Child_Form
 {
-    public partial class TdKn : Form
+    public partial class NgoaiNgu : Form
     {
-        public TdKn()
+        public NgoaiNgu()
         {
             InitializeComponent();
         }
@@ -61,7 +61,7 @@ namespace BookChill.Child_Form
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
 
-        private void TdKn_SizeChanged(object sender, EventArgs e)
+        private void NgoaiNgu_SizeChanged(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Minimized)
             {
@@ -72,5 +72,8 @@ namespace BookChill.Child_Form
             }
         }
         #endregion
+
     }
+
+
 }
