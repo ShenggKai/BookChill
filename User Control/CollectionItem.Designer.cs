@@ -41,7 +41,7 @@
             this.pCollection.Location = new System.Drawing.Point(0, 0);
             this.pCollection.Name = "pCollection";
             this.pCollection.Size = new System.Drawing.Size(330, 290);
-            this.pCollection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pCollection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pCollection.TabIndex = 0;
             this.pCollection.TabStop = false;
             // 

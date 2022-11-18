@@ -218,7 +218,7 @@
             // collectionItem1
             // 
             this.collectionItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem1.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem1.ItemImage")));
+            this.collectionItem1.ItemImage = global::BookChill.Properties.Resources.vh;
             this.collectionItem1.ItemLabel = "            Văn học";
             this.collectionItem1.Location = new System.Drawing.Point(50, 40);
             this.collectionItem1.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
