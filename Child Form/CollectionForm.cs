@@ -12,6 +12,8 @@ namespace BookChill.Child_Form
 {
     public partial class CollectionForm : Form
     {
+        private Form currentChildForm;
+
         public CollectionForm()
         {
             InitializeComponent();
@@ -70,6 +72,24 @@ namespace BookChill.Child_Form
                     frm.WindowState = FormWindowState.Minimized;
                 }
             }
+        }
+        #endregion
+
+        #region function to open child form in child form
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            fpanelBooks.Controls.Add(childForm);
+            fpanelBooks.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
         #endregion
 
