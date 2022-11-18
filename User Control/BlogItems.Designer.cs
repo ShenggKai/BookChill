@@ -53,8 +53,7 @@
             this.txtTitle.Location = new System.Drawing.Point(0, 169);
             this.txtTitle.Margin = new System.Windows.Forms.Padding(3);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Padding = new System.Windows.Forms.Padding(8);
-            this.txtTitle.Size = new System.Drawing.Size(433, 44);
+            this.txtTitle.Size = new System.Drawing.Size(417, 28);
             this.txtTitle.TabIndex = 1;
             this.txtTitle.Text = "4 tác phẩm văn học Việt Nam hay cho bạn đọc\r\n";
             this.txtTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Drawing2D;
+using System.Drawing.Configuration;
 
 namespace BookChill
 {
@@ -43,12 +45,16 @@ namespace BookChill
             }
         }
 
-        //public string TextAlign
-        //{
-        //    get
-        //    {
-        //        return txtTitle.TextAlign;
-        //    }
-        //}
+        public System.Drawing.ContentAlignment TextAlign
+        {
+            get 
+            {
+                return txtTitle.TextAlign;
+            }
+            set 
+            {
+                txtTitle.TextAlign = value;
+            }
+        }
     }
 }

@@ -225,6 +225,7 @@
             this.blogItems1.Name = "blogItems1";
             this.blogItems1.Size = new System.Drawing.Size(437, 222);
             this.blogItems1.TabIndex = 0;
+            this.blogItems1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems2
             // 
@@ -236,6 +237,7 @@
             this.blogItems2.Name = "blogItems2";
             this.blogItems2.Size = new System.Drawing.Size(437, 222);
             this.blogItems2.TabIndex = 1;
+            this.blogItems2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems3
             // 
@@ -247,6 +249,7 @@
             this.blogItems3.Name = "blogItems3";
             this.blogItems3.Size = new System.Drawing.Size(437, 222);
             this.blogItems3.TabIndex = 2;
+            this.blogItems3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems4
             // 
@@ -258,6 +261,7 @@
             this.blogItems4.Name = "blogItems4";
             this.blogItems4.Size = new System.Drawing.Size(437, 222);
             this.blogItems4.TabIndex = 3;
+            this.blogItems4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems5
             // 
@@ -269,6 +273,7 @@
             this.blogItems5.Name = "blogItems5";
             this.blogItems5.Size = new System.Drawing.Size(437, 222);
             this.blogItems5.TabIndex = 4;
+            this.blogItems5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems6
             // 
@@ -280,6 +285,7 @@
             this.blogItems6.Name = "blogItems6";
             this.blogItems6.Size = new System.Drawing.Size(437, 222);
             this.blogItems6.TabIndex = 5;
+            this.blogItems6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems7
             // 
@@ -291,6 +297,7 @@
             this.blogItems7.Name = "blogItems7";
             this.blogItems7.Size = new System.Drawing.Size(437, 222);
             this.blogItems7.TabIndex = 6;
+            this.blogItems7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // blogItems8
             // 
@@ -302,6 +309,7 @@
             this.blogItems8.Name = "blogItems8";
             this.blogItems8.Size = new System.Drawing.Size(437, 222);
             this.blogItems8.TabIndex = 7;
+            this.blogItems8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CollectionForm
             // 
