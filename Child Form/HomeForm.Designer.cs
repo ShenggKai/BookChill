@@ -257,6 +257,7 @@
             this.Name = "HomeForm";
             this.Text = "HomeForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.SizeChanged += new System.EventHandler(this.HomeForm_SizeChanged);
             this.panelHeading.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();

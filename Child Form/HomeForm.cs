@@ -60,6 +60,20 @@ namespace BookChill.Child_Form
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
 
+        private void HomeForm_SizeChanged(object sender, EventArgs e)
+        {
+            List<Form> listForm = new List<Form>();
+            
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                foreach (Form frm in Application.OpenForms)
+                {
+                    listForm.Add(frm);
+                    frm.WindowState = FormWindowState.Minimized;
+                }
+            }
+        }
+
         #endregion
 
         #region function for Arrow button
