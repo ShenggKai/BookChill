@@ -16,5 +16,43 @@ namespace BookChill.User_Control
         {
             InitializeComponent();
         }
+
+        public Image ItemImage
+        {
+            get
+            {
+                return pCollection.Image;
+            }
+
+            set
+            {
+                pCollection.Image = value;
+            }
+        }
+
+        public string ItemLabel
+        {
+            get
+            {
+                return txtNameItem.Text;
+            }
+
+            set
+            {
+                txtNameItem.Text = value;
+            }
+        }
+
+        public System.Drawing.ContentAlignment TextAlign
+        {
+            get
+            {
+                return txtNameItem.TextAlign;
+            }
+            set
+            {
+                txtNameItem.TextAlign = value;
+            }
+        }
     }
 }

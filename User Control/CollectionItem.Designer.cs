@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CollectionItem));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pCollection = new System.Windows.Forms.PictureBox();
             this.txtNameItem = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pCollection)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pCollection
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(330, 290);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pCollection.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pCollection.Image = ((System.Drawing.Image)(resources.GetObject("pCollection.Image")));
+            this.pCollection.Location = new System.Drawing.Point(0, 0);
+            this.pCollection.Name = "pCollection";
+            this.pCollection.Size = new System.Drawing.Size(330, 290);
+            this.pCollection.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pCollection.TabIndex = 0;
+            this.pCollection.TabStop = false;
             // 
             // txtNameItem
             // 
@@ -62,11 +62,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.Controls.Add(this.txtNameItem);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pCollection);
             this.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
             this.Name = "CollectionItem";
             this.Size = new System.Drawing.Size(330, 330);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pCollection)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -74,7 +74,7 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private PictureBox pCollection;
         private Label txtNameItem;
     }
 }
