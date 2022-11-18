@@ -343,6 +343,16 @@ namespace BookChill.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nn {
+            get {
+                object obj = ResourceManager.GetObject("nn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap qrcode {
             get {
                 object obj = ResourceManager.GetObject("qrcode", resourceCulture);
@@ -366,6 +376,46 @@ namespace BookChill.Properties {
         internal static System.Drawing.Bitmap suimlangcuabaycuu {
             get {
                 object obj = ResourceManager.GetObject("suimlangcuabaycuu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap td {
+            get {
+                object obj = ResourceManager.GetObject("td", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tn {
+            get {
+                object obj = ResourceManager.GetObject("tn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tt {
+            get {
+                object obj = ResourceManager.GetObject("tt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tudien {
+            get {
+                object obj = ResourceManager.GetObject("tudien", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -230,7 +230,7 @@
             // collectionItem2
             // 
             this.collectionItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem2.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem2.ItemImage")));
+            this.collectionItem2.ItemImage = global::BookChill.Properties.Resources.td;
             this.collectionItem2.ItemLabel = "Tư duy - Kỹ năng sống";
             this.collectionItem2.Location = new System.Drawing.Point(450, 40);
             this.collectionItem2.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
@@ -242,7 +242,7 @@
             // collectionItem3
             // 
             this.collectionItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem3.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem3.ItemImage")));
+            this.collectionItem3.ItemImage = global::BookChill.Properties.Resources.nn;
             this.collectionItem3.ItemLabel = "      Học ngoại ngữ";
             this.collectionItem3.Location = new System.Drawing.Point(850, 40);
             this.collectionItem3.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
@@ -254,7 +254,7 @@
             // collectionItem4
             // 
             this.collectionItem4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem4.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem4.ItemImage")));
+            this.collectionItem4.ItemImage = global::BookChill.Properties.Resources.tn;
             this.collectionItem4.ItemLabel = "        Sách thiếu nhi";
             this.collectionItem4.Location = new System.Drawing.Point(1250, 40);
             this.collectionItem4.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
@@ -266,7 +266,7 @@
             // collectionItem5
             // 
             this.collectionItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem5.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem5.ItemImage")));
+            this.collectionItem5.ItemImage = global::BookChill.Properties.Resources.tt;
             this.collectionItem5.ItemLabel = "       Truyện tranh";
             this.collectionItem5.Location = new System.Drawing.Point(50, 440);
             this.collectionItem5.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
@@ -302,7 +302,7 @@
             // collectionItem8
             // 
             this.collectionItem8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
-            this.collectionItem8.ItemImage = ((System.Drawing.Image)(resources.GetObject("collectionItem8.ItemImage")));
+            this.collectionItem8.ItemImage = global::BookChill.Properties.Resources.tudien;
             this.collectionItem8.ItemLabel = "             Từ điển";
             this.collectionItem8.Location = new System.Drawing.Point(1250, 440);
             this.collectionItem8.Margin = new System.Windows.Forms.Padding(50, 40, 20, 30);
