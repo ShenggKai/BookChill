@@ -61,10 +61,11 @@
             this.cbSort.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.cbSort.ItemHeight = 41;
             this.cbSort.Items.AddRange(new object[] {
-            "Sách bán chạy",
+            "Giá từ cao đến thấp",
+            "Giá từ thấp đến cao",
             "Sách được yêu thích",
             "Sách mới xuất bản"});
-            this.cbSort.Location = new System.Drawing.Point(365, 17);
+            this.cbSort.Location = new System.Drawing.Point(590, 17);
             this.cbSort.MaxDropDownItems = 5;
             this.cbSort.Name = "cbSort";
             this.cbSort.RightToLeft = System.Windows.Forms.RightToLeft.No;
