@@ -100,6 +100,7 @@
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtNameBook);
             this.Controls.Add(this.pBook);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "BookItem";
             this.Size = new System.Drawing.Size(249, 365);
             ((System.ComponentModel.ISupportInitialize)(this.pBook)).EndInit();
