@@ -231,12 +231,13 @@
             // 
             this.bookItem7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem7.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem7.BookImage")));
-            this.bookItem7.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem7.BookName = "Siêu Nhí Hỏi Nhà Khoa Học Trả Lời - 100 Bí Ẩn Mọi Đứa Trẻ Đều Muốn Hỏi Một Nhà Kh" +
+    "oa Học";
             this.bookItem7.Location = new System.Drawing.Point(379, 475);
             this.bookItem7.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem7.Name = "bookItem7";
-            this.bookItem7.Price = "188.000 đ";
-            this.bookItem7.Rating = "4.5";
+            this.bookItem7.Price = "250.000 đ";
+            this.bookItem7.Rating = "4.8";
             this.bookItem7.Size = new System.Drawing.Size(249, 365);
             this.bookItem7.TabIndex = 6;
             // 
@@ -244,12 +245,12 @@
             // 
             this.bookItem8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem8.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem8.BookImage")));
-            this.bookItem8.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem8.BookName = "Gi Gỉ Gì Gi, Cái Gì Cũng Biết - 130 Bí Mật Vui Nhất Cho Tuổi Tiểu Học";
             this.bookItem8.Location = new System.Drawing.Point(688, 475);
             this.bookItem8.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem8.Name = "bookItem8";
-            this.bookItem8.Price = "188.000 đ";
-            this.bookItem8.Rating = "4.5";
+            this.bookItem8.Price = "115.000 đ";
+            this.bookItem8.Rating = "4.9";
             this.bookItem8.Size = new System.Drawing.Size(249, 365);
             this.bookItem8.TabIndex = 7;
             // 
@@ -257,12 +258,12 @@
             // 
             this.bookItem9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem9.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem9.BookImage")));
-            this.bookItem9.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem9.BookName = "Bách Khoa Thư Trẻ Em - Cuốn Sách Lí Giải Vạn Vật";
             this.bookItem9.Location = new System.Drawing.Point(997, 475);
             this.bookItem9.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem9.Name = "bookItem9";
-            this.bookItem9.Price = "188.000 đ";
-            this.bookItem9.Rating = "4.5";
+            this.bookItem9.Price = "490.000 đ";
+            this.bookItem9.Rating = "4.9";
             this.bookItem9.Size = new System.Drawing.Size(249, 365);
             this.bookItem9.TabIndex = 8;
             // 
@@ -270,12 +271,12 @@
             // 
             this.bookItem10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem10.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem10.BookImage")));
-            this.bookItem10.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem10.BookName = "Truyện đọc cho bé trước giờ đi ngủ";
             this.bookItem10.Location = new System.Drawing.Point(1306, 475);
             this.bookItem10.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem10.Name = "bookItem10";
-            this.bookItem10.Price = "188.000 đ";
-            this.bookItem10.Rating = "4.5";
+            this.bookItem10.Price = "98.000 đ";
+            this.bookItem10.Rating = "5";
             this.bookItem10.Size = new System.Drawing.Size(249, 365);
             this.bookItem10.TabIndex = 9;
             // 

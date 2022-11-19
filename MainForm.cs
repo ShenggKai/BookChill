@@ -102,25 +102,25 @@ namespace BookChill
         private void btnVanhoc_Click(object sender, EventArgs e)
         {
             OpenChildForm(new VanHoc());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void btnTuduy_Click(object sender, EventArgs e)
         {
             OpenChildForm(new TdKn());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void btnNgoaingu_Click(object sender, EventArgs e)
         {
             OpenChildForm(new NgoaiNgu());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void btnThieunhi_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ThieuNhi());
-            hideSubMenu();
+            //hideSubMenu();
         }
 
         private void btnTruyentranh_Click(object sender, EventArgs e)
