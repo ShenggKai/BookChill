@@ -9,9 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BookChill.Child_Form
+
 {
     public partial class CollectionForm : Form
     {
+        private Form currentChildForm;
+
         public CollectionForm()
         {
             InitializeComponent();
@@ -73,5 +76,29 @@ namespace BookChill.Child_Form
         }
         #endregion
 
+        private void collectionItem1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new VanHoc());
+        }
+
+        #region function to open child form
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+
+            //panelMain.Controls.Add(childForm);
+            //panelMain.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+
+        #endregion
     }
 }

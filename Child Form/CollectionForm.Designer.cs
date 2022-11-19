@@ -226,6 +226,7 @@
             this.collectionItem1.Size = new System.Drawing.Size(330, 330);
             this.collectionItem1.TabIndex = 0;
             this.collectionItem1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.collectionItem1.Click += new System.EventHandler(this.collectionItem1_Click);
             // 
             // collectionItem2
             // 
