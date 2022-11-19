@@ -73,5 +73,10 @@ namespace BookChill.Child_Form
         }
         #endregion
 
+
+        private void ScanerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

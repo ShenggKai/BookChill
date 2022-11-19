@@ -32,9 +32,15 @@
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.txtNameChildForm = new System.Windows.Forms.Label();
             this.pMinimize = new System.Windows.Forms.PictureBox();
+            this.txtQRCode = new System.Windows.Forms.TextBox();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.cboDevice = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnStart = new System.Windows.Forms.Button();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panelHeader
@@ -91,22 +97,76 @@
             this.pMinimize.MouseLeave += new System.EventHandler(this.pMinimize_MouseLeave);
             this.pMinimize.MouseHover += new System.EventHandler(this.pMinimize_MouseHover);
             // 
+            // txtQRCode
+            // 
+            this.txtQRCode.Location = new System.Drawing.Point(856, 276);
+            this.txtQRCode.Multiline = true;
+            this.txtQRCode.Name = "txtQRCode";
+            this.txtQRCode.Size = new System.Drawing.Size(497, 469);
+            this.txtQRCode.TabIndex = 4;
+            // 
+            // pictureBox
+            // 
+            this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox.Location = new System.Drawing.Point(122, 276);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(577, 506);
+            this.pictureBox.TabIndex = 3;
+            this.pictureBox.TabStop = false;
+            // 
+            // cboDevice
+            // 
+            this.cboDevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboDevice.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cboDevice.FormattingEnabled = true;
+            this.cboDevice.Location = new System.Drawing.Point(377, 150);
+            this.cboDevice.Name = "cboDevice";
+            this.cboDevice.Size = new System.Drawing.Size(322, 45);
+            this.cboDevice.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(92, 150);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 41);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Camera";
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(868, 152);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(178, 51);
+            this.btnStart.TabIndex = 0;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            // 
             // ScanerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1648, 1080);
+            this.Controls.Add(this.txtQRCode);
             this.Controls.Add(this.panelHeader);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cboDevice);
+            this.Controls.Add(this.pictureBox);
+            this.Controls.Add(this.btnStart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ScanerForm";
             this.Text = "ScanerForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ScanerForm_Load);
             this.SizeChanged += new System.EventHandler(this.ScanerForm_SizeChanged);
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -116,5 +176,10 @@
         private PictureBox pCLose;
         private Label txtNameChildForm;
         private PictureBox pMinimize;
+        private Button btnStart;
+        private Label label1;
+        private ComboBox cboDevice;
+        private PictureBox pictureBox;
+        private TextBox txtQRCode;
     }
 }
