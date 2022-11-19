@@ -148,11 +148,13 @@ namespace BookChill
         // hide sub menu scan
         private void btnScan_Click(object sender, EventArgs e)
         {
+            //OpenChildForm(new ScanerForm());
             showSubMenu(panelSubMenuSca);
         }
 
         private void btnQrCode_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new ScanerForm());
             hideSubMenu();
         }
 

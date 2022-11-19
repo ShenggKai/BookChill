@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookChill.Child_Form
 {
-    public partial class ScanForm : Form
+    public partial class ScanerForm : Form
     {
-        public ScanForm()
+        public ScanerForm()
         {
             InitializeComponent();
         }
