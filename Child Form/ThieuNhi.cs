@@ -61,7 +61,7 @@ namespace BookChill.Child_Form
             pMinimize.Image = global::BookChill.Properties.Resources.minimize;
         }
 
-        private void NgoaiNgu_SizeChanged(object sender, EventArgs e)
+        private void ThieuNhi_SizeChanged(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Minimized)
             {
@@ -72,5 +72,6 @@ namespace BookChill.Child_Form
             }
         }
         #endregion
+
     }
 }
