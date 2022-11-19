@@ -205,11 +205,11 @@
             // 
             this.bookItem5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem5.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem5.BookImage")));
-            this.bookItem5.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem5.BookName = "Danh Nhân Thế Giới: Anhxtanh";
             this.bookItem5.Location = new System.Drawing.Point(1306, 50);
             this.bookItem5.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem5.Name = "bookItem5";
-            this.bookItem5.Price = "188.000 đ";
+            this.bookItem5.Price = "30.000 đ";
             this.bookItem5.Rating = "4.5";
             this.bookItem5.Size = new System.Drawing.Size(249, 365);
             this.bookItem5.TabIndex = 4;
@@ -218,12 +218,12 @@
             // 
             this.bookItem6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(160)))), ((int)(((byte)(103)))));
             this.bookItem6.BookImage = ((System.Drawing.Image)(resources.GetObject("bookItem6.BookImage")));
-            this.bookItem6.BookName = "Doraemon Movie Story: Nobita Và Hòn Đảo Diệu Kì - Cuộc Phiêu Lưu Của Loài Thú";
+            this.bookItem6.BookName = "Chuyện Con Mèo Dạy Hải Âu Bay";
             this.bookItem6.Location = new System.Drawing.Point(70, 475);
             this.bookItem6.Margin = new System.Windows.Forms.Padding(30);
             this.bookItem6.Name = "bookItem6";
-            this.bookItem6.Price = "188.000 đ";
-            this.bookItem6.Rating = "4.5";
+            this.bookItem6.Price = "49.000 đ";
+            this.bookItem6.Rating = "4.9";
             this.bookItem6.Size = new System.Drawing.Size(249, 365);
             this.bookItem6.TabIndex = 5;
             // 
