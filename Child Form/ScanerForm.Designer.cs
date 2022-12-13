@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.pCLose = new System.Windows.Forms.PictureBox();
             this.txtNameChildForm = new System.Windows.Forms.Label();
@@ -37,6 +38,7 @@
             this.cboDevice = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pCLose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pMinimize)).BeginInit();
@@ -142,6 +144,12 @@
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // ScanerForm
             // 
@@ -158,6 +166,7 @@
             this.Name = "ScanerForm";
             this.Text = "ScanerForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ScanerForm_FormClosing);
             this.Load += new System.EventHandler(this.ScanerForm_Load);
             this.SizeChanged += new System.EventHandler(this.ScanerForm_SizeChanged);
             this.panelHeader.ResumeLayout(false);
@@ -181,5 +190,6 @@
         private ComboBox cboDevice;
         private PictureBox pictureBox;
         private TextBox txtQRCode;
+        private System.Windows.Forms.Timer timer1;
     }
 }
